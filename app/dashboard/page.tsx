@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Zap, TrendingUp, Package, Clock, Play, Loader2 } from "lucide-react";
 import { MagicLinkInput } from "@/components/dashboard/MagicLinkInput";
 import { JobLoom } from "@/components/dashboard/JobLoom";
@@ -11,6 +11,11 @@ export default function DashboardPage() {
   const [highlightJobId, setHighlightJobId] = useState<string | null>(null);
   const [simulating, setSimulating] = useState(false);
 
+  // Debug: Confirm client-side hydration
+  useEffect(() => {
+    console.log("Dashboard Hydrated");
+  }, []);
+
   const handleJobCreated = (jobId: string) => {
     setHighlightJobId(jobId);
     // Clear highlight after 10 seconds
@@ -18,10 +23,11 @@ export default function DashboardPage() {
   };
 
   const handleSimulate = async () => {
-    if (simulating) return;
-
-    setSimulating(true);
     try {
+      if (simulating) return;
+
+      setSimulating(true);
+
       const response = await fetch("/api/simulate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -29,12 +35,19 @@ export default function DashboardPage() {
       });
 
       const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || `HTTP ${response.status}`);
+      }
+
       if (data.jobId) {
         setHighlightJobId(data.jobId);
         setTimeout(() => setHighlightJobId(null), 15000);
       }
     } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
       console.error("Simulation failed:", error);
+      alert(`Simulation Error: ${message}`);
     } finally {
       setSimulating(false);
     }

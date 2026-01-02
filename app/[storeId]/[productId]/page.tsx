@@ -253,7 +253,7 @@ export async function generateMetadata({ params }: ProductPageProps) {
     openGraph: {
       title: product.name,
       description: product.description,
-      type: "product",
+      type: "website",
     },
   };
 }
