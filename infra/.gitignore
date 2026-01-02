@@ -1,0 +1,23 @@
+# Terraform credentials - CRITICAL SECURITY GUARDRAIL
+terraform.tfvars
+*.tfvars
+!*.tfvars.example
+
+# Terraform state (contains sensitive data)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Terraform lock file (optional - some teams commit this)
+# .terraform.lock.hcl
+
+# Environment files
+.env
+.env.*
+
+# Backup files
+*.backup
+*.bak
+
+# OS files
+.DS_Store

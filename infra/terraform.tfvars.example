@@ -1,0 +1,30 @@
+# Copy this file to terraform.tfvars and fill in your values
+# DO NOT commit terraform.tfvars to git (it's in .gitignore)
+
+# DigitalOcean API Token (from cloud.digitalocean.com/account/api/tokens)
+do_token = "dop_v1_your_token_here"
+
+# Spaces Keys (from cloud.digitalocean.com/account/api/spaces)
+spaces_access_id  = "your_spaces_access_id"
+spaces_secret_key = "your_spaces_secret_key"
+
+# Region - Singapore for SEA distribution
+do_region = "sgp1"
+
+# Space name - must be globally unique, lowercase, alphanumeric + hyphens
+space_name = "your-org-autostorefront-video-dev"
+
+# Environment
+environment = "dev"
+
+# CORS - add your frontend domains
+cors_allowed_origins = [
+  "http://localhost:3000",
+  "https://your-staging-domain.com",
+  "https://your-production-domain.com"
+]
+
+# CDN (optional - enable for production)
+enable_cdn           = false
+# cdn_custom_domain    = "cdn.yourdomain.com"
+# cdn_certificate_name = "your-cert-name"

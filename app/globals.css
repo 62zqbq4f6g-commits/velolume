@@ -1,0 +1,603 @@
+/* ============================================
+   VELOLUME NOIR - Global Styles
+   New York Soho Agency Aesthetic
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   CSS Custom Properties
+   ============================================ */
+:root {
+  /* Dirty Purple Palette */
+  --velolume-bg: #3D2B3D;
+  --velolume-bg-alt: #2D1F2D;
+  --velolume-surface: #4A3649;
+  --velolume-surface-glass: rgba(61, 43, 61, 0.7);
+
+  /* Mocha Mousse */
+  --mocha: #A38A7E;
+  --mocha-hover: #BFA393;
+  --mocha-muted: #7A6A62;
+
+  /* Off-White */
+  --ivory: #F5F5F5;
+  --ivory-muted: #B8A8B8;
+
+  /* Glass Effects */
+  --glass-blur: blur(16px);
+  --glass-border: rgba(245, 245, 245, 0.1);
+
+  /* Gummy Shadows */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.15);
+  --shadow-dramatic: 0 8px 40px rgba(0, 0, 0, 0.3);
+  --shadow-gummy: 0 8px 32px rgba(163, 138, 126, 0.2);
+}
+
+/* ============================================
+   Base Styles
+   ============================================ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-velolume-500 text-ivory-100 font-sans;
+    background: linear-gradient(135deg, #3D2B3D 0%, #2D1F2D 100%);
+    min-height: 100vh;
+  }
+
+  /* Editorial Headers - Serif */
+  h1, h2, h3 {
+    @apply font-serif tracking-tight;
+  }
+
+  h1 {
+    @apply text-display font-bold;
+  }
+
+  h2 {
+    @apply text-headline font-semibold;
+  }
+
+  h3 {
+    @apply text-subhead font-medium;
+  }
+
+  /* Data/Meta - Monospace */
+  code, .mono, [data-mono] {
+    @apply font-mono text-mocha-400;
+  }
+
+  /* Links */
+  a {
+    @apply text-mocha-400 hover:text-mocha-300 transition-colors duration-300;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-mocha-500/30 text-ivory-100;
+  }
+}
+
+/* ============================================
+   Glass Components
+   ============================================ */
+@layer components {
+  /* Glass Card - Frosted Plum */
+  .glass-card {
+    @apply relative overflow-hidden;
+    background: rgba(61, 43, 61, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(245, 245, 245, 0.08);
+    box-shadow: var(--shadow-soft), inset 0 1px 1px rgba(255, 255, 255, 0.05);
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
+  }
+
+  .glass-card-hover:hover {
+    background: rgba(74, 54, 73, 0.7);
+    border-color: rgba(245, 245, 245, 0.12);
+    box-shadow: var(--shadow-gummy);
+    transform: translateY(-2px);
+  }
+
+  /* Glass Navigation */
+  .glass-nav {
+    @apply fixed top-0 left-0 right-0 z-50;
+    background: rgba(45, 31, 45, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(245, 245, 245, 0.06);
+  }
+
+  /* Gummy Button */
+  .btn-gummy {
+    @apply px-6 py-3 rounded-gummy font-medium transition-all duration-300;
+    background: var(--mocha);
+    color: var(--velolume-bg);
+    box-shadow: var(--shadow-gummy);
+  }
+
+  .btn-gummy:hover {
+    background: var(--mocha-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(163, 138, 126, 0.3);
+  }
+
+  .btn-gummy:active {
+    transform: translateY(0);
+  }
+
+  /* Ghost Button */
+  .btn-ghost {
+    @apply px-6 py-3 rounded-gummy font-medium transition-all duration-300;
+    background: transparent;
+    color: var(--ivory);
+    border: 1px solid rgba(245, 245, 245, 0.2);
+  }
+
+  .btn-ghost:hover {
+    background: rgba(245, 245, 245, 0.05);
+    border-color: rgba(245, 245, 245, 0.3);
+  }
+
+  /* Editorial Container */
+  .container-editorial {
+    @apply mx-auto px-gallery;
+    max-width: 1400px;
+  }
+
+  /* Asymmetric Grid */
+  .grid-asymmetric {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-gallery, 2rem);
+  }
+
+  @media (min-width: 768px) {
+    .grid-asymmetric {
+      grid-template-columns: 1.2fr 0.8fr;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .grid-asymmetric {
+      grid-template-columns: 1.4fr 0.6fr;
+      gap: var(--spacing-editorial, 3rem);
+    }
+  }
+
+  /* Gallery Grid - Masonry-like */
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-gallery, 1.5rem);
+  }
+
+  /* Product Card */
+  .product-card {
+    @apply glass-card-hover rounded-gummy overflow-hidden;
+  }
+
+  .product-card-image {
+    @apply relative aspect-[4/5] overflow-hidden;
+  }
+
+  .product-card-content {
+    @apply p-editorial space-y-3;
+  }
+
+  /* Video Player Container */
+  .video-container {
+    @apply relative rounded-gummy-lg overflow-hidden;
+    aspect-ratio: 9/16;
+    box-shadow: var(--shadow-dramatic);
+  }
+
+  /* Price Tag */
+  .price-tag {
+    @apply font-mono text-mocha-400 tracking-wide;
+  }
+
+  .price-tag-large {
+    @apply font-mono text-2xl text-mocha-300 tracking-wide;
+  }
+
+  /* Category Badge */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-micro font-mono uppercase tracking-wider;
+    background: rgba(163, 138, 126, 0.15);
+    color: var(--mocha);
+    border: 1px solid rgba(163, 138, 126, 0.2);
+  }
+
+  /* Divider */
+  .divider {
+    @apply h-px w-full;
+    background: linear-gradient(90deg, transparent, rgba(245, 245, 245, 0.1), transparent);
+  }
+
+  /* Text Gradient */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, var(--ivory) 0%, var(--mocha) 100%);
+  }
+
+  /* ============================================
+     ONE-TAP BUY BUTTON - Soho Boutique Tag
+     Sharp, minimalist, NO rounded corners
+     ============================================ */
+  .one-tap-buy {
+    /* Sharp rectangle - explicitly no border-radius */
+    border-radius: 0 !important;
+    /* Boutique tag aesthetic */
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    /* Precise edges */
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .one-tap-buy:hover {
+    box-shadow: 0 4px 16px rgba(163, 138, 126, 0.3);
+  }
+
+  .one-tap-buy-compact {
+    border-radius: 0 !important;
+    border: none;
+  }
+
+  /* ============================================
+     FULL-BLEED VIDEO HERO
+     Edge-to-edge on mobile
+     ============================================ */
+  .video-hero-fullbleed {
+    @apply relative w-full;
+    /* Full viewport width, break out of container */
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+  }
+
+  .video-hero-container {
+    @apply relative;
+    /* 9:16 aspect ratio for vertical video */
+    aspect-ratio: 9/16;
+    max-height: 85vh;
+  }
+
+  @media (min-width: 768px) {
+    .video-hero-container {
+      aspect-ratio: 16/9;
+      max-height: 70vh;
+    }
+  }
+
+  /* Dirty Purple gradient overlay */
+  .video-gradient-overlay {
+    @apply absolute inset-0 pointer-events-none;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 50%,
+      rgba(61, 43, 61, 0.4) 70%,
+      rgba(61, 43, 61, 0.8) 85%,
+      #3D2B3D 100%
+    );
+  }
+
+  /* Top fade for nav */
+  .video-gradient-top {
+    @apply absolute inset-x-0 top-0 h-32 pointer-events-none;
+    background: linear-gradient(
+      to bottom,
+      rgba(45, 31, 45, 0.6) 0%,
+      transparent 100%
+    );
+  }
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+@layer utilities {
+  /* Asymmetric padding */
+  .pl-asymmetric {
+    padding-left: clamp(2rem, 8vw, 6rem);
+  }
+
+  .pr-asymmetric {
+    padding-right: clamp(1rem, 4vw, 3rem);
+  }
+
+  /* Breathing room */
+  .py-breathing {
+    padding-top: clamp(3rem, 10vh, 8rem);
+    padding-bottom: clamp(3rem, 10vh, 8rem);
+  }
+
+  .my-breathing {
+    margin-top: clamp(3rem, 10vh, 8rem);
+    margin-bottom: clamp(3rem, 10vh, 8rem);
+  }
+
+  /* Editorial gaps */
+  .gap-editorial {
+    gap: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  /* Hide scrollbar */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Noise texture overlay */
+  .noise-overlay {
+    @apply pointer-events-none fixed inset-0 z-50 opacity-[0.03];
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  }
+
+  /* Fade edges */
+  .fade-bottom {
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  }
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* ============================================
+   STUDIO DASHBOARD - Clean Agency Aesthetic
+   ============================================ */
+
+/* Studio White Background */
+.bg-studio-white {
+  background-color: #FBFBFB;
+}
+
+/* Studio Card - Clean, minimal */
+.studio-card {
+  @apply bg-white rounded-lg border border-industrial-grey;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.studio-card-hover {
+  @apply studio-card transition-all duration-200;
+}
+
+.studio-card-hover:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #D4D4D4;
+}
+
+/* Magic Link Input */
+.magic-input {
+  @apply w-full px-6 py-4 bg-white border border-industrial-grey rounded-lg;
+  @apply font-mono text-sm text-industrial-dark;
+  @apply transition-all duration-200;
+  @apply focus:outline-none focus:border-velolume-500 focus:ring-2 focus:ring-velolume-500/10;
+}
+
+.magic-input::placeholder {
+  @apply text-industrial-dark/50;
+}
+
+/* Studio Button */
+.studio-btn {
+  @apply px-6 py-3 font-mono text-sm uppercase tracking-wider transition-all duration-200;
+}
+
+.studio-btn-primary {
+  @apply studio-btn bg-velolume-500 text-ivory-100;
+  @apply hover:bg-velolume-400;
+}
+
+.studio-btn-secondary {
+  @apply studio-btn bg-white text-velolume-500 border border-velolume-500;
+  @apply hover:bg-velolume-500/5;
+}
+
+/* Job Status Labels - Velolume Noir */
+.job-status {
+  @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-mono text-xs uppercase tracking-wider;
+}
+
+.job-status-pending {
+  @apply job-status bg-industrial-grey text-industrial-dark;
+}
+
+.job-status-queued {
+  @apply job-status bg-mocha-100 text-mocha-700;
+}
+
+.job-status-processing {
+  @apply job-status bg-velolume-100 text-velolume-500;
+}
+
+.job-status-transcribing {
+  @apply job-status bg-blue-100 text-blue-700;
+}
+
+.job-status-analyzing {
+  @apply job-status bg-purple-100 text-purple-700;
+}
+
+.job-status-completed {
+  @apply job-status bg-green-100 text-green-700;
+}
+
+.job-status-failed {
+  @apply job-status bg-red-100 text-red-700;
+}
+
+/* Velolume-specific statuses */
+.job-status-fetching {
+  @apply job-status;
+  background: linear-gradient(135deg, #E8E0E8 0%, #C9B8C9 100%);
+  color: #3D2B3D;
+}
+
+.job-status-watermark {
+  @apply job-status;
+  background: linear-gradient(135deg, #F0EBE8 0%, #DFD4CE 100%);
+  color: #6E5C51;
+}
+
+.job-status-soho {
+  @apply job-status;
+  background: linear-gradient(135deg, #3D2B3D 0%, #4A3649 100%);
+  color: #F5F5F5;
+  border: 1px solid #A38A7E;
+}
+
+/* Velolume Noir Technical Log Statuses */
+.job-status-ingest {
+  @apply job-status;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #00d4ff;
+  border: 1px solid #00d4ff40;
+}
+
+.job-status-whisper {
+  @apply job-status;
+  background: linear-gradient(135deg, #2D1F2D 0%, #3D2B3D 100%);
+  color: #A38A7E;
+  border: 1px solid #A38A7E40;
+}
+
+.job-status-vision {
+  @apply job-status;
+  background: linear-gradient(135deg, #3D2B3D 0%, #4A3649 100%);
+  color: #BFA393;
+  border: 1px solid #BFA39340;
+}
+
+/* Technical Log Panel */
+.technical-log {
+  background: linear-gradient(180deg, #2D1F2D 0%, #1F151F 100%);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.technical-log-entry {
+  border-left: 2px solid transparent;
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.technical-log-entry:hover {
+  border-left-color: #A38A7E;
+}
+
+/* Log entry animations */
+@keyframes log-appear {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.technical-log-entry {
+  animation: log-appear 0.3s ease-out forwards;
+}
+
+/* Terminal cursor blink */
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '█';
+  animation: cursor-blink 1s step-end infinite;
+  color: #A38A7E;
+}
+
+/* Bento Grid */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+.bento-cell-1 { grid-column: span 3; }
+.bento-cell-2 { grid-column: span 6; }
+.bento-cell-3 { grid-column: span 4; }
+.bento-cell-4 { grid-column: span 8; }
+.bento-cell-full { grid-column: span 12; }
+
+@media (max-width: 1024px) {
+  .bento-cell-1 { grid-column: span 6; }
+  .bento-cell-2 { grid-column: span 12; }
+  .bento-cell-3 { grid-column: span 6; }
+  .bento-cell-4 { grid-column: span 12; }
+}
+
+@media (max-width: 640px) {
+  .bento-cell-1,
+  .bento-cell-2,
+  .bento-cell-3,
+  .bento-cell-4 {
+    grid-column: span 12;
+  }
+}
+
+/* Pulse animation for processing */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Loom thread animation */
+@keyframes loom-weave {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-loom {
+  animation: loom-weave 1.5s ease-in-out infinite;
+}

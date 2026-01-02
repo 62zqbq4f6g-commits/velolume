@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(/opt/homebrew/bin/brew:*)",
+      "Bash(/usr/local/bin/brew:*)",
+      "Bash(/opt/homebrew/bin/terraform init:*)",
+      "Bash(/opt/homebrew/bin/terraform plan)",
+      "Bash(/opt/homebrew/bin/terraform apply -auto-approve)",
+      "Bash(npm install)",
+      "Bash(/opt/homebrew/bin/npm install)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(/opt/homebrew/bin/npm run build)",
+      "Bash(PATH=\"/opt/homebrew/bin:$PATH\" npm run build:*)",
+      "Bash(PATH=\"/opt/homebrew/bin:$PATH\" npm install:*)",
+      "Bash(chmod:*)",
+      "Bash(/opt/homebrew/bin/npx next build)",
+      "Bash(cat:*)"
+    ]
+  }
+}
