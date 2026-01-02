@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
@@ -52,7 +51,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       <header className="fixed top-0 left-0 right-0 z-50 h-16 bg-white border-b border-industrial-grey">
         <div className="h-full px-6 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/dashboard" className="flex items-center gap-3">
+          <a href="/dashboard" className="flex items-center gap-3">
             <div className="w-8 h-8 bg-velolume-500 flex items-center justify-center">
               <Zap className="w-4 h-4 text-ivory-100" strokeWidth={1.5} />
             </div>
@@ -62,16 +61,16 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             <span className="text-micro font-mono text-industrial-dark uppercase tracking-wider">
               Studio
             </span>
-          </Link>
+          </a>
 
           {/* Right Actions */}
           <div className="flex items-center gap-4">
-            <Link
+            <a
               href="/"
               className="text-sm text-industrial-dark hover:text-velolume-500 transition-colors font-mono"
             >
               View Storefront
-            </Link>
+            </a>
             <div className="w-8 h-8 rounded-full bg-velolume-500/10 flex items-center justify-center">
               <span className="text-velolume-500 font-mono text-sm">V</span>
             </div>
@@ -89,7 +88,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
 
               return (
                 <li key={item.href}>
-                  <Link
+                  <a
                     href={item.href}
                     className={`
                       flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200
@@ -104,7 +103,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                     {isActive && (
                       <ChevronRight className="w-4 h-4 ml-auto" strokeWidth={1.5} />
                     )}
-                  </Link>
+                  </a>
                 </li>
               );
             })}

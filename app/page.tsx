@@ -3,7 +3,6 @@
 import { GlassCard, GlassNav } from "@/components/ui/GlassCard";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -11,16 +10,18 @@ export default function HomePage() {
       {/* Navigation */}
       <GlassNav>
         <div className="flex items-center justify-between">
-          <Link href="/" className="font-serif text-2xl text-ivory-100 hover:text-mocha-300 transition-colors">
+          <a href="/" className="font-serif text-2xl text-ivory-100 hover:text-mocha-300 transition-colors">
             Velolume
-          </Link>
+          </a>
           <div className="flex items-center gap-6">
-            <Link href="/store/demo" className="text-ivory-400 hover:text-ivory-100 transition-colors font-mono text-sm">
+            <a href="/store/demo" className="text-ivory-400 hover:text-ivory-100 transition-colors font-mono text-sm">
               Demo Store
-            </Link>
-            <Button variant="ghost" size="sm">
-              Dashboard
-            </Button>
+            </a>
+            <a href="/dashboard">
+              <Button variant="ghost" size="sm">
+                Dashboard
+              </Button>
+            </a>
           </div>
         </div>
       </GlassNav>
