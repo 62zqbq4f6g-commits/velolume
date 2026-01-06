@@ -1,16 +1,21 @@
 # VELOLUME PROJECT STATE
 
-**Last Updated:** 2026-01-05
-**Session:** 1
+**Last Updated:** 2026-01-06
+**Session:** 2
+**Master Document:** [VELOLUME_MASTER.md](./VELOLUME_MASTER.md) ← Product Bible
 
 ---
 
 ## 🎯 CURRENT FOCUS
 
-**Product Matching API Integration**
-- Validated Google Shopping API works with V2.0 searchTerms (30/30 results)
-- Google Lens visual search NOT viable (0 results even with cropped images)
-- Next: Integrate Google Shopping into store generation pipeline
+**Phase 1: Foundation → Product Matching Pipeline**
+
+Per Master Document Section 6, building the tiered matching system:
+
+1. **Text Search (Candidate Generation)** — Use V2.0 searchTerms → Google Shopping ✅ Validated
+2. **Visual Verification** — Send frame crop + candidates to LLM for similarity ranking
+3. **Creator Review UI** — Present top 3-5 matches, creator approves/selects/skips
+4. **Affiliate Link Integration** — Connect to Amazon, Shopee networks
 
 ---
 
@@ -128,22 +133,36 @@
 
 ---
 
-## 🗺️ ROADMAP
+## 🗺️ ROADMAP (from Master Document)
 
-### Phase 5: Product Matching ← CURRENT
-- Google Shopping API integration
-- Affiliate link generation
-- Price aggregation
+### Phase 1: Foundation (Month 1-2) ← CURRENT
+- [x] Product detection V2.0
+- [ ] Direct video upload (in progress)
+- [ ] Product matching pipeline
+- [ ] Content analysis extraction
 
-### Phase 6: Creator Tools
-- Analytics dashboard
-- Multi-store management
-- Revenue tracking
+### Phase 2: Revenue MVP (Month 2-4)
+- Creator review UI
+- Affiliate link integration (Amazon + Shopee)
+- Basic webshop generation
+- Lookalike engine
 
-### Phase 7: Scale
-- Batch video processing
-- Creator onboarding flow
-- Payment integration
+### Phase 3: Intelligence MVP (Month 4-6)
+- Creator analytics dashboard
+- Content performance correlation
+- Blueprint generation
+- Brand proof export
+
+### Phase 4: AI-Readiness (Month 6-8)
+- Schema.org output
+- llms.txt generation
+- API for AI shopping agents
+
+### Phase 5: Scale (Month 8-12)
+- Self-serve creator onboarding
+- Multi-network affiliates
+- Agency partnerships
+- Brand marketplace
 
 ---
 
