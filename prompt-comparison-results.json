@@ -1,0 +1,191 @@
+{
+  "testType": "prompt_comparison",
+  "testedAt": "2026-01-06T05:29:52.510Z",
+  "prompts": {
+    "V1": {
+      "promptVersion": "V1_CURRENT",
+      "rankings": [
+        {
+          "title": "Waffle Knit Cropped Sweater",
+          "source": "Bohemian coco",
+          "price": "$52.00",
+          "rank": 1,
+          "score": 90,
+          "reasoning": "Very close color match, similar knit texture, and crop length."
+        },
+        {
+          "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+          "source": "Walmart - Seller",
+          "price": "$24.59",
+          "rank": 2,
+          "score": 75,
+          "reasoning": "Good color match and similar knit texture, but different neckline and button details."
+        },
+        {
+          "title": "Windsor Season Shift Mock Neck Sweater",
+          "source": "Windsor",
+          "price": "$36.90",
+          "rank": 3,
+          "score": 70,
+          "reasoning": "Similar crop length and sleeve style, but slightly different color and texture."
+        },
+        {
+          "title": "Madewell Women's Mock Neck Crop Sweater",
+          "source": "Nordstrom Rack",
+          "price": "$59.97",
+          "rank": 4,
+          "score": 60,
+          "reasoning": "Similar color and crop length, but different knit pattern and neckline."
+        },
+        {
+          "title": "Lettuce trim ribbed crop sweater",
+          "source": "Commense",
+          "price": "$32.00",
+          "rank": 5,
+          "score": 40,
+          "reasoning": "Different silhouette and length, though the color is somewhat similar."
+        }
+      ],
+      "rawResponse": "```json\n{\n  \"rankings\": [\n    {\n      \"imageNumber\": 6,\n      \"rank\": 1,\n      \"similarityScore\": 90,\n      \"reasoning\": \"Very close color match, similar knit texture, and crop length.\"\n    },\n    {\n      \"imageNumber\": 2,\n      \"rank\": 2,\n      \"similarityScore\": 75,\n      \"reasoning\": \"Good color match and similar knit texture, but different neckline and button details.\"\n    },\n    {\n      \"imageNumber\": 5,\n      \"rank\": 3,\n      \"similarityScore\": 70,\n      \"reasoning\": \"Similar crop length and sleeve style, but slightly different color and texture.\"\n    },\n    {\n      \"imageNumber\": 3,\n      \"rank\": 4,\n      \"similarityScore\": 60,\n      \"reasoning\": \"Similar color and crop length, but different knit pattern and neckline.\"\n    },\n    {\n      \"imageNumber\": 4,\n      \"rank\": 5,\n      \"similarityScore\": 40,\n      \"reasoning\": \"Different silhouette and length, though the color is somewhat similar.\"\n    }\n  ]\n}\n```",
+      "scoreRange": {
+        "min": 40,
+        "max": 90,
+        "spread": 50
+      },
+      "avgScore": 67
+    },
+    "V2": {
+      "promptVersion": "V2_ATTRIBUTE_FOCUSED",
+      "rankings": [
+        {
+          "title": "Waffle Knit Cropped Sweater",
+          "source": "Bohemian coco",
+          "price": "$52.00",
+          "rank": 1,
+          "score": 90,
+          "reasoning": "Exact color match, similar style, same knit pattern."
+        },
+        {
+          "title": "Madewell Women's Mock Neck Crop Sweater",
+          "source": "Nordstrom Rack",
+          "price": "$59.97",
+          "rank": 2,
+          "score": 85,
+          "reasoning": "Close color match, same style, similar knit pattern."
+        },
+        {
+          "title": "Windsor Season Shift Mock Neck Sweater",
+          "source": "Windsor",
+          "price": "$36.90",
+          "rank": 3,
+          "score": 70,
+          "reasoning": "Similar green, different neckline, similar knit."
+        },
+        {
+          "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+          "source": "Walmart - Seller",
+          "price": "$24.59",
+          "rank": 4,
+          "score": 55,
+          "reasoning": "Very close color match, different neckline and crop length."
+        },
+        {
+          "title": "Lettuce trim ribbed crop sweater",
+          "source": "Commense",
+          "price": "$32.00",
+          "rank": 5,
+          "score": 40,
+          "reasoning": "Very close color match, different style and material."
+        }
+      ],
+      "rawResponse": "```json\n{\n  \"rankings\": [\n    {\n      \"imageNumber\": 2,\n      \"totalScore\": 55,\n      \"breakdown\": {\n        \"color\": 30,\n        \"style\": 10,\n        \"material\": 15,\n        \"vibe\": 0\n      },\n      \"reasoning\": \"Very close color match, different neckline and crop length.\"\n    },\n    {\n      \"imageNumber\": 3,\n      \"totalScore\": 85,\n      \"breakdown\": {\n        \"color\": 35,\n        \"style\": 30,\n        \"material\": 15,\n        \"vibe\": 5\n      },\n      \"reasoning\": \"Close color match, same style, similar knit pattern.\"\n    },\n    {\n      \"imageNumber\": 4,\n      \"totalScore\": 40,\n      \"breakdown\": {\n        \"color\": 30,\n        \"style\": 0,\n        \"material\": 10,\n        \"vibe\": 0\n      },\n      \"reasoning\": \"Very close color match, different style and material.\"\n    },\n    {\n      \"imageNumber\": 5,\n      \"totalScore\": 70,\n      \"breakdown\": {\n        \"color\": 20,\n        \"style\": 20,\n        \"material\": 15,\n        \"vibe\": 5\n      },\n      \"reasoning\": \"Similar green, different neckline, similar knit.\"\n    },\n    {\n      \"imageNumber\": 6,\n      \"totalScore\": 90,\n      \"breakdown\": {\n        \"color\": 40,\n        \"style\": 20,\n        \"material\": 20,\n        \"vibe\": 10\n      },\n      \"reasoning\": \"Exact color match, similar style, same knit pattern.\"\n    }\n  ]\n}\n```",
+      "scoreRange": {
+        "min": 40,
+        "max": 90,
+        "spread": 50
+      },
+      "avgScore": 68
+    },
+    "V3": {
+      "promptVersion": "V3_STRICT_VERIFICATION",
+      "rankings": [
+        {
+          "title": "Madewell Women's Mock Neck Crop Sweater",
+          "source": "Nordstrom Rack",
+          "price": "$59.97",
+          "rank": 1,
+          "score": 85,
+          "reasoning": "Good color and crop length but wrong neckline style."
+        },
+        {
+          "title": "Waffle Knit Cropped Sweater",
+          "source": "Bohemian coco",
+          "price": "$52.00",
+          "rank": 2,
+          "score": 70,
+          "reasoning": "Good style and length but slightly different color."
+        },
+        {
+          "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+          "source": "Walmart - Seller",
+          "price": "$24.59",
+          "rank": 3,
+          "score": 35,
+          "reasoning": "Different color, neckline, length, and material."
+        },
+        {
+          "title": "Windsor Season Shift Mock Neck Sweater",
+          "source": "Windsor",
+          "price": "$36.90",
+          "rank": 4,
+          "score": 35,
+          "reasoning": "Different color and neckline."
+        },
+        {
+          "title": "Lettuce trim ribbed crop sweater",
+          "source": "Commense",
+          "price": "$32.00",
+          "rank": 5,
+          "score": 30,
+          "reasoning": "Different color and completely different length."
+        }
+      ],
+      "rawResponse": "```json\n{\n  \"rankings\": [\n    {\n      \"imageNumber\": 2,\n      \"score\": 35,\n      \"penalties\": [\n        { \"issue\": \"wrong color shade\", \"deduction\": -30 },\n        { \"issue\": \"wrong neckline (v-neck instead of crew)\", \"deduction\": -20 },\n        { \"issue\": \"wrong length (regular instead of crop)\", \"deduction\": -20 },\n        { \"issue\": \"wrong material look (cable knit instead of ribbed)\", \"deduction\": -15 }\n      ],\n      \"reasoning\": \"Different color, neckline, length, and material.\"\n    },\n    {\n      \"imageNumber\": 3,\n      \"score\": 85,\n      \"penalties\": [\n        { \"issue\": \"neckline is mock neck instead of crew\", \"deduction\": -20 }\n      ],\n      \"reasoning\": \"Good color and crop length but wrong neckline style.\"\n    },\n    {\n      \"imageNumber\": 4,\n      \"score\": 30,\n      \"penalties\": [\n        { \"issue\": \"wrong color shade\", \"deduction\": -30 },\n        { \"issue\": \"wrong length (long dress instead of crop sweater)\", \"deduction\": -20 }\n      ],\n      \"reasoning\": \"Different color and completely different length.\"\n    },\n    {\n      \"imageNumber\": 5,\n      \"score\": 35,\n      \"penalties\": [\n        { \"issue\": \"wrong color shade\", \"deduction\": -30 },\n        { \"issue\": \"wrong neckline (zip-up instead of crew)\", \"deduction\": -20 }\n      ],\n      \"reasoning\": \"Different color and neckline.\"\n    },\n    {\n      \"imageNumber\": 6,\n      \"score\": 70,\n      \"penalties\": [\n        { \"issue\": \"wrong color shade\", \"deduction\": -30 }\n      ],\n      \"reasoning\": \"Good style and length but slightly different color.\"\n    }\n  ]\n}\n```",
+      "scoreRange": {
+        "min": 30,
+        "max": 85,
+        "spread": 55
+      },
+      "avgScore": 51
+    }
+  },
+  "comparison": {
+    "avgStdDev": 11.751267697949476,
+    "topMatchConsistent": false,
+    "topMatches": [
+      "Waffle Knit Cropped Sweater",
+      "Waffle Knit Cropped Sweater",
+      "Madewell Women's Mock Neck Crop Sweater"
+    ],
+    "promptScores": {
+      "V1": 3,
+      "V2": 0,
+      "V3": 4
+    },
+    "bestPrompt": "V3",
+    "spreads": {
+      "V1": 50,
+      "V2": 50,
+      "V3": 55
+    },
+    "separations": {
+      "V1": 15,
+      "V2": 5,
+      "V3": 15
+    }
+  },
+  "recommendation": {
+    "bestPrompt": "V3",
+    "reasoning": "V3 scored highest on discrimination (spread), separation, and reasonable averages."
+  }
+}

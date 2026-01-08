@@ -1,0 +1,813 @@
+{
+  "testType": "multiframe_fusion",
+  "testedAt": "2026-01-06T06:06:50.445Z",
+  "frameExtractions": [
+    {
+      "frameIndex": 1,
+      "purpose": "Side/back view - sleeve detail, silhouette",
+      "attributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "colorTone": "muted",
+        "neckline": "not_visible",
+        "sleeveLength": "long",
+        "bodyLength": "crop",
+        "fit": "relaxed",
+        "knitType": "chunky",
+        "material": "unknown",
+        "texture": "chunky/thick",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPattern": false,
+        "patternType": "solid",
+        "confidence": 0.8
+      },
+      "visibilityNotes": "Side/back view shows sleeve detail and silhouette. Neckline not visible."
+    },
+    {
+      "frameIndex": 3,
+      "purpose": "Front view - neckline, crop length, texture",
+      "attributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "colorTone": "muted",
+        "neckline": "crew",
+        "sleeveLength": "long",
+        "bodyLength": "crop",
+        "fit": "relaxed",
+        "knitType": "chunky",
+        "material": "unknown",
+        "texture": "chunky/thick",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPattern": false,
+        "patternType": "solid",
+        "confidence": 0.9
+      },
+      "visibilityNotes": "Front view clearly shows neckline and crop length. Sleeves and texture are visible."
+    },
+    {
+      "frameIndex": 6,
+      "purpose": "Front view - knit texture, fit detail",
+      "attributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "colorTone": "muted",
+        "neckline": "crew",
+        "sleeveLength": "long",
+        "bodyLength": "crop",
+        "fit": "relaxed",
+        "knitType": "chunky",
+        "material": "unknown",
+        "texture": "chunky/thick",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPattern": false,
+        "patternType": "solid",
+        "confidence": 0.9
+      },
+      "visibilityNotes": "Front view clearly shows neckline and crop length. Sleeves and knit texture are visible."
+    },
+    {
+      "frameIndex": 9,
+      "purpose": "Full body - complete sleeve, full silhouette",
+      "attributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "colorTone": "muted",
+        "neckline": "crew",
+        "sleeveLength": "long",
+        "bodyLength": "crop",
+        "fit": "relaxed",
+        "knitType": "chunky",
+        "material": "unknown",
+        "texture": "chunky/thick",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPattern": false,
+        "patternType": "solid",
+        "confidence": 0.9
+      },
+      "visibilityNotes": "Front view clearly shows neckline and crop length. Sleeves and knit type are visible."
+    }
+  ],
+  "fusedProfile": {
+    "primaryColor": {
+      "value": "olive green",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "olive green",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "olive green",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "olive green",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "colorFamily": {
+      "value": "green",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "green",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "green",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "green",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "colorTone": {
+      "value": "muted",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "muted",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "muted",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "muted",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "neckline": {
+      "value": "crew",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "crew",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "crew",
+          "frame": 9,
+          "confidence": 0.9
+        }
+      ]
+    },
+    "sleeveLength": {
+      "value": "long",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "long",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "long",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "long",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "bodyLength": {
+      "value": "crop",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "crop",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "crop",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "crop",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "fit": {
+      "value": "relaxed",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "relaxed",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "relaxed",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "relaxed",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "knitType": {
+      "value": "chunky",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "chunky",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "chunky",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "chunky",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "material": {
+      "value": "unknown",
+      "sourceFrame": -1,
+      "confidence": 0,
+      "alternatives": []
+    },
+    "texture": {
+      "value": "chunky/thick",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "chunky/thick",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "chunky/thick",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "chunky/thick",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "hasButtons": {
+      "value": false,
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": false,
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": false,
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": false,
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "hasZipper": {
+      "value": false,
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": false,
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": false,
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": false,
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "patternType": {
+      "value": "solid",
+      "sourceFrame": 3,
+      "confidence": 0.9,
+      "alternatives": [
+        {
+          "value": "solid",
+          "frame": 6,
+          "confidence": 0.9
+        },
+        {
+          "value": "solid",
+          "frame": 9,
+          "confidence": 0.9
+        },
+        {
+          "value": "solid",
+          "frame": 1,
+          "confidence": 0.8
+        }
+      ]
+    },
+    "overallConfidence": 0.9000000000000001,
+    "completeness": 100,
+    "attributeSources": {
+      "primaryColor": 3,
+      "colorFamily": 3,
+      "colorTone": 3,
+      "neckline": 3,
+      "sleeveLength": 3,
+      "bodyLength": 3,
+      "fit": 3,
+      "knitType": 3,
+      "texture": 3,
+      "hasButtons": 3,
+      "hasZipper": 3,
+      "patternType": 3
+    }
+  },
+  "candidateResults": [
+    {
+      "title": "Waffle Knit Cropped Sweater",
+      "source": "Bohemian coco",
+      "price": "$52.00",
+      "score": 84,
+      "similarity": {
+        "totalScore": 84,
+        "maxScore": 100,
+        "percentage": 84,
+        "breakdown": [
+          {
+            "attr": "Color",
+            "ref": "olive green",
+            "cand": "olive green",
+            "points": 25,
+            "max": 25
+          },
+          {
+            "attr": "Tone",
+            "ref": "muted",
+            "cand": "muted",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "attr": "Neckline",
+            "ref": "crew",
+            "cand": "crew",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "attr": "Sleeves",
+            "ref": "long",
+            "cand": "long",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Length",
+            "ref": "crop",
+            "cand": "crop",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Fit",
+            "ref": "relaxed",
+            "cand": "relaxed",
+            "points": 4,
+            "max": 4
+          },
+          {
+            "attr": "Knit",
+            "ref": "chunky",
+            "cand": "ribbed",
+            "points": 0,
+            "max": 12
+          },
+          {
+            "attr": "Texture",
+            "ref": "chunky/thick",
+            "cand": "chunky",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "Closures",
+            "ref": "btn:false",
+            "cand": "btn:false",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "attr": "Pattern",
+            "ref": "solid",
+            "cand": "solid",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "title": "Lettuce trim ribbed crop sweater",
+      "source": "Commense",
+      "price": "$32.00",
+      "score": 57,
+      "similarity": {
+        "totalScore": 57,
+        "maxScore": 100,
+        "percentage": 57,
+        "breakdown": [
+          {
+            "attr": "Color",
+            "ref": "olive green",
+            "cand": "olive green",
+            "points": 25,
+            "max": 25
+          },
+          {
+            "attr": "Tone",
+            "ref": "muted",
+            "cand": "dark",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "attr": "Neckline",
+            "ref": "crew",
+            "cand": "crew",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "attr": "Sleeves",
+            "ref": "long",
+            "cand": "long",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Length",
+            "ref": "crop",
+            "cand": "long",
+            "points": 0,
+            "max": 8
+          },
+          {
+            "attr": "Fit",
+            "ref": "relaxed",
+            "cand": "fitted",
+            "points": 0,
+            "max": 4
+          },
+          {
+            "attr": "Knit",
+            "ref": "chunky",
+            "cand": "ribbed",
+            "points": 0,
+            "max": 12
+          },
+          {
+            "attr": "Texture",
+            "ref": "chunky/thick",
+            "cand": "medium",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "Closures",
+            "ref": "btn:false",
+            "cand": "btn:false",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "attr": "Pattern",
+            "ref": "solid",
+            "cand": "solid",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "source": "Windsor",
+      "price": "$36.90",
+      "score": 44,
+      "similarity": {
+        "totalScore": 44,
+        "maxScore": 100,
+        "percentage": 44,
+        "breakdown": [
+          {
+            "attr": "Color",
+            "ref": "olive green",
+            "cand": "olive",
+            "points": 0,
+            "max": 25
+          },
+          {
+            "attr": "Tone",
+            "ref": "muted",
+            "cand": "muted",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "attr": "Neckline",
+            "ref": "crew",
+            "cand": "mock",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "attr": "Sleeves",
+            "ref": "long",
+            "cand": "long",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Length",
+            "ref": "crop",
+            "cand": "crop",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Fit",
+            "ref": "relaxed",
+            "cand": "relaxed",
+            "points": 4,
+            "max": 4
+          },
+          {
+            "attr": "Knit",
+            "ref": "chunky",
+            "cand": "ribbed",
+            "points": 0,
+            "max": 12
+          },
+          {
+            "attr": "Texture",
+            "ref": "chunky/thick",
+            "cand": "medium",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "Closures",
+            "ref": "btn:false",
+            "cand": "btn:false",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "attr": "Pattern",
+            "ref": "solid",
+            "cand": "solid",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "source": "Nordstrom Rack",
+      "price": "$59.97",
+      "score": 34,
+      "similarity": {
+        "totalScore": 34,
+        "maxScore": 100,
+        "percentage": 34,
+        "breakdown": [
+          {
+            "attr": "Color",
+            "ref": "olive green",
+            "cand": "dark green",
+            "points": 12,
+            "max": 25
+          },
+          {
+            "attr": "Tone",
+            "ref": "muted",
+            "cand": "dark",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "attr": "Neckline",
+            "ref": "crew",
+            "cand": "mock",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "attr": "Sleeves",
+            "ref": "long",
+            "cand": "long",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Length",
+            "ref": "crop",
+            "cand": "regular",
+            "points": 0,
+            "max": 8
+          },
+          {
+            "attr": "Fit",
+            "ref": "relaxed",
+            "cand": "fitted",
+            "points": 0,
+            "max": 4
+          },
+          {
+            "attr": "Knit",
+            "ref": "chunky",
+            "cand": "ribbed",
+            "points": 0,
+            "max": 12
+          },
+          {
+            "attr": "Texture",
+            "ref": "chunky/thick",
+            "cand": "medium",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "Closures",
+            "ref": "btn:false",
+            "cand": "btn:false",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "attr": "Pattern",
+            "ref": "solid",
+            "cand": "solid",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      }
+    },
+    {
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "source": "Walmart - Seller",
+      "price": "$24.59",
+      "score": 33,
+      "similarity": {
+        "totalScore": 33,
+        "maxScore": 100,
+        "percentage": 33,
+        "breakdown": [
+          {
+            "attr": "Color",
+            "ref": "olive green",
+            "cand": "dark green",
+            "points": 12,
+            "max": 25
+          },
+          {
+            "attr": "Tone",
+            "ref": "muted",
+            "cand": "dark",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "attr": "Neckline",
+            "ref": "crew",
+            "cand": "v-neck",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "attr": "Sleeves",
+            "ref": "long",
+            "cand": "long",
+            "points": 8,
+            "max": 8
+          },
+          {
+            "attr": "Length",
+            "ref": "crop",
+            "cand": "regular",
+            "points": 0,
+            "max": 8
+          },
+          {
+            "attr": "Fit",
+            "ref": "relaxed",
+            "cand": "relaxed",
+            "points": 4,
+            "max": 4
+          },
+          {
+            "attr": "Knit",
+            "ref": "chunky",
+            "cand": "cable",
+            "points": 0,
+            "max": 12
+          },
+          {
+            "attr": "Texture",
+            "ref": "chunky/thick",
+            "cand": "chunky",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "Closures",
+            "ref": "btn:false",
+            "cand": "btn:true",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "attr": "Pattern",
+            "ref": "solid",
+            "cand": "solid",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      }
+    }
+  ],
+  "comparison": {
+    "singleFrameCompleteness": 60,
+    "multiFrameCompleteness": 100,
+    "improvement": 40,
+    "previouslyUnknown": [
+      "neckline",
+      "sleeveLength",
+      "bodyLength",
+      "fit"
+    ],
+    "nowKnown": [
+      "neckline",
+      "sleeveLength",
+      "bodyLength",
+      "fit"
+    ],
+    "topMatch": "Waffle Knit Cropped Sweater",
+    "topScore": 84
+  }
+}

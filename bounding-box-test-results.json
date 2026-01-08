@@ -1,0 +1,148 @@
+{
+  "testType": "bounding_box_comparison",
+  "targetProduct": "Olive Green Knit Crop Sweater",
+  "testedAt": "2026-01-06T05:25:05.290Z",
+  "boundingBoxDetection": [
+    {
+      "name": "Olive Green Knit Crop Sweater",
+      "category": "Clothing",
+      "boundingBox": {
+        "x": 150,
+        "y": 200,
+        "width": 300,
+        "height": 250
+      },
+      "frameIndex": 1,
+      "confidence": 0.95
+    },
+    {
+      "name": "Olive Green Knit Crop Sweater",
+      "category": "Clothing",
+      "boundingBox": {
+        "x": 160,
+        "y": 220,
+        "width": 320,
+        "height": 260
+      },
+      "frameIndex": 3,
+      "confidence": 0.98
+    },
+    {
+      "name": "Olive Green Knit Crop Sweater",
+      "category": "Clothing",
+      "boundingBox": {
+        "x": 170,
+        "y": 210,
+        "width": 310,
+        "height": 255
+      },
+      "frameIndex": 5,
+      "confidence": 0.96
+    },
+    {
+      "name": "Olive Green Knit Crop Sweater",
+      "category": "Clothing",
+      "boundingBox": {
+        "x": 165,
+        "y": 215,
+        "width": 315,
+        "height": 260
+      },
+      "frameIndex": 7,
+      "confidence": 0.97
+    }
+  ],
+  "roughCropVerification": [
+    {
+      "rank": 1,
+      "title": "Waffle Knit Cropped Sweater",
+      "source": "Bohemian coco",
+      "price": "$52.00",
+      "similarityScore": 90,
+      "reasoning": "Closest color match with a similar knit texture and crop length."
+    },
+    {
+      "rank": 2,
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "source": "Walmart - Seller",
+      "price": "$24.59",
+      "similarityScore": 75,
+      "reasoning": "Although it has a similar color, the cable knit pattern differs from the original."
+    },
+    {
+      "rank": 3,
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "source": "Nordstrom Rack",
+      "price": "$59.97",
+      "similarityScore": 70,
+      "reasoning": "The color and crop length are close, but the knit pattern and neckline are different."
+    },
+    {
+      "rank": 4,
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "source": "Windsor",
+      "price": "$36.90",
+      "similarityScore": 60,
+      "reasoning": "The general fit and crop length are similar, but the color and texture are less accurate."
+    },
+    {
+      "rank": 5,
+      "title": "Lettuce trim ribbed crop sweater",
+      "source": "Commense",
+      "price": "$32.00",
+      "similarityScore": 50,
+      "reasoning": "The color matches somewhat, but the full dress length and different knit style greatly differ."
+    }
+  ],
+  "tightCropVerification": [
+    {
+      "rank": 1,
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "source": "Windsor",
+      "price": "$36.90",
+      "similarityScore": 90,
+      "reasoning": "The color and crop length closely match, with a similar knit texture and sleeve style."
+    },
+    {
+      "rank": 2,
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "source": "Walmart - Seller",
+      "price": "$24.59",
+      "similarityScore": 75,
+      "reasoning": "The color is similar, but the button detailing and cable texture differ from the original."
+    },
+    {
+      "rank": 3,
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "source": "Nordstrom Rack",
+      "price": "$59.97",
+      "similarityScore": 70,
+      "reasoning": "Good color match and crop length, but the knit pattern is different."
+    },
+    {
+      "rank": 4,
+      "title": "Waffle Knit Cropped Sweater",
+      "source": "Bohemian coco",
+      "price": "$52.00",
+      "similarityScore": 60,
+      "reasoning": "Similar color and knit texture, but different silhouette and sleeve style."
+    },
+    {
+      "rank": 5,
+      "title": "Lettuce trim ribbed crop sweater",
+      "source": "Commense",
+      "price": "$32.00",
+      "similarityScore": 45,
+      "reasoning": "Different overall style and length, though the color is comparable."
+    }
+  ],
+  "comparison": {
+    "averageRoughScore": 69,
+    "averageTightScore": 68,
+    "averageImprovement": -1,
+    "topMatchChanged": true,
+    "roughTopMatch": "Waffle Knit Cropped Sweater",
+    "tightTopMatch": "Windsor Season Shift Mock Neck Sweater"
+  },
+  "success": true
+}

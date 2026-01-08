@@ -15,16 +15,35 @@ export async function GET() {
 
   return NextResponse.json({
     status: processorStatus.ready ? "ready" : "not_configured",
+    version: processorStatus.version,
     models: processorStatus.models,
+    capabilities: processorStatus.capabilities,
     outputSchema: {
       transcription: { text: "string", language: "string", duration: "number" },
-      products: [{ name: "string", category: "string", colors: "string[]", description: "string", estimatedPriceUSD: "string", confidence: "number" }],
-      visual: { dominantColors: "string[]", aestheticStyle: "string", contentType: "string", targetAudience: "string" },
+      products: [{
+        name: "string",
+        category: "string",
+        subcategory: "string",
+        colors: "string[]",
+        material: "string|null",
+        style: "string|null",
+        pattern: "string|null",
+        brand: "string|null",
+        location: "string",
+        description: "string",
+        searchTerms: "string[]",
+        estimatedPriceUSD: "string|null",
+        confidence: "number (0-1)",
+        identifiability: "high|medium|low",
+        frameIndices: "number[]"
+      }],
+      productCounts: { clothing: "number", footwear: "number", accessories: "number", jewelry: "number", beauty: "number", tech: "number", home: "number", other: "number", total: "number" },
+      visual: { dominantColors: "string[]", aestheticStyle: "string", contentType: "string", targetAudience: "string", setting: "string", lighting: "string" },
       seo: { keywords: "string[]", tags: "string[]", title: "string", description: "string" },
       sentiment: { overall: "positive|negative|neutral", score: "0-100", highlights: "string[]" },
     },
     instructions: processorStatus.ready
-      ? "AI processor is configured and ready. POST with { jobId } to process."
+      ? "AI processor v2.0 ready. Detects 5-15+ products per video. POST with { jobId } to process."
       : "Add OPENAI_API_KEY to .env.local to enable AI processing",
   });
 }

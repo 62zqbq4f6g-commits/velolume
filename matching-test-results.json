@@ -1,0 +1,149 @@
+{
+  "jobId": "5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7",
+  "videoKey": "raw/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7.mp4",
+  "testedAt": "2026-01-05T13:42:27.189Z",
+  "framesExtracted": 12,
+  "framesTested": 5,
+  "results": [
+    {
+      "frameIndex": 0,
+      "framePath": "/Users/airoxthebox/auto-storefront/test-output/frames-5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-001.jpg",
+      "searchUrl": "https://serpapi.com/search?engine=google_lens&url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-1.jpg",
+      "visualMatches": [],
+      "shoppingResults": [],
+      "rawResponse": {
+        "search_metadata": {
+          "id": "695bbfc51cff191ecf876430",
+          "status": "Success",
+          "json_endpoint": "https://serpapi.com/searches/332f0722098797b9/695bbfc51cff191ecf876430.json",
+          "created_at": "2026-01-05 13:42:29 UTC",
+          "processed_at": "2026-01-05 13:42:29 UTC",
+          "google_lens_url": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-1.jpg",
+          "raw_html_file": "https://serpapi.com/searches/332f0722098797b9/695bbfc51cff191ecf876430.html",
+          "total_time_taken": 1.1
+        },
+        "search_parameters": {
+          "engine": "google_lens",
+          "url": "https://auto-storefront-media.sgp1.cdn.digitaloceanspaces.com/frames/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-1.jpg"
+        },
+        "search_information": {
+          "images_results_state": "Fully empty"
+        },
+        "error": "Google Lens hasn't returned any results for this query."
+      }
+    },
+    {
+      "frameIndex": 2,
+      "framePath": "/Users/airoxthebox/auto-storefront/test-output/frames-5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-003.jpg",
+      "searchUrl": "https://serpapi.com/search?engine=google_lens&url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-3.jpg",
+      "visualMatches": [],
+      "shoppingResults": [],
+      "rawResponse": {
+        "search_metadata": {
+          "id": "695bbfc8271332d717d3a5f1",
+          "status": "Success",
+          "json_endpoint": "https://serpapi.com/searches/efd525fdd158293b/695bbfc8271332d717d3a5f1.json",
+          "created_at": "2026-01-05 13:42:32 UTC",
+          "processed_at": "2026-01-05 13:42:32 UTC",
+          "google_lens_url": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-3.jpg",
+          "raw_html_file": "https://serpapi.com/searches/efd525fdd158293b/695bbfc8271332d717d3a5f1.html",
+          "total_time_taken": 1.39
+        },
+        "search_parameters": {
+          "engine": "google_lens",
+          "url": "https://auto-storefront-media.sgp1.cdn.digitaloceanspaces.com/frames/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-3.jpg"
+        },
+        "search_information": {
+          "images_results_state": "Fully empty"
+        },
+        "error": "Google Lens hasn't returned any results for this query."
+      }
+    },
+    {
+      "frameIndex": 4,
+      "framePath": "/Users/airoxthebox/auto-storefront/test-output/frames-5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-005.jpg",
+      "searchUrl": "https://serpapi.com/search?engine=google_lens&url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-5.jpg",
+      "visualMatches": [],
+      "shoppingResults": [],
+      "rawResponse": {
+        "search_metadata": {
+          "id": "695bbfcb2f5ea0b3863a375c",
+          "status": "Success",
+          "json_endpoint": "https://serpapi.com/searches/ce87c9af24b99968/695bbfcb2f5ea0b3863a375c.json",
+          "created_at": "2026-01-05 13:42:35 UTC",
+          "processed_at": "2026-01-05 13:42:35 UTC",
+          "google_lens_url": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-5.jpg",
+          "raw_html_file": "https://serpapi.com/searches/ce87c9af24b99968/695bbfcb2f5ea0b3863a375c.html",
+          "total_time_taken": 6.98
+        },
+        "search_parameters": {
+          "engine": "google_lens",
+          "url": "https://auto-storefront-media.sgp1.cdn.digitaloceanspaces.com/frames/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-5.jpg"
+        },
+        "search_information": {
+          "images_results_state": "Fully empty"
+        },
+        "error": "Google Lens hasn't returned any results for this query."
+      }
+    },
+    {
+      "frameIndex": 6,
+      "framePath": "/Users/airoxthebox/auto-storefront/test-output/frames-5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-007.jpg",
+      "searchUrl": "https://serpapi.com/search?engine=google_lens&url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-7.jpg",
+      "visualMatches": [],
+      "shoppingResults": [],
+      "rawResponse": {
+        "search_metadata": {
+          "id": "695bbfd35abea52928921328",
+          "status": "Success",
+          "json_endpoint": "https://serpapi.com/searches/fed90bdf94e48d56/695bbfd35abea52928921328.json",
+          "created_at": "2026-01-05 13:42:43 UTC",
+          "processed_at": "2026-01-05 13:42:43 UTC",
+          "google_lens_url": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-7.jpg",
+          "raw_html_file": "https://serpapi.com/searches/fed90bdf94e48d56/695bbfd35abea52928921328.html",
+          "total_time_taken": 2.11
+        },
+        "search_parameters": {
+          "engine": "google_lens",
+          "url": "https://auto-storefront-media.sgp1.cdn.digitaloceanspaces.com/frames/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-7.jpg"
+        },
+        "search_information": {
+          "images_results_state": "Fully empty"
+        },
+        "error": "Google Lens hasn't returned any results for this query."
+      }
+    },
+    {
+      "frameIndex": 8,
+      "framePath": "/Users/airoxthebox/auto-storefront/test-output/frames-5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-009.jpg",
+      "searchUrl": "https://serpapi.com/search?engine=google_lens&url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-9.jpg",
+      "visualMatches": [],
+      "shoppingResults": [],
+      "rawResponse": {
+        "search_metadata": {
+          "id": "695bbfd7a39c28ad7291d5a8",
+          "status": "Success",
+          "json_endpoint": "https://serpapi.com/searches/6582ff42c4ef547f/695bbfd7a39c28ad7291d5a8.json",
+          "created_at": "2026-01-05 13:42:47 UTC",
+          "processed_at": "2026-01-05 13:42:47 UTC",
+          "google_lens_url": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fauto-storefront-media.sgp1.cdn.digitaloceanspaces.com%2Fframes%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fframe-9.jpg",
+          "raw_html_file": "https://serpapi.com/searches/6582ff42c4ef547f/695bbfd7a39c28ad7291d5a8.html",
+          "total_time_taken": 1.06
+        },
+        "search_parameters": {
+          "engine": "google_lens",
+          "url": "https://auto-storefront-media.sgp1.cdn.digitaloceanspaces.com/frames/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/frame-9.jpg"
+        },
+        "search_information": {
+          "images_results_state": "Fully empty"
+        },
+        "error": "Google Lens hasn't returned any results for this query."
+      }
+    }
+  ],
+  "summary": {
+    "totalVisualMatches": 0,
+    "totalShoppingResults": 0,
+    "framesWithMatches": 0
+  }
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "id": "ig-1",
+    "platform": "instagram",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 54.078708,
+    "frameCount": 30,
+    "transcript": "I blend every single food that I eat. Breakfast is served. And I'm addicted to snorting all of my food. When it hits the back of my throat, it's very different but at the same time I taste all the same flavors as if I was to have food and drinks normally. My favorite way to start my day is with an omelet and coffee. That is good. And it's actually a little bit of a calming effect once it hits the back of my nasal passage.",
+    "products": [
+      {
+        "name": "Blender",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Coffee Maker",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Coffee Pot",
+        "category": "Tech",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "White Mug",
+        "category": "Home Decor",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Glass Cup",
+        "category": "Home Decor",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Metal Straw",
+        "category": "Other",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Green Long Sleeve Shirt",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      }
+    ],
+    "productCount": 7,
+    "hookType": "statement",
+    "hookEffectiveness": 89,
+    "hookBreakdown": {
+      "clarityOfPromise": 20,
+      "patternInterrupt": 23,
+      "speedToValue": 22,
+      "contentAlignment": 24,
+      "reasoning": "The hook is clear and immediately communicates the unusual concept of blending all foods, which is intriguing and likely to stop viewers from scrolling. The visual of the blender in action supports the statement effectively, and the content aligns well with short-form video expectations."
+    },
+    "totalTimeMs": 27269
+  },
+  {
+    "id": "ig-2",
+    "platform": "instagram",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 17.66898,
+    "frameCount": 30,
+    "transcript": "字幕by索兰娅♥",
+    "products": [
+      {
+        "name": "Black Quiksilver T-shirt",
+        "category": "Clothing",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Denim Shorts",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Blue Flip Flops",
+        "category": "Footwear",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Gold Watch",
+        "category": "Accessories",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Red Dress Doll",
+        "category": "Other",
+        "confidence": 0.8,
+        "identifiability": "low"
+      }
+    ],
+    "productCount": 5,
+    "hookType": "statement",
+    "hookEffectiveness": 89,
+    "hookBreakdown": {
+      "clarityOfPromise": 20,
+      "patternInterrupt": 22,
+      "speedToValue": 23,
+      "contentAlignment": 24,
+      "reasoning": "The hook uses a bold statement about age and appearance, which is immediately clear and intriguing. The visual of the man supports the statement, creating curiosity. The promise is delivered quickly, aligning well with short-form content."
+    },
+    "totalTimeMs": 25952
+  },
+  {
+    "id": "ig-3",
+    "platform": "instagram",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 57.839501,
+    "frameCount": 30,
+    "transcript": "Hey, President of Venezuela, Maduro, what has happened? 45 minutes they come and pick you up in the middle of the night and you are naked, blindfolded on a private jet like an OnlyFans model? This is crazy, this never happened before in the history of the humanity. How they picking you up like a fresh bride without toothbrush, without breakfast? They taking you, you are now on holiday to America, honeymoon. Fourth richest country on the planet, three days ago you are screaming. I challenge you, come here, I attack you, you attack me, we fight against you. Where is your uncle, where is your cousins, where is your family? How you give up yourself that easily? Even if America come, I'm not a president, I'm just prime minister of my country. If America coming, I fight at least three, four hour. I'm coming out injury, one leg not working. I'm not gonna do like that. It's a crazy life in the jungle, Maduro.",
+    "products": [
+      {
+        "name": "Brown Jacket",
+        "category": "Clothing",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "White Turtleneck",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      }
+    ],
+    "productCount": 2,
+    "hookType": "question",
+    "hookEffectiveness": 75,
+    "hookBreakdown": {
+      "clarityOfPromise": 15,
+      "patternInterrupt": 20,
+      "speedToValue": 20,
+      "contentAlignment": 20,
+      "reasoning": "The hook opens with a direct question addressing a public figure, which is intriguing and prompts curiosity. The question format effectively interrupts the pattern, encouraging viewers to stop and listen. The promise of understanding 'what is happening' is clear, though not specific. The style is well-suited for short-form content, quickly engaging the audience."
+    },
+    "totalTimeMs": 24620
+  },
+  {
+    "id": "ig-4",
+    "platform": "instagram",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 59.677375,
+    "frameCount": 30,
+    "transcript": "Do you think like because you feel that you're not like a feminist or whatever you are better than other women? No, I don't. I'm a pretty humble person. Do you feel that we hate men? A lot of what you're saying does seem like man-hating behavior. I mean, I do think men suck. I think a lot because of the patriarchy. A lot of men have arrogance and they mistreat women. Do you agree? No, I don't agree. So you think men don't mistreat women? I do not think that a majority of men mistreat women. I do not. Why do you think there are phrases like men suck? Because I think women are petty and dramatic. Okay, so just because like you're going against other women doesn't mean like men are going to choose you. I'm not. Pick me. I'm married. I'm already sold. I'm off the streets. The streets? Yeah, where all you are. So you think because I'm not married, I'm on the streets and I like really need a husband. You're really bitterly and desperately single. Yes. You're obviously not happy. Your attitude does not scream. I'm happy and I love my life.",
+    "products": [
+      {
+        "name": "White microphone",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "White paper cup with blue design",
+        "category": "Other",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Black notebook",
+        "category": "Other",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Tie-dye T-shirt",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black mug with 'Whatever' text",
+        "category": "Other",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Laptop",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Pink phone case",
+        "category": "Accessories",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Faux fur jacket",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black glasses",
+        "category": "Accessories",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Cross hairpin",
+        "category": "Accessories",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      }
+    ],
+    "productCount": 10,
+    "hookType": "controversy",
+    "hookEffectiveness": 75,
+    "hookBreakdown": {
+      "clarityOfPromise": 15,
+      "patternInterrupt": 20,
+      "speedToValue": 20,
+      "contentAlignment": 20,
+      "reasoning": "The opening question is provocative, suggesting a controversial topic about feminism, which can capture attention. The setting and audio imply a discussion or debate, aligning well with the short-form content. The promise of a controversial discussion is clear, though not explicitly stated."
+    },
+    "totalTimeMs": 35852
+  },
+  {
+    "id": "tt-1",
+    "platform": "tiktok",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 7.941275,
+    "frameCount": 16,
+    "transcript": "欢迎订阅我的频道,点击小铃铛,以便能收到更多新信息。",
+    "products": [
+      {
+        "name": "Gray jacket with fur trim",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Cross necklace",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Black eyeglasses",
+        "category": "Accessories",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Iced drink with red straw",
+        "category": "Other",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Striped sweater",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black scarf",
+        "category": "Accessories",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Bubble tea with red straw",
+        "category": "Other",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Smartphone with floral case",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      }
+    ],
+    "productCount": 8,
+    "hookType": "visual_hook",
+    "hookEffectiveness": 65,
+    "hookBreakdown": {
+      "clarityOfPromise": 10,
+      "patternInterrupt": 20,
+      "speedToValue": 15,
+      "contentAlignment": 20,
+      "reasoning": "The visual action is dynamic and likely to catch attention, but it doesn't clearly promise specific content. The unusual movement and presentation of the drink serve as a pattern interrupt. The hook is quick, aligning well with short-form content, but the value or purpose isn't immediately clear."
+    },
+    "totalTimeMs": 36535
+  },
+  {
+    "id": "tt-2",
+    "platform": "tiktok",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 18.550998,
+    "frameCount": 30,
+    "transcript": "Thank you for watching, if you like please subscribe.",
+    "products": [
+      {
+        "name": "White lace-trimmed tank top",
+        "category": "Clothing",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Blue jeans",
+        "category": "Clothing",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Gold hoop earrings",
+        "category": "Jewelry",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Gold heart necklace",
+        "category": "Jewelry",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Green beaded bracelet",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      }
+    ],
+    "productCount": 5,
+    "hookType": "statement",
+    "hookEffectiveness": 70,
+    "hookBreakdown": {
+      "clarityOfPromise": 15,
+      "patternInterrupt": 20,
+      "speedToValue": 20,
+      "contentAlignment": 15,
+      "reasoning": "The hook makes a bold statement that can intrigue viewers, creating curiosity about the scoring system. It quickly delivers its message, but lacks clarity on what the score refers to. The visual and audio elements are straightforward, aligning with short-form content."
+    },
+    "totalTimeMs": 27050
+  },
+  {
+    "id": "tt-3",
+    "platform": "tiktok",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 22.143991,
+    "frameCount": 30,
+    "transcript": "A British yoga teacher has been arrested in Thailand for allegedly hosting s**t yoga classes. Maria Chateen, who used the name Maria Sly Love, charged tourists £9 for weekly tantric sessions behind a restaurant in Koh Phangan. Police detained her during a class after locals reported her risque social media posts. The documents claimed she worked as a customer relations manager.",
+    "products": [],
+    "productCount": 0,
+    "hookType": "controversy",
+    "hookEffectiveness": 90,
+    "hookBreakdown": {
+      "clarityOfPromise": 20,
+      "patternInterrupt": 25,
+      "speedToValue": 25,
+      "contentAlignment": 20,
+      "reasoning": "The hook is highly effective due to its controversial nature, immediately grabbing attention with the arrest and unusual yoga class. The promise is clear, and the payoff is immediate, aligning well with short-form content."
+    },
+    "totalTimeMs": 21290
+  },
+  {
+    "id": "tt-4",
+    "platform": "tiktok",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 169.3,
+    "frameCount": 30,
+    "transcript": "The best things I bought in 2025. Stitch the AirPods. This is such a game changer. I've lost my AirPods twice and then I retreated back to wired earphones. The mic quality is amazing. Even if you lose these, it's like what, like $25 I think? It's less painful than losing your AirPods. Hands down, this was one of the best things I bought. Can you guess what this is? I bought the second hand. It's a laser hair removal device. But I bought this really cheap. The person didn't use it. If I do the math, it was $70 on your arms, your legs. This while you, you know, you're just watching Netflix. It was so worth the money. I might be a clean freak, but alcohol swabs, like you can get them at the dollar shop. I take these everywhere with me. You just, you just have one. Like I got a full box, like a hundred of these just for like a dollar. I wipe my phone because you know, you know, your phone is actually really nasty. Take these wherever with me. These are so good. There are these eye drops, like this thing that looks like eye drops. And for the girlies who wear contact lens often, I wear contact lens once every two, three days, but I feel my eyes getting so dry whenever I wear them for over four hours. And if you use these droplets before you put them in, they stay moist, I think six to seven hours. So I always keep that with me, but I don't know where it went. It's around $5. Also these, the whitening strips, they don't sell in Korea because maybe they contain things that are too strong. So I had to buy them overseas. They say one hour and I'm, I'm no dentist, but I cut them into smaller pieces because they're pretty big for my teeth. And I put them on for like, I don't know, two or three hours. This is my last strip, but after using these, I smile way more often. It was a bit pricey. I think the whole box was like 12 strips, $60. It wasn't that cheap, but it was so effective. And this is not an ad. I don't really believe in overconsumption. I do buy a lot of things, but I try to keep it low key. But yeah, everything in this video, I definitely would recommend because I think those products have really made my life a bit easier this year.",
+    "products": [
+      {
+        "name": "Black Buttoned Top",
+        "category": "Clothing",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Wired Earphones",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Pearl Earrings",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Ring",
+        "category": "Jewelry",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Laser Hair Removal Device",
+        "category": "Beauty",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Contact Lens Solution",
+        "category": "Beauty",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      }
+    ],
+    "productCount": 6,
+    "hookType": "statement",
+    "hookEffectiveness": 83,
+    "hookBreakdown": {
+      "clarityOfPromise": 20,
+      "patternInterrupt": 18,
+      "speedToValue": 22,
+      "contentAlignment": 23,
+      "reasoning": "The hook clearly promises a list of valuable purchases, which is intriguing for viewers interested in tech or shopping. The mention of 2025 adds a futuristic element, enhancing curiosity. The problem of losing AirPods is relatable, making it engaging. The content aligns well with long-form as it sets up a detailed exploration."
+    },
+    "totalTimeMs": 41360
+  },
+  {
+    "id": "yt-1",
+    "platform": "youtube",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 1043.272562,
+    "frameCount": 30,
+    "products": [
+      {
+        "name": "Black Headphones",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Microphone",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black Hoodie",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Gray T-Shirt",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "White Sweater",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Water Bottle",
+        "category": "Other",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      }
+    ],
+    "productCount": 6,
+    "hookType": "unknown",
+    "hookEffectiveness": 60,
+    "hookBreakdown": {
+      "clarityOfPromise": 15,
+      "patternInterrupt": 15,
+      "speedToValue": 15,
+      "contentAlignment": 15,
+      "reasoning": "Analysis complete"
+    },
+    "totalTimeMs": 225258
+  },
+  {
+    "id": "yt-2",
+    "platform": "youtube",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 655.29034,
+    "frameCount": 30,
+    "transcript": "I finally made it to France or as the French say France where we are there's basically only one eating challenge in the whole of France at this place so I'm gonna give it a bash and hopefully I can leave the country with a 100% win record yeah who's gonna actually no way I want to show people just how beautiful this location is that we got budget for a drone shot put on the invoice now not one of those like a like a sexy twisty shot with a waves lap onto the beach kind of thing yeah yeah that's the one perfect looks nice very Mediterranean it's France in the Mediterranean. Does it technically count as Mediterranean? I don't know if it does. France? South of France is in the Mediterranean. Ah yes South of the Mediterranean, you're probably right. I've done a lot of videos now trying to think top mad I'm not sure I've shot anywhere with this beautiful of a view look at that we're on a beachfront location here I think the closest I got this was that barbecue place in Long Island New York weren't quite as nice this is what we are doing today apparently the largest burger in the whole of flipping France 300 people have attempted this or more and only seven people have succeeded which implies that it is quite difficult but if you win you get it for free no t-shirt so I had beef tartare and tuna tartare last night because I was sort of trying to prioritize protein before a large meal but I think because of that it has had a negative effect on my colonic stability let's say so I'm wondering if I should go to the toilet it would be my fourth of the morning and it is only 11 o'clock but maybe I won't it'll sort of add some jeopardy to the video what do you think? I don't think we need jeopardy, I think I'm a Muslim propeller in Germany this must be the toilet! I threw my undies out the window yeah maybe I will go to the toilet look you can see them the camera probably doesn't pick it up but you see you can see the rainfall in front of the that sort of mountain there the cliff in the distance you see it they call that pathetic fallacy in literature you know it's almost like there's some there's a struggle foreboding which is manifest by the weather it's almost like they know something that we don't yeah it's like when a hurricane's about to roll in. Is the weather normally like this? No, here it's not normal, maybe one or two days in a month like this, yes. We've really brought the weather with us Josh. All right we got the Le Stac menu here it's called Le King Kong burger you can actually order this to share for a maximum of three people but if you can do it solo you get it for free. Bonjour! Hi, can I just order Le King Kong challenge please? Yes, it's big yeah? oh yeah yeah. You want a bottle of water? Yes please. It's good? Yes. Perfect. Thank you. Thank you so much. Merci. I love how he said it's big Are you ready? Oh my goodness, jute a l'or! That's the burger. Merci. You're welcome. Oh there it went. I don't have to eat those, do I? That was a crap joke. All right so I'm at a place called Le Stac which is in Toulon. Yes, that's it. And I'm taking on the Le King Kong burger challenge which is a cool name. It's got fries in there as well and there's no time limit? No, only the time of the service. Right okay so that's like two hours? Two hours and a half. And like 300 people have tried? Something like that? Yes, that's it. And only seven have finished. Only seven have finished. Do you keep score of like who has the fastest time? We have in a little short video that's 20 minutes. 20 minutes, that's the fastest time? Yes. All right, I'm not sure if I can do that but I'll give my best shot. 3, 2, 1, you can go now. Merci. Yes, cut this sucker. Oh, they're really full out the hole in the middle. It's kind of like a donut. I thought the fries were just on top but they're not. It's sort of like in the middle of what is basically a bit like a bagel. Oh, that's yummy. That is really good. Oh, I didn't do the cheese pull thingy then. That's a valuable commodity in today's TikTok driven society. We don't need it. I think we need some more water and yeah I apologize about the glass. Hey, this is going down pretty easy. That's five minutes down, Adam. Five minutes? Do you reckon that's about halfway? Come on, old man. I should really be eating while I'm cutting but whatever. This lady's gonna have quite the collection of videos. No, it's okay. Oh, how am I doing? I think yes. That's good? Very good. I'm trying not to eat like a pig. I'm ready. I'm going to eat it all. Very European. I'm having a little smoke out there. I wonder if I could do it in French. I would like Diet Coke, please. Light Coke? Oh yeah, any kind of light Coke. Coke? Coke Zero? Coke Zero would be great, yeah. Was that right? Did I get that right? I did French for two years at school. Two. I barely had time to blink. I feel like I haven't really talked at all. That will probably be a relief to some of the people watching. Ah, merci. It's good? Yeah, thank you. Yeah, yeah, it's very good, yeah. That's a tall glass of Coke, isn't it? Is that just me or does that seem taller than your average single-serving glass of Coke? I'm not complaining. What's the time, sir? 13 minutes 20 seconds. Oh, come on now. I feel so bad for this lady. Je suis désolé. That's like, you know when people wake up from comas and they can suddenly speak a different language? I got it. That means I am sorry, right? Yeah. Look at that. You've got an audience now. Almost there, almost. What's the time, Josh Wong? You've passed 17 minutes there. 17? Yeah. All right. This has been Mixed Food and that was the biggest burger in France. Beating record time. Merci, merci. Oh, man, that was delicious. That was so good. You feel good? I feel great. Yeah. Do you have desserts here? Yes. Oh, yes, two desserts. My man. You have the desserts all right here. OK, thank you very much. It is it's all in French, naturally, since we are in France. You want some desserts? Oh, yes, please. You are very crazy. You are crazy. Can I try this one? Yes. Yeah. Is it good? With Nutella, caramel or coffee or chocolate? Oh, which is best? Nutella. In that case, Nutella. Oh, merci. Thank you very much. Look at that. French toast in France, where presumably they just call it toast. Let's get into it. I love French toast, you know. That is good. You want some? I'm all right. You finished that. You've earned it. You do realize the amount of love I must have for you to offer you my last piece of French toast. Appreciate it, mate. I'll just see myself out, mate. Au revoir. Bye. All right. France completed it, mate. Au revoir. Why am I closing the door? You probably... You just gonna stay? Bonjour. Bonjour, fellas. Oh, sorry. We're English. I don't speak French. Angleterre. German?",
+    "products": [
+      {
+        "name": "French Flag",
+        "category": "Other",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black T-shirt",
+        "category": "Clothing",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Black Cap",
+        "category": "Accessories",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Camera with Microphone",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Headphones",
+        "category": "Tech",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Leopard Print Sweater",
+        "category": "Clothing",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Large Sandwich",
+        "category": "Other",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Coca-Cola Bottle",
+        "category": "Other",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Dining Table",
+        "category": "Home Decor",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Red Refrigerator",
+        "category": "Home Decor",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      }
+    ],
+    "productCount": 10,
+    "hookType": "unknown",
+    "hookEffectiveness": 60,
+    "hookBreakdown": {
+      "clarityOfPromise": 15,
+      "patternInterrupt": 15,
+      "speedToValue": 15,
+      "contentAlignment": 15,
+      "reasoning": "Analysis complete"
+    },
+    "totalTimeMs": 70833
+  },
+  {
+    "id": "yt-3",
+    "platform": "youtube",
+    "success": true,
+    "downloadSuccess": true,
+    "duration": 884.680272,
+    "frameCount": 30,
+    "transcript": "America's back toppling again, because today we're going to learn how Delta Force captured Maduro from a heavily fortified base inside Venezuela, and examine the massive 150 aircraft air campaign overhead. Then we'll look at who's actually in control of the country now. The first thing you need to know is the American raid really started 4 months ago, with what's called Phase 1 shaping operations. It began in August, when a group of CIA officers were secretly inserted on the ground into the country. They created intelligence packets that tracked Venezuelan President Maduro's movements down to the hour, and they operated a fleet of stealth drones that sent constant live updates, professionally stalking his position. The clandestine operation developed what's called a pattern of life, which is fancy intelligence speak for what we would call a daily routine. This way, intelligence officers narrowed down Maduro's location to Fort Tiona military complex, the large base that lies just south of the capital of Caracas, where 3 million people live. On Saturday, January 3rd, 2026, in the dead of night at 2am local time, the U.S. government gave the green light on Operation Codename Absolute Resolve. The U.S. military launched a wave of targeted missile strikes all across the capital city. Oh boy, here I go toppling again. Bombs were launched from 20 different bases and ships. The ground assault element chosen for the raid was 1st Special Forces Operational Detachment Delta. And somewhat surprisingly, law enforcement from FBI agents from the hostage rescue team were also embedded alongside them to arrest Maduro. The bold tactics used for the insertion method shocked many military analysts. Reportedly, 11 American helicopters from the elite 160th SOAR night stalkers were deployed to spearhead this raid. SOAR is like the stunt drivers but for helicopters, and they're loaded with like 300 special operators in the back. The team launched from the USS Iwo Jima Navy Amphibious Assault Ship that's parked just a few miles off the coast of Venezuela. They flew low, only about 100 feet above the Caribbean Sea, to avoid enemy radar detection. Then they traveled the dangerous stretch of 10 miles over land, from the northern shores to Fort Tijuana. They came under fire en route. One helicopter was reportedly damaged, but it was still able to remain operational. As the air assault flew across the capital, explosions erupted behind them, and it was uploaded live onto Axe. The operators used the MH-47G Chinooks and the MH-60L, which are special variant helicopters which have unique countermeasures. Then they approached the base, and the Oceans 11 style raid began. Raiding this complex is an extraordinarily risky job to even undertake. Fort Tijuana has hardened concrete gates. There are pillboxes built into the mountain, right there, with firing positions on the high ground, armed guard towers, and continuous 24-7 patrols. It's sort of like Venezuela's version of the Pentagon. You can see here it's built right into the side of the mountain to give defenders the height advantage, as well as being able to dig deep underground. Its perimeter is pretty large, it's got about 2 miles wide by 4 miles long. Intelligence reports estimate that 5,000 of Maduro's most elite soldiers are assigned to this post. According to reports, Maduro constantly moved around the country, changing where he slept each night and throwing out burner phones, to avoid being tracked to this location. But the base's defenses were defeated, partly because starting in mid-December, U.S. Cyber Command laid the groundwork by targeting the power infrastructure, planting malware in their systems. When Cyber Command flipped the switch, it turned the lights off in the country, completely killing electricity to the base and large parts of the capital city. This cut off communications and made coordinating any kind of response extremely difficult. So the soldiers disembarked from the helicopters, the commandos hit the ground, and headed directly to the on-base house that Maduro was holed up in. U.S. General Kane said that the raiding force came under direct fire, which prompted American forces to respond with, quote, overwhelming force and self-defense, end quote. Intelligence officers on the ground with the team helped them navigate the compound. They provided intel to this breaching team ahead of time that revealed that there would be thick, solid steel doors protecting Maduro. This information came from sources close to Maduro's inner circle. He had a kind of panic room that was completely sealed off. So operators brought explosive breaching charges and buzz saws and they were prepared to break through. Meanwhile, outside, the American direct action penetrator helicopter laid down close air support suppressing fire. This is a special beast mode up gun version of the Hilo. It went weapons free with two miniguns and hydro rockets. But then Hilo started taking fire from enemy man-portable Igla air defense missiles. In response, pilots deployed their XM-216 Dark Flares. These defeat incoming missiles while staying invisible to the human eye. Delta Force finally breached into Maduro's on-base residence and found him. According to reports from CNN, who spoke to sources close to the raid, operators dragged Maduro out of bed, zip-tied, and blindfolded him while he was in the middle of sleeping. Then they led Maduro and his wife outside onto the Chinook helicopters and started flying back. Some Venezuelan military officer who gave away their location and was a source to the CIA just got $50 million in reward money. But this was only half the mission because the operators still had to safely extract. It was vital to the mission mandate that they capture him alive. If Maduro was somehow killed in route or during exfiltration, it would look like America had ordered an assassination mission which would cause all kinds of additional legal trouble. This was one of the most geopolitically sensitive missions that I can think of in recent history. They had kicked the hornet's nest, the whole freaking country was coming down on them now. The question on every Delta Force operator's mind on the way back was could they trust US airpower to cover their exfiltration on their way out of Venezuela? The US airpower continued to strike strategic military installations across the country to create a diversion for them to safely escape. F-22 Raptors, F-35 stealth fighters, F-18s, radar aircraft, and B-1 Lancer bombers participated in the attacks. They hit bases all over in the states of Laguerre, Miranda, and Aragua. This was to create multiple dilemmas. This was achieved thanks to an air campaign that had been happening simultaneously overhead that achieved air supremacy. The operation reportedly involved 150 American fighter aircraft that had the goal of complete and total control of the skies. Fighter aircraft launched long-range precision missiles. Large explosions were heard across the capital. Local language news reporting stated that these explosions targeted air defense radar antennas. This was a massive seed operation, suppression of enemy air defenses. According to Osuna Defender on X, good friend of the show, the air campaign destroyed Buck long-range air defense systems and knocked out all the armored vehicles at the bases. And since then, new satellite imagery has come out and shown the scale of the destruction at the base. Large parts of the base were entirely flattened. American jammers scrambled radar systems and anti-radiation missiles targeted the enemy's S-300 air defense launchers. Not Putin furiously taking notes on how to do a special three-day military operation with 69 hours to spare. The reason they were able to achieve this is because they struck major air bases, including the one at La Carlota and the Igarote Airport, where Maduro's Air Force of MiG fighter jets could have launched from to intercept them. We see the aftermath of destroyed armored vehicles on base here. Pulling together a response was difficult for Maduro's forces because Fort Tijuna, the military installation, housed some of the most high-level military generals. And once it was hit, it sent them all into chaos. In dictatorships, sometimes they keep all of their decision-making military officials central in one single consolidated location, which is useful for maintaining control. But on the other hand, it has the downside of a single point of failure or weakness. Explosions hit the port of La Gua, which is one of Venezuela's most strategically important ports that controls regime-linked money. These shaping operations were designed to cause confusions and disorientation in Maduro's forces. Because what stunned military observers about this assault was that helicopters were the defining feature. Combat footage showed Marine Corps Viper and what appeared to be Army Apaches striking ground targets with rockets. And typically, these rotor aircraft are vulnerable and exposed without ground support alongside it. They are relatively slow-moving and often easy targets for even hand-held enemy air defense weapons. The fact that they were used in this raid indicates how confident US war planners were that they would have total air supremacy at this point. But the question is why weren't any American helicopters shot down by some of the reportedly 5,000 man-panned Iglo launchers? How was the resistance so ineffective? There are several different theories and answers. And it actually takes us down a really weird, strange, almost conspiratorial rabbit hole. So strap in. The overwhelming combat firepower the US had amassed over the six months made resistance difficult. On top of that, polls show that Maduro was unpopular with 10-20% approval ratings due to people being exhausted over Venezuela's economic crisis and the political repression in the country. So maybe few were excited to put their lives on the line for Maduro. Voices from Venezuela's opposition, however, told Sky News reporters that Maduro's capture was actually a negotiated exit, not a forceful capture. Meaning they're claiming that Maduro actually knew American forces were coming to capture him and that he had agreed to it prior and this ground assault was an elaborate way of him giving himself up to American authorities. Why would he do that? For domestic audiences in Venezuela, it theoretically looks better for him to say, I was captured by the Americans than I cut a deal and left. It was surprising to experts that Maduro's wife was brought with him because this is very unusual in rendition military operations like this. His wife was previously not criminally charged and we only just learned that she's now also being charged after their capture. However, there is yet to be any actual hard evidence of this even though a surrender may have been negotiated. These military troops would not have been aware of that and it doesn't fully explain the poor performance of Maduro's security forces. US President Trump said, quote, we were prepared to do a second wave if we needed to do so. We actually assumed that a second wave would be necessary, but now it's probably not. Another theory is that he was sold out by somebody high up in the regime like his vice president or defense minister who ordered his troops to not resist the capture of Maduro. The alternative for how US operators successfully pulled this off without losing a single helicopter is it could be because modern US helicopters have electronic defeat of missile systems. It's called direct infrared countermeasures which detects tracks and fires a laser directly into the seeker head, blinds it, confuses the missile, doesn't know which way it's pointing, and that works against Eagle launchers. Those launchers require proper storage also and training which they appear to have not had. The 160th SOAR flies low profile flights as well that deny the enemy the ability to even see and engage them. According to the chairman of the Joint Chiefs of Staff, Dan Kane, the success of the mission was the result of months of planning and rehearsals. Either way, the helicopters safely made their way back over the nation, back to the US Navy fleet waiting for them offshore where this photo was taken of Maduro. There were no American combat fatalities in the operation, although some troops were reportedly injured from bullet and shrapnel wounds, but nothing life threatening. But now that Maduro is captured, who's in charge in Venezuela now in the aftermath? It's not as simple as a normal regime toppling that you might be familiar with. President Trump said that the US government will now run Venezuela now in the aftermath of the capture of Maduro. He said this will happen until a safe, proper, judicious transition of power can happen. The idea here is that the US naval blockade of Venezuela's oil will essentially, in theory, allow the US government to control Venezuelan authorities, no matter who's in power there, without needing to actually put the boots on the ground. The US government has stated they believe no further military action is anticipated in Venezuela. However, the resistance is forming in the nation already that could challenge this. Venezuelan Interior Minister Cabello appeared on TV in the street wearing a helmet and body armor, telling the population not to cooperate with, quote unquote, terrorist enemies. Currently, Rodriguez was just sworn in as the acting president there, and according to the US government, she's cooperating behind the scenes because she has no choice. However, in public messages, she's very defiant against the US. What we know for sure is that the Venezuelan government is in disarray at the moment. They called on the people to take to the streets, but so far it's been a quiet, muted response, not millions taking to the streets in an uproar. But how do the actual people, the population living in Venezuela, feel about all of this? Do they love it? Do they hate it? Something we don't talk about enough. Looking at the Spanish local news reporting on the situation, they report that the response from the people of Venezuela has been mixed, saying, quote, residents expressed shock at the US military attack that left them wondering who was now actually in charge of the oil-rich nation. Some are celebrating the fall of the dictator, other pro-Maduro factions are riding around with weaponry angry at what they see as American imperialism. People are hoping that if Maduro is out of power, sanctions against the country will be reduced, and possibly the economy would improve. Others are skeptical of what will happen in the power vacuum. But was any of this even legal in the first place? When the US captured Saddam and Noriega, they had some kind of congressional approval. When the Libyan dictator was toppled, they too had some kind of congressional approval. This attack was conducted without any kind of notification or authorization. What happens to Maduro from here? Secretary of State Marco Rubio said that Maduro would stand trial for criminal charges in the United States for narco-trafficking. in New York City federal courts. Maduro maintains his innocence. If you want to learn more, check out our last video about America's Abrams bomb launch.",
+    "products": [
+      {
+        "name": "Military Backpack",
+        "category": "Accessories",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Military Helmet",
+        "category": "Accessories",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Chinook Helicopter",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Sniper Rifle",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black Hawk Helicopter",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Aircraft Carrier",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Motorcycle",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Rifle",
+        "category": "Tech",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Motorcycle Helmet",
+        "category": "Accessories",
+        "confidence": 0.9,
+        "identifiability": "high"
+      }
+    ],
+    "productCount": 9,
+    "hookType": "statement",
+    "hookEffectiveness": 83,
+    "hookBreakdown": {
+      "clarityOfPromise": 20,
+      "patternInterrupt": 22,
+      "speedToValue": 18,
+      "contentAlignment": 23,
+      "reasoning": "The hook clearly promises an intriguing military operation story, which is likely to capture attention. The night vision visuals are striking and unusual, serving as a strong pattern interrupt. The promise of learning about a significant event is quickly established, aligning well with the long-form content type."
+    },
+    "totalTimeMs": 93825
+  }
+]

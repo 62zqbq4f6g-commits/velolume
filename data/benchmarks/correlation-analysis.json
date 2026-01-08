@@ -1,0 +1,137 @@
+{
+  "analyzedAt": "2026-01-08T02:40:40.415Z",
+  "totalVideos": 50,
+  "categories": [
+    {
+      "category": "beauty",
+      "totalVideos": 20,
+      "hookStats": [
+        {
+          "hookType": "statement",
+          "count": 6,
+          "avgViews": 7926347.166666667,
+          "avgLikes": 601429.8333333334,
+          "avgComments": 2358.6666666666665,
+          "avgShares": 26634.666666666668,
+          "avgEngagementRate": 14.37287352023442,
+          "avgEffectiveness": 78.16666666666667,
+          "totalViews": 47558083,
+          "medianViews": 2859544,
+          "percentile90Views": 36780417
+        },
+        {
+          "hookType": "controversy",
+          "count": 4,
+          "avgViews": 2473007.5,
+          "avgLikes": 425093,
+          "avgComments": 1423,
+          "avgShares": 8926.5,
+          "avgEngagementRate": 13.613157338310593,
+          "avgEffectiveness": 78.75,
+          "totalViews": 9892030,
+          "medianViews": 1413718.5,
+          "percentile90Views": 6865833
+        },
+        {
+          "hookType": "story",
+          "count": 2,
+          "avgViews": 734390.5,
+          "avgLikes": 80956.5,
+          "avgComments": 315.5,
+          "avgShares": 1192.5,
+          "avgEngagementRate": 12.483494285569034,
+          "avgEffectiveness": 70,
+          "totalViews": 1468781,
+          "medianViews": 734390.5,
+          "percentile90Views": 1129901
+        },
+        {
+          "hookType": "visual_hook",
+          "count": 4,
+          "avgViews": 1042128,
+          "avgLikes": 136393.75,
+          "avgComments": 430.25,
+          "avgShares": 1821.25,
+          "avgEngagementRate": 11.201813454650187,
+          "avgEffectiveness": 70,
+          "totalViews": 4168512,
+          "medianViews": 973625,
+          "percentile90Views": 2069995
+        }
+      ],
+      "topPerformingHook": "statement",
+      "bottomPerformingHook": "visual_hook",
+      "controversyVsAverage": {
+        "exists": true,
+        "engagementMultiplier": 1.0734197083274761,
+        "viewsMultiplier": 0.561776465824087
+      },
+      "keyInsights": [
+        "statement hooks have the highest engagement rate (14.37%)",
+        "statement hooks outperform visual_hook by 1.3x in engagement rate",
+        "Controversy hooks perform similar to average",
+        "statement is most common in viral videos (2x+ avg views)"
+      ]
+    },
+    {
+      "category": "fashion",
+      "totalVideos": 30,
+      "hookStats": [
+        {
+          "hookType": "trend_sound",
+          "count": 2,
+          "avgViews": 2768720,
+          "avgLikes": 371956,
+          "avgComments": 1171.5,
+          "avgShares": 16055.5,
+          "avgEngagementRate": 13.964131295904917,
+          "avgEffectiveness": 65,
+          "totalViews": 5537440,
+          "medianViews": 2768720,
+          "percentile90Views": 2807750
+        },
+        {
+          "hookType": "visual_hook",
+          "count": 11,
+          "avgViews": 1736790.3636363635,
+          "avgLikes": 246624.27272727274,
+          "avgComments": 1185.090909090909,
+          "avgShares": 8156.727272727273,
+          "avgEngagementRate": 13.721576978861425,
+          "avgEffectiveness": 53.63636363636363,
+          "totalViews": 19104694,
+          "medianViews": 497208,
+          "percentile90Views": 4086971
+        },
+        {
+          "hookType": "statement",
+          "count": 10,
+          "avgViews": 1040846.5,
+          "avgLikes": 167885.2,
+          "avgComments": 608.1,
+          "avgShares": 3546.9,
+          "avgEngagementRate": 12.250431730405193,
+          "avgEffectiveness": 68,
+          "totalViews": 10408465,
+          "medianViews": 198595,
+          "percentile90Views": 3017443
+        }
+      ],
+      "topPerformingHook": "trend_sound",
+      "bottomPerformingHook": "statement",
+      "controversyVsAverage": {
+        "exists": false
+      },
+      "keyInsights": [
+        "trend_sound hooks have the highest engagement rate (13.96%)",
+        "trend_sound hooks outperform statement by 1.1x in engagement rate",
+        "visual_hook is most common in viral videos (2x+ avg views)"
+      ]
+    }
+  ],
+  "controversyAnalysis": {
+    "count": 5,
+    "avgEngagementRate": 13.606518041332441,
+    "avgViews": 2011205.8
+  }
+}

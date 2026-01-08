@@ -1,0 +1,219 @@
+{
+  "testDate": "2026-01-07T08:28:36.268Z",
+  "totalVideos": 10,
+  "successful": 10,
+  "shortFormResults": [
+    {
+      "id": "sf-001-fashion-pov",
+      "niche": "Fashion/OOTD",
+      "duration": 15,
+      "expectedHook": "pov",
+      "detectedHook": "pov",
+      "confidence": 90,
+      "effectivenessScore": 83,
+      "breakdown": {
+        "clarityOfPromise": 20,
+        "patternInterrupt": 18,
+        "speedToValue": 22,
+        "contentAlignment": 23,
+        "reasoning": "The POV format immediately engages viewers by placing them in a relatable scenario. The promise of a 'perfect fall outfit' is clear and quickly delivered. The cozy and visually appealing setting enhances the hook's effectiveness, aligning well with short-form content expectations."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "sf-002-beauty-question",
+      "niche": "Beauty/Skincare",
+      "duration": 30,
+      "expectedHook": "question",
+      "detectedHook": "question",
+      "confidence": 90,
+      "effectivenessScore": 83,
+      "breakdown": {
+        "clarityOfPromise": 20,
+        "patternInterrupt": 18,
+        "speedToValue": 22,
+        "contentAlignment": 23,
+        "reasoning": "The hook clearly promises a solution to a common makeup problem, which is likely to engage viewers interested in beauty tips. The question format effectively interrupts the scroll by directly addressing a relatable issue. The promise of a solution is quickly introduced, aligning well with short-form content expectations."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "sf-003-tech-result-first",
+      "niche": "Tech/Gadgets",
+      "duration": 45,
+      "expectedHook": "result_first",
+      "detectedHook": "result_first",
+      "confidence": 90,
+      "effectivenessScore": 95,
+      "breakdown": {
+        "clarityOfPromise": 25,
+        "patternInterrupt": 20,
+        "speedToValue": 25,
+        "contentAlignment": 25,
+        "reasoning": "The hook clearly promises a transformation, immediately showing the before and after, which is highly effective in short-form content. The visual contrast is striking, serving as a strong pattern interrupt. The promise is delivered instantly, aligning perfectly with the quick nature of short-form videos."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "sf-004-fitness-listicle",
+      "niche": "Fitness",
+      "duration": 55,
+      "expectedHook": "listicle",
+      "detectedHook": "listicle",
+      "confidence": 90,
+      "effectivenessScore": 95,
+      "breakdown": {
+        "clarityOfPromise": 25,
+        "patternInterrupt": 20,
+        "speedToValue": 25,
+        "contentAlignment": 25,
+        "reasoning": "The hook clearly promises a list of common gym mistakes, immediately engaging viewers interested in fitness. The mention of making your back worse adds urgency and intrigue, effectively stopping the scroll. The promise is delivered quickly, and the listicle format is well-suited for short-form content."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "sf-005-home-controversy",
+      "niche": "Home/Lifestyle",
+      "duration": 25,
+      "expectedHook": "controversy",
+      "detectedHook": "controversy",
+      "confidence": 90,
+      "effectivenessScore": 89,
+      "breakdown": {
+        "clarityOfPromise": 20,
+        "patternInterrupt": 22,
+        "speedToValue": 23,
+        "contentAlignment": 24,
+        "reasoning": "The hook clearly promises a contrarian view on home decor, which is likely to intrigue viewers. The statement is bold and challenges a common belief, effectively interrupting the pattern. The promise is delivered quickly, aligning well with short-form content requirements."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    }
+  ],
+  "longFormResults": [
+    {
+      "id": "lf-001-fashion-story",
+      "niche": "Fashion/OOTD",
+      "duration": 480,
+      "expectedHook": "story",
+      "detectedHook": "story",
+      "confidence": 90,
+      "effectivenessScore": 80,
+      "breakdown": {
+        "clarityOfPromise": 20,
+        "patternInterrupt": 18,
+        "speedToValue": 20,
+        "contentAlignment": 22,
+        "reasoning": "The hook clearly sets up a narrative about building a capsule wardrobe, promising insights into what went wrong. It effectively interrupts the pattern with a relatable problem and a personal story. The promise of value is quickly established, aligning well with the long-form content type."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "lf-002-beauty-direct",
+      "niche": "Beauty/Skincare",
+      "duration": 720,
+      "expectedHook": "direct_value",
+      "detectedHook": "direct_value",
+      "confidence": 90,
+      "effectivenessScore": 85,
+      "breakdown": {
+        "clarityOfPromise": 25,
+        "patternInterrupt": 15,
+        "speedToValue": 25,
+        "contentAlignment": 20,
+        "reasoning": "The hook clearly promises a detailed tutorial on a popular skincare routine, which is likely to attract viewers interested in beauty tips. The direct value and listicle format are effective for long-form content, though the visual elements could be more striking to enhance pattern interruption."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "lf-003-tech-teaser",
+      "niche": "Tech/Gadgets",
+      "duration": 900,
+      "expectedHook": "teaser",
+      "detectedHook": "teaser",
+      "confidence": 90,
+      "effectivenessScore": 83,
+      "breakdown": {
+        "clarityOfPromise": 20,
+        "patternInterrupt": 22,
+        "speedToValue": 18,
+        "contentAlignment": 23,
+        "reasoning": "The hook clearly promises a surprising result from a test between two laptops, which is intriguing and likely to capture attention. The visual contrast between the laptops enhances the pattern interrupt. The promise of results is clear, but the payoff is delayed slightly by the explanation of methodology, which is suitable for long-form content."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "lf-004-fitness-problem",
+      "niche": "Fitness",
+      "duration": 600,
+      "expectedHook": "problem",
+      "detectedHook": "problem",
+      "confidence": 90,
+      "effectivenessScore": 83,
+      "breakdown": {
+        "clarityOfPromise": 20,
+        "patternInterrupt": 18,
+        "speedToValue": 22,
+        "contentAlignment": 23,
+        "reasoning": "The hook clearly identifies a common problem and promises a solution, which is likely to engage viewers interested in fitness. The use of questions and addressing pain points effectively interrupts the pattern. The promise of a solution is quickly established, aligning well with the long-form content type."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    },
+    {
+      "id": "lf-005-home-statement",
+      "niche": "Home/Lifestyle",
+      "duration": 540,
+      "expectedHook": "statement",
+      "detectedHook": "statement",
+      "confidence": 90,
+      "effectivenessScore": 80,
+      "breakdown": {
+        "clarityOfPromise": 25,
+        "patternInterrupt": 15,
+        "speedToValue": 20,
+        "contentAlignment": 20,
+        "reasoning": "The hook clearly promises a solution to organizing a small kitchen, which is immediately relevant to viewers interested in home organization. The statement is bold and intriguing, but not highly unusual. The promise of saving time is quickly introduced, aligning well with the long-form content's instructional nature."
+      },
+      "hookMatch": true,
+      "windowCorrect": true,
+      "success": true
+    }
+  ],
+  "hookTypeDistribution": {
+    "pov": 1,
+    "question": 1,
+    "result_first": 1,
+    "listicle": 1,
+    "controversy": 1,
+    "story": 1,
+    "direct_value": 1,
+    "teaser": 1,
+    "problem": 1,
+    "statement": 1
+  },
+  "hookMatchRate": 100,
+  "avgEffectiveness": 86,
+  "effectivenessRange": {
+    "min": 80,
+    "max": 95
+  },
+  "windowAccuracy": 100,
+  "errors": []
+}

@@ -1,0 +1,867 @@
+{
+  "testType": "fuzzy_attribute_matching",
+  "testedAt": "2026-01-06T06:15:02.534Z",
+  "refinements": [
+    "Fuzzy color matching (shade variations = 90%, same family = 70%)",
+    "Knit type grouping (same family = 70%)",
+    "Confidence-weighted scoring"
+  ],
+  "results": [
+    {
+      "candidateTitle": "Waffle Knit Cropped Sweater",
+      "oldTotalScore": 84,
+      "newTotalScore": 84,
+      "finalScore": 78,
+      "improvement": 0,
+      "attributeScores": [
+        {
+          "attribute": "Primary Color",
+          "refValue": "olive green",
+          "candValue": "olive green",
+          "maxPoints": 25,
+          "oldScore": 25,
+          "newScore": 25,
+          "confidenceWeight": 0.925,
+          "finalScore": 23,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact color match"
+          }
+        },
+        {
+          "attribute": "Color Tone",
+          "refValue": "muted",
+          "candValue": "muted",
+          "maxPoints": 15,
+          "oldScore": 15,
+          "newScore": 15,
+          "confidenceWeight": 0.925,
+          "finalScore": 14,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact tone match"
+          }
+        },
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "candValue": "crew",
+          "maxPoints": 10,
+          "oldScore": 10,
+          "newScore": 10,
+          "confidenceWeight": 0.925,
+          "finalScore": 9,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Sleeve Length",
+          "refValue": "long",
+          "candValue": "long",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Body Length",
+          "refValue": "crop",
+          "candValue": "crop",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Fit",
+          "refValue": "relaxed",
+          "candValue": "relaxed",
+          "maxPoints": 4,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Knit Type",
+          "refValue": "chunky",
+          "candValue": "ribbed",
+          "maxPoints": 12,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different knit families: textured_chunky vs textured_fine"
+          }
+        },
+        {
+          "attribute": "Texture",
+          "refValue": "chunky/thick",
+          "candValue": "chunky",
+          "maxPoints": 8,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0.5,
+            "reasoning": "Partial credit"
+          }
+        },
+        {
+          "attribute": "Closures",
+          "refValue": "btn:false, zip:false",
+          "candValue": "btn:false, zip:false",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        },
+        {
+          "attribute": "Pattern",
+          "refValue": "solid",
+          "candValue": "solid",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        }
+      ]
+    },
+    {
+      "candidateTitle": "Windsor Season Shift Mock Neck Sweater",
+      "oldTotalScore": 49,
+      "newTotalScore": 72,
+      "finalScore": 67,
+      "improvement": 23,
+      "attributeScores": [
+        {
+          "attribute": "Primary Color",
+          "refValue": "olive green",
+          "candValue": "olive",
+          "maxPoints": 25,
+          "oldScore": 0,
+          "newScore": 23,
+          "confidenceWeight": 0.925,
+          "finalScore": 21,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": true,
+            "similarity": 0.9,
+            "reasoning": "Color shade variation (90%)"
+          }
+        },
+        {
+          "attribute": "Color Tone",
+          "refValue": "muted",
+          "candValue": "muted",
+          "maxPoints": 15,
+          "oldScore": 15,
+          "newScore": 15,
+          "confidenceWeight": 0.925,
+          "finalScore": 14,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact tone match"
+          }
+        },
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "candValue": "mock",
+          "maxPoints": 10,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: crew vs mock"
+          }
+        },
+        {
+          "attribute": "Sleeve Length",
+          "refValue": "long",
+          "candValue": "long",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Body Length",
+          "refValue": "crop",
+          "candValue": "crop",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Fit",
+          "refValue": "relaxed",
+          "candValue": "relaxed",
+          "maxPoints": 4,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Knit Type",
+          "refValue": "chunky",
+          "candValue": "ribbed",
+          "maxPoints": 12,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different knit families: textured_chunky vs textured_fine"
+          }
+        },
+        {
+          "attribute": "Texture",
+          "refValue": "chunky/thick",
+          "candValue": "medium",
+          "maxPoints": 8,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0.5,
+            "reasoning": "Partial credit"
+          }
+        },
+        {
+          "attribute": "Closures",
+          "refValue": "btn:false, zip:false",
+          "candValue": "btn:false, zip:false",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        },
+        {
+          "attribute": "Pattern",
+          "refValue": "solid",
+          "candValue": "solid",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        }
+      ]
+    },
+    {
+      "candidateTitle": "Lettuce trim ribbed crop sweater",
+      "oldTotalScore": 57,
+      "newTotalScore": 57,
+      "finalScore": 53,
+      "improvement": 0,
+      "attributeScores": [
+        {
+          "attribute": "Primary Color",
+          "refValue": "olive green",
+          "candValue": "olive green",
+          "maxPoints": 25,
+          "oldScore": 25,
+          "newScore": 25,
+          "confidenceWeight": 0.925,
+          "finalScore": 23,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact color match"
+          }
+        },
+        {
+          "attribute": "Color Tone",
+          "refValue": "muted",
+          "candValue": "dark",
+          "maxPoints": 15,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different tones"
+          }
+        },
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "candValue": "crew",
+          "maxPoints": 10,
+          "oldScore": 10,
+          "newScore": 10,
+          "confidenceWeight": 0.925,
+          "finalScore": 9,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Sleeve Length",
+          "refValue": "long",
+          "candValue": "long",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Body Length",
+          "refValue": "crop",
+          "candValue": "long",
+          "maxPoints": 8,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: crop vs long"
+          }
+        },
+        {
+          "attribute": "Fit",
+          "refValue": "relaxed",
+          "candValue": "fitted",
+          "maxPoints": 4,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: relaxed vs fitted"
+          }
+        },
+        {
+          "attribute": "Knit Type",
+          "refValue": "chunky",
+          "candValue": "ribbed",
+          "maxPoints": 12,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different knit families: textured_chunky vs textured_fine"
+          }
+        },
+        {
+          "attribute": "Texture",
+          "refValue": "chunky/thick",
+          "candValue": "medium",
+          "maxPoints": 8,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0.5,
+            "reasoning": "Partial credit"
+          }
+        },
+        {
+          "attribute": "Closures",
+          "refValue": "btn:false, zip:false",
+          "candValue": "btn:false, zip:false",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        },
+        {
+          "attribute": "Pattern",
+          "refValue": "solid",
+          "candValue": "solid",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        }
+      ]
+    },
+    {
+      "candidateTitle": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "oldTotalScore": 21,
+      "newTotalScore": 47,
+      "finalScore": 44,
+      "improvement": 26,
+      "attributeScores": [
+        {
+          "attribute": "Primary Color",
+          "refValue": "olive green",
+          "candValue": "dark green",
+          "maxPoints": 25,
+          "oldScore": 0,
+          "newScore": 18,
+          "confidenceWeight": 0.925,
+          "finalScore": 17,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": true,
+            "similarity": 0.7,
+            "reasoning": "Same color family: green (70%)"
+          }
+        },
+        {
+          "attribute": "Color Tone",
+          "refValue": "muted",
+          "candValue": "dark",
+          "maxPoints": 15,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different tones"
+          }
+        },
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "candValue": "v-neck",
+          "maxPoints": 10,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: crew vs v-neck"
+          }
+        },
+        {
+          "attribute": "Sleeve Length",
+          "refValue": "long",
+          "candValue": "long",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Body Length",
+          "refValue": "crop",
+          "candValue": "regular",
+          "maxPoints": 8,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: crop vs regular"
+          }
+        },
+        {
+          "attribute": "Fit",
+          "refValue": "relaxed",
+          "candValue": "relaxed",
+          "maxPoints": 4,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Knit Type",
+          "refValue": "chunky",
+          "candValue": "cable",
+          "maxPoints": 12,
+          "oldScore": 0,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": true,
+            "similarity": 0.7,
+            "reasoning": "Same knit family: textured_chunky (70%)"
+          }
+        },
+        {
+          "attribute": "Texture",
+          "refValue": "chunky/thick",
+          "candValue": "chunky",
+          "maxPoints": 8,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0.5,
+            "reasoning": "Partial credit"
+          }
+        },
+        {
+          "attribute": "Closures",
+          "refValue": "btn:false, zip:false",
+          "candValue": "btn:true, zip:false",
+          "maxPoints": 5,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 1,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch"
+          }
+        },
+        {
+          "attribute": "Pattern",
+          "refValue": "solid",
+          "candValue": "solid",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        }
+      ]
+    },
+    {
+      "candidateTitle": "Madewell Women's Mock Neck Crop Sweater",
+      "oldTotalScore": 22,
+      "newTotalScore": 40,
+      "finalScore": 38,
+      "improvement": 18,
+      "attributeScores": [
+        {
+          "attribute": "Primary Color",
+          "refValue": "olive green",
+          "candValue": "dark green",
+          "maxPoints": 25,
+          "oldScore": 0,
+          "newScore": 18,
+          "confidenceWeight": 0.925,
+          "finalScore": 17,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": true,
+            "similarity": 0.7,
+            "reasoning": "Same color family: green (70%)"
+          }
+        },
+        {
+          "attribute": "Color Tone",
+          "refValue": "muted",
+          "candValue": "dark",
+          "maxPoints": 15,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different tones"
+          }
+        },
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "candValue": "mock",
+          "maxPoints": 10,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: crew vs mock"
+          }
+        },
+        {
+          "attribute": "Sleeve Length",
+          "refValue": "long",
+          "candValue": "long",
+          "maxPoints": 8,
+          "oldScore": 8,
+          "newScore": 8,
+          "confidenceWeight": 0.925,
+          "finalScore": 7,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Exact match"
+          }
+        },
+        {
+          "attribute": "Body Length",
+          "refValue": "crop",
+          "candValue": "regular",
+          "maxPoints": 8,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: crop vs regular"
+          }
+        },
+        {
+          "attribute": "Fit",
+          "refValue": "relaxed",
+          "candValue": "fitted",
+          "maxPoints": 4,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Mismatch: relaxed vs fitted"
+          }
+        },
+        {
+          "attribute": "Knit Type",
+          "refValue": "chunky",
+          "candValue": "ribbed",
+          "maxPoints": 12,
+          "oldScore": 0,
+          "newScore": 0,
+          "confidenceWeight": 0.925,
+          "finalScore": 0,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0,
+            "reasoning": "Different knit families: textured_chunky vs textured_fine"
+          }
+        },
+        {
+          "attribute": "Texture",
+          "refValue": "chunky/thick",
+          "candValue": "medium",
+          "maxPoints": 8,
+          "oldScore": 4,
+          "newScore": 4,
+          "confidenceWeight": 0.925,
+          "finalScore": 4,
+          "fuzzyMatch": {
+            "exactMatch": false,
+            "familyMatch": false,
+            "similarity": 0.5,
+            "reasoning": "Partial credit"
+          }
+        },
+        {
+          "attribute": "Closures",
+          "refValue": "btn:false, zip:false",
+          "candValue": "btn:false, zip:false",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        },
+        {
+          "attribute": "Pattern",
+          "refValue": "solid",
+          "candValue": "solid",
+          "maxPoints": 5,
+          "oldScore": 5,
+          "newScore": 5,
+          "confidenceWeight": 1,
+          "finalScore": 5,
+          "fuzzyMatch": {
+            "exactMatch": true,
+            "familyMatch": true,
+            "similarity": 1,
+            "reasoning": "Match"
+          }
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "topMatchChanged": false,
+    "oldTopMatch": "Waffle Knit Cropped Sweater",
+    "newTopMatch": "Waffle Knit Cropped Sweater",
+    "avgImprovement": 13.4,
+    "topScoreImprovement": -6,
+    "oldSpread": 63,
+    "newSpread": 40,
+    "oldGap": 27,
+    "newGap": 11
+  }
+}

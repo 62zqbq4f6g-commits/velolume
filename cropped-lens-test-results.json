@@ -1,0 +1,52 @@
+{
+  "testType": "cropped_product",
+  "productData": {
+    "name": "Olive Green Knit Crop Sweater",
+    "category": "Clothing",
+    "subcategory": "Crop Sweater",
+    "colors": [
+      "olive green"
+    ],
+    "material": "knit",
+    "style": "casual",
+    "searchTerms": [
+      "olive green",
+      "knit crop sweater",
+      "casual sweater",
+      "long sleeve",
+      "women's fashion"
+    ]
+  },
+  "cropImageUrl": "https://auto-storefront-media.sgp1.digitaloceanspaces.com/test-crops/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/sweater-crop.jpg",
+  "querySent": "olive green knit crop sweater women buy",
+  "testedAt": "2026-01-05T14:12:26.175Z",
+  "visualMatches": [],
+  "shoppingResults": [],
+  "summary": {
+    "totalVisualMatches": 0,
+    "totalShoppingResults": 0,
+    "hasRelevantResults": false
+  },
+  "rawResponse": {
+    "search_metadata": {
+      "id": "695bc6aac20348500e9a18d1",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/4da24a994c7f2746/695bc6aac20348500e9a18d1.json",
+      "created_at": "2026-01-05 14:11:54 UTC",
+      "processed_at": "2026-01-05 14:11:54 UTC",
+      "google_lens_url": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Fauto-storefront-media.sgp1.digitaloceanspaces.com%2Ftest-crops%2F5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7%2Fsweater-crop.jpg",
+      "raw_html_file": "https://serpapi.com/searches/4da24a994c7f2746/695bc6aac20348500e9a18d1.html",
+      "total_time_taken": 31.91
+    },
+    "search_parameters": {
+      "engine": "google_lens",
+      "url": "https://auto-storefront-media.sgp1.digitaloceanspaces.com/test-crops/5bc6491c-3ac5-4945-a11c-07b9d7d3ccf7/sweater-crop.jpg",
+      "q": "olive green knit crop sweater women buy"
+    },
+    "search_information": {
+      "images_results_state": "Fully empty"
+    },
+    "error": "Google Lens hasn't returned any results for this query."
+  },
+  "assessment": "❌ NO RESULTS: Google Lens returned no matches even with cropped image and query."
+}

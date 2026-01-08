@@ -1,0 +1,129 @@
+{
+  "category": "fashion",
+  "totalVideos": 30,
+  "successfulVideos": 30,
+  "scrapedAt": "2026-01-07T14:10:45.507Z",
+  "engagement": {
+    "avgViews": 1559125.8666666667,
+    "avgLikes": 215144.73333333334,
+    "avgComments": 863.1333333333333,
+    "avgShares": 7028,
+    "avgEngagementRate": 13.616262076623743,
+    "totalViews": 46773776
+  },
+  "hookTypes": {
+    "question": 1,
+    "statement": 10,
+    "pov": 1,
+    "controversy": 1,
+    "teaser": 1,
+    "listicle": 1,
+    "problem": 0,
+    "visual_hook": 11,
+    "trend_sound": 2,
+    "story": 1,
+    "result_first": 0,
+    "direct_value": 1,
+    "unknown": 0
+  },
+  "avgHookEffectiveness": 64.9,
+  "hookEffectivenessRange": {
+    "min": 25,
+    "max": 89
+  },
+  "topHooks": [
+    {
+      "hookType": "question",
+      "avgEngagementRate": 33.48738253361031,
+      "count": 1
+    },
+    {
+      "hookType": "story",
+      "avgEngagementRate": 16.79961887422177,
+      "count": 1
+    },
+    {
+      "hookType": "trend_sound",
+      "avgEngagementRate": 13.964131295904917,
+      "count": 2
+    },
+    {
+      "hookType": "pov",
+      "avgEngagementRate": 13.94380892903383,
+      "count": 1
+    },
+    {
+      "hookType": "visual_hook",
+      "avgEngagementRate": 13.721576978861425,
+      "count": 11
+    },
+    {
+      "hookType": "controversy",
+      "avgEngagementRate": 13.579960853419838,
+      "count": 1
+    },
+    {
+      "hookType": "direct_value",
+      "avgEngagementRate": 13.405133270667708,
+      "count": 1
+    },
+    {
+      "hookType": "listicle",
+      "avgEngagementRate": 13.031914893617023,
+      "count": 1
+    },
+    {
+      "hookType": "statement",
+      "avgEngagementRate": 12.250431730405193,
+      "count": 10
+    },
+    {
+      "hookType": "teaser",
+      "avgEngagementRate": 2.870116280804397,
+      "count": 1
+    }
+  ],
+  "avgProductsPerVideo": 5.7,
+  "topProductCategories": [
+    {
+      "category": "Clothing",
+      "count": 91
+    },
+    {
+      "category": "Footwear",
+      "count": 28
+    },
+    {
+      "category": "Accessory",
+      "count": 15
+    },
+    {
+      "category": "Accessories",
+      "count": 6
+    },
+    {
+      "category": "Jewelry",
+      "count": 4
+    },
+    {
+      "category": "Bag",
+      "count": 3
+    },
+    {
+      "category": "Outerwear",
+      "count": 2
+    },
+    {
+      "category": "Collectibles",
+      "count": 2
+    },
+    {
+      "category": "Fashion Accessories",
+      "count": 2
+    },
+    {
+      "category": "Home Decor",
+      "count": 2
+    }
+  ]
+}

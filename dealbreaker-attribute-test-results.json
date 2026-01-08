@@ -1,0 +1,535 @@
+{
+  "testType": "dealbreaker_attributes",
+  "testedAt": "2026-01-06T06:19:03.782Z",
+  "rules": {
+    "criticalAttributes": [
+      "neckline",
+      "bodyLength",
+      "sleeveLength"
+    ],
+    "scoreCap": 65,
+    "description": "If critical attribute mismatches, score is capped at 65"
+  },
+  "results": [
+    {
+      "candidateTitle": "Waffle Knit Cropped Sweater",
+      "rawScore": 84,
+      "finalScore": 84,
+      "wasCapped": false,
+      "cappedReason": null,
+      "criticalChecks": [
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "refNormalized": "crew",
+          "candValue": "crew",
+          "candNormalized": "crew",
+          "matches": true,
+          "mismatchReason": null
+        },
+        {
+          "attribute": "Length",
+          "refValue": "crop",
+          "refNormalized": "crop",
+          "candValue": "crop",
+          "candNormalized": "crop",
+          "matches": true,
+          "mismatchReason": null
+        },
+        {
+          "attribute": "Sleeves",
+          "refValue": "long",
+          "refNormalized": "long",
+          "candValue": "long",
+          "candNormalized": "long",
+          "matches": true,
+          "mismatchReason": null
+        }
+      ],
+      "attributeBreakdown": [
+        {
+          "attribute": "Primary Color",
+          "points": 25,
+          "maxPoints": 25,
+          "reasoning": "Exact color match"
+        },
+        {
+          "attribute": "Color Tone",
+          "points": 15,
+          "maxPoints": 15,
+          "reasoning": "Exact match"
+        },
+        {
+          "attribute": "Neckline ⚠️",
+          "points": 10,
+          "maxPoints": 10,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Sleeves ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Length ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Fit",
+          "points": 4,
+          "maxPoints": 4,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Knit Type",
+          "points": 0,
+          "maxPoints": 12,
+          "reasoning": "Different knit families"
+        },
+        {
+          "attribute": "Texture",
+          "points": 4,
+          "maxPoints": 8,
+          "reasoning": "Partial credit"
+        },
+        {
+          "attribute": "Closures",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Pattern",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "candidateTitle": "Windsor Season Shift Mock Neck Sweater",
+      "rawScore": 72,
+      "finalScore": 65,
+      "wasCapped": true,
+      "cappedReason": "Score capped at 65 due to: Neckline: crew ≠ mock",
+      "criticalChecks": [
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "refNormalized": "crew",
+          "candValue": "mock",
+          "candNormalized": "mock",
+          "matches": false,
+          "mismatchReason": "Neckline: crew ≠ mock"
+        },
+        {
+          "attribute": "Length",
+          "refValue": "crop",
+          "refNormalized": "crop",
+          "candValue": "crop",
+          "candNormalized": "crop",
+          "matches": true,
+          "mismatchReason": null
+        },
+        {
+          "attribute": "Sleeves",
+          "refValue": "long",
+          "refNormalized": "long",
+          "candValue": "long",
+          "candNormalized": "long",
+          "matches": true,
+          "mismatchReason": null
+        }
+      ],
+      "attributeBreakdown": [
+        {
+          "attribute": "Primary Color",
+          "points": 23,
+          "maxPoints": 25,
+          "reasoning": "Color shade variation (90%)"
+        },
+        {
+          "attribute": "Color Tone",
+          "points": 15,
+          "maxPoints": 15,
+          "reasoning": "Exact match"
+        },
+        {
+          "attribute": "Neckline ⚠️",
+          "points": 0,
+          "maxPoints": 10,
+          "reasoning": "CRITICAL MISMATCH: Neckline: crew ≠ mock"
+        },
+        {
+          "attribute": "Sleeves ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Length ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Fit",
+          "points": 4,
+          "maxPoints": 4,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Knit Type",
+          "points": 0,
+          "maxPoints": 12,
+          "reasoning": "Different knit families"
+        },
+        {
+          "attribute": "Texture",
+          "points": 4,
+          "maxPoints": 8,
+          "reasoning": "Partial credit"
+        },
+        {
+          "attribute": "Closures",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Pattern",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        }
+      ],
+      "flags": [
+        "Similar style but different neckline"
+      ]
+    },
+    {
+      "candidateTitle": "Lettuce trim ribbed crop sweater",
+      "rawScore": 57,
+      "finalScore": 57,
+      "wasCapped": false,
+      "cappedReason": null,
+      "criticalChecks": [
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "refNormalized": "crew",
+          "candValue": "crew",
+          "candNormalized": "crew",
+          "matches": true,
+          "mismatchReason": null
+        },
+        {
+          "attribute": "Length",
+          "refValue": "crop",
+          "refNormalized": "crop",
+          "candValue": "long",
+          "candNormalized": "longline",
+          "matches": false,
+          "mismatchReason": "Length: crop ≠ longline"
+        },
+        {
+          "attribute": "Sleeves",
+          "refValue": "long",
+          "refNormalized": "long",
+          "candValue": "long",
+          "candNormalized": "long",
+          "matches": true,
+          "mismatchReason": null
+        }
+      ],
+      "attributeBreakdown": [
+        {
+          "attribute": "Primary Color",
+          "points": 25,
+          "maxPoints": 25,
+          "reasoning": "Exact color match"
+        },
+        {
+          "attribute": "Color Tone",
+          "points": 0,
+          "maxPoints": 15,
+          "reasoning": "Different tone"
+        },
+        {
+          "attribute": "Neckline ⚠️",
+          "points": 10,
+          "maxPoints": 10,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Sleeves ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Length ⚠️",
+          "points": 0,
+          "maxPoints": 8,
+          "reasoning": "CRITICAL MISMATCH: Length: crop ≠ longline"
+        },
+        {
+          "attribute": "Fit",
+          "points": 0,
+          "maxPoints": 4,
+          "reasoning": "Different fit"
+        },
+        {
+          "attribute": "Knit Type",
+          "points": 0,
+          "maxPoints": 12,
+          "reasoning": "Different knit families"
+        },
+        {
+          "attribute": "Texture",
+          "points": 4,
+          "maxPoints": 8,
+          "reasoning": "Partial credit"
+        },
+        {
+          "attribute": "Closures",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Pattern",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "candidateTitle": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "rawScore": 52,
+      "finalScore": 52,
+      "wasCapped": false,
+      "cappedReason": null,
+      "criticalChecks": [
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "refNormalized": "crew",
+          "candValue": "v-neck",
+          "candNormalized": "vneck",
+          "matches": false,
+          "mismatchReason": "Neckline: crew ≠ vneck"
+        },
+        {
+          "attribute": "Length",
+          "refValue": "crop",
+          "refNormalized": "crop",
+          "candValue": "regular",
+          "candNormalized": "regular",
+          "matches": false,
+          "mismatchReason": "Length: crop ≠ regular"
+        },
+        {
+          "attribute": "Sleeves",
+          "refValue": "long",
+          "refNormalized": "long",
+          "candValue": "long",
+          "candNormalized": "long",
+          "matches": true,
+          "mismatchReason": null
+        }
+      ],
+      "attributeBreakdown": [
+        {
+          "attribute": "Primary Color",
+          "points": 18,
+          "maxPoints": 25,
+          "reasoning": "Same color family: green (70%)"
+        },
+        {
+          "attribute": "Color Tone",
+          "points": 0,
+          "maxPoints": 15,
+          "reasoning": "Different tone"
+        },
+        {
+          "attribute": "Neckline ⚠️",
+          "points": 0,
+          "maxPoints": 10,
+          "reasoning": "CRITICAL MISMATCH: Neckline: crew ≠ vneck"
+        },
+        {
+          "attribute": "Sleeves ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Length ⚠️",
+          "points": 0,
+          "maxPoints": 8,
+          "reasoning": "CRITICAL MISMATCH: Length: crop ≠ regular"
+        },
+        {
+          "attribute": "Fit",
+          "points": 4,
+          "maxPoints": 4,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Knit Type",
+          "points": 8,
+          "maxPoints": 12,
+          "reasoning": "Same knit family: textured_chunky (70%)"
+        },
+        {
+          "attribute": "Texture",
+          "points": 4,
+          "maxPoints": 8,
+          "reasoning": "Partial credit"
+        },
+        {
+          "attribute": "Closures",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Pattern",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "candidateTitle": "Madewell Women's Mock Neck Crop Sweater",
+      "rawScore": 40,
+      "finalScore": 40,
+      "wasCapped": false,
+      "cappedReason": null,
+      "criticalChecks": [
+        {
+          "attribute": "Neckline",
+          "refValue": "crew",
+          "refNormalized": "crew",
+          "candValue": "mock",
+          "candNormalized": "mock",
+          "matches": false,
+          "mismatchReason": "Neckline: crew ≠ mock"
+        },
+        {
+          "attribute": "Length",
+          "refValue": "crop",
+          "refNormalized": "crop",
+          "candValue": "regular",
+          "candNormalized": "regular",
+          "matches": false,
+          "mismatchReason": "Length: crop ≠ regular"
+        },
+        {
+          "attribute": "Sleeves",
+          "refValue": "long",
+          "refNormalized": "long",
+          "candValue": "long",
+          "candNormalized": "long",
+          "matches": true,
+          "mismatchReason": null
+        }
+      ],
+      "attributeBreakdown": [
+        {
+          "attribute": "Primary Color",
+          "points": 18,
+          "maxPoints": 25,
+          "reasoning": "Same color family: green (70%)"
+        },
+        {
+          "attribute": "Color Tone",
+          "points": 0,
+          "maxPoints": 15,
+          "reasoning": "Different tone"
+        },
+        {
+          "attribute": "Neckline ⚠️",
+          "points": 0,
+          "maxPoints": 10,
+          "reasoning": "CRITICAL MISMATCH: Neckline: crew ≠ mock"
+        },
+        {
+          "attribute": "Sleeves ⚠️",
+          "points": 8,
+          "maxPoints": 8,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Length ⚠️",
+          "points": 0,
+          "maxPoints": 8,
+          "reasoning": "CRITICAL MISMATCH: Length: crop ≠ regular"
+        },
+        {
+          "attribute": "Fit",
+          "points": 0,
+          "maxPoints": 4,
+          "reasoning": "Different fit"
+        },
+        {
+          "attribute": "Knit Type",
+          "points": 0,
+          "maxPoints": 12,
+          "reasoning": "Different knit families"
+        },
+        {
+          "attribute": "Texture",
+          "points": 4,
+          "maxPoints": 8,
+          "reasoning": "Partial credit"
+        },
+        {
+          "attribute": "Closures",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        },
+        {
+          "attribute": "Pattern",
+          "points": 5,
+          "maxPoints": 5,
+          "reasoning": "Match"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "comparison": {
+    "topMatch": "Waffle Knit Cropped Sweater",
+    "topScore": 84,
+    "secondScore": 65,
+    "gap": 19,
+    "spread": 44,
+    "previousGap": 11,
+    "previousSpread": 40,
+    "gapImprovement": 8,
+    "spreadImprovement": 4,
+    "itemsCapped": 1,
+    "cappedItems": [
+      {
+        "title": "Windsor Season Shift Mock Neck Sweater",
+        "rawScore": 72,
+        "finalScore": 65,
+        "reason": "Score capped at 65 due to: Neckline: crew ≠ mock",
+        "flags": [
+          "Similar style but different neckline"
+        ]
+      }
+    ]
+  }
+}

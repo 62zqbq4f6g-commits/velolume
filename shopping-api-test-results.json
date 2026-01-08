@@ -1,0 +1,265 @@
+{
+  "testType": "google_shopping_text",
+  "testedAt": "2026-01-05T14:13:37.651Z",
+  "productsCount": 3,
+  "results": [
+    {
+      "productName": "Olive Green Knit Crop Sweater",
+      "query": "olive green knit crop sweater women",
+      "results": [
+        {
+          "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+          "source": "Walmart - Seller",
+          "link": "",
+          "price": "$24.59",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ6O9vgQXns5lobtRSuhhQ1xtbwSEcJPf7_j9ThRRT6CTJDYoTAQGyARvPi7FrxLixZaCaHyhIXUKdABYOF_NLIIrGnrcVl4Q"
+        },
+        {
+          "title": "Madewell Women's Mock Neck Crop Sweater",
+          "source": "Nordstrom Rack",
+          "link": "",
+          "price": "$59.97",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRLQhQI_2XVdldBS-_Sdx-HD21B8iC8o6EUyxBDJm1MuOO_bQIg1-PseHK3SpD0wfdKRKpObq5cbTvlqkUm9SZGekzqPG7c6g",
+          "rating": 1.5
+        },
+        {
+          "title": "Lettuce trim ribbed crop sweater",
+          "source": "Commense",
+          "link": "",
+          "price": "$32.00",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRlwKVb3qWsd0W7NORSBnOZyLhHnGmaUrhPaBSQ4DRuEfFj2uw15riLRbefjChNyhleA5RLdGEVOngbPS4yCaO_pQ1OJ1rxkTSqi4Buy1YbHdKZCzxEitaKmg"
+        },
+        {
+          "title": "Windsor Season Shift Mock Neck Sweater",
+          "source": "Windsor",
+          "link": "",
+          "price": "$36.90",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQAsUz4f_yuL5ndeeoEoDUGxF08xSz7N1Fo_fCqSImYHbHEj8Epydtz2TzMDVZg3EEyi61sX7OtymDxVSYj7ktpwOo9XxCgbXGxASSl_-Qp7uq-Tyg1Xg-JaQ",
+          "rating": 4.5
+        },
+        {
+          "title": "Waffle Knit Cropped Sweater",
+          "source": "Bohemian coco",
+          "link": "",
+          "price": "$52.00",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTz0KDEwE8N0UcDveglMxwYa0KKV-E4NzmFMegiOxcfcOMn65WLvRwys8ZPxaqADA8AeLWr-B9DM6V-uq0AYYE9QRnkKSaq9r37ot6rAWjvoytPI0Dn39wM"
+        },
+        {
+          "title": "12th Tribe Women's Cropped Cardigan",
+          "source": "12th Tribe",
+          "link": "",
+          "price": "$74.00",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRCAxd7W5h9_dC0QDo3d6M3LOkST8TTi5ZPQL6Qrel_grNfHrnuYfL4lajqKu6LS9zWw2xQ6jGlKvYQNmz9R-m9_gD8AFHnzYTWm9-q26oVjw4JDNxZTZyqgQ",
+          "rating": 4.8
+        },
+        {
+          "title": "Women's MPG Cable Knit Crop Sweater",
+          "source": "Nordstrom",
+          "link": "",
+          "price": "$148.00",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTlLmUrku2HKM4bh4AqFXtl8Y8-qxzVQBuIp3Ei0AzJWWA-ZUGb4vr-oyIarMyY9Fk6x0INVpNIfB85t3GgFUe-w5R_FAwnvtBYewKbKxcACGLiilzSGsy",
+          "rating": 4.7
+        },
+        {
+          "title": "Riley Ribbed Crop Sweater",
+          "source": "Shades Sunglasses and Casual Apparel",
+          "link": "",
+          "price": "$44.00",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTC1qayDt1tMBFT3uUiRPTAS_DCqlYPvl42qf49bnODQsRCtO9ryh2lBrallymtAUyN8DpnALtfX_YOSurZvQKU-St_h2XmCgklWhkkAQRJN068dH36u8uK"
+        },
+        {
+          "title": "Women's Cable Knit Long Sleeve Crew Neck Sweater",
+          "source": "Walmart - Seller",
+          "link": "",
+          "price": "$26.30",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSXILvAtmjpmE9dMGdLLjC9rSrbCc7TsjNYrysYkh0dO0V9968V_Z7Jidzxue_FlKMUdFDEtjoJlYdFTMekjhaqjgpkjpc"
+        },
+        {
+          "title": "Lulus Exclusive Knit Backless Cropped Sweater",
+          "source": "Poshmark",
+          "link": "",
+          "price": "$35.00",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQnVr0ioQOke1mkABX-FpjckCKDtgly7_vk75gT3x5ihOrGnBe727YemrmL0gMq5k3V4z9VFYUE-CQwNgh-PlhoUVKYZuktxW3NJptHipLc",
+          "rating": 4.2
+        }
+      ],
+      "resultCount": 10
+    },
+    {
+      "productName": "Light Blue Denim Shorts",
+      "query": "light blue denim shorts women",
+      "results": [
+        {
+          "title": "AE Women's Stretch Denim Mom Shorts",
+          "source": "American Eagle Outfitters",
+          "link": "",
+          "price": "$24.97",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTh9uNHOIFpPv3yljItevegEWgDtx8F5YcCHM-VsFG-_2TrgleFwpfC9BUX707cJWg1fo54DM8",
+          "rating": 4.1
+        },
+        {
+          "title": "Cotton On Women's Micro Low Denim Shorts",
+          "source": "Nordstrom",
+          "link": "",
+          "price": "$39.99",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQqlTpRkwZ7yJaBSvroBX5BwrZXsWBPoC3nG7nojy4Rnwx8XhtYepZbolFupC63GfcvtMD1zWU",
+          "rating": 4.4
+        },
+        {
+          "title": "H&M High-Waisted Denim Shorts",
+          "source": "H&M",
+          "link": "",
+          "price": "$16.99",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxC3hst2WyqXV2GY6fV1B6JACbTkJXSzVzRy119kROR33tVnYiWBjFfqai9xc_S1BZCB4DI7TF",
+          "rating": 4.1
+        },
+        {
+          "title": "Edikted Women's Jagger Low Rise Denim Shorts",
+          "source": "PacSun",
+          "link": "",
+          "price": "$62.40",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTDmAUGWmAfeA-RynGo_yJkZY5dCZ30r4e1m3v7jqSxu8AIV44-hJ6L-wOsYTybmBD00mUTAlI",
+          "rating": 4.1
+        },
+        {
+          "title": "AE Stretch Low-Rise Ex-Boyfriend Denim Shorts",
+          "source": "American Eagle Outfitters",
+          "link": "",
+          "price": "$17.98",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSX7_QNQiNoy194aVG7CI1f16Us5jSnpQ1tX3-ZTBbuGQaz7xhP0DqnF6wtShu7Nm0hy_lMlsc",
+          "rating": 4.5
+        },
+        {
+          "title": "Gap Women's Easy Denim Shorts",
+          "source": "Gap",
+          "link": "",
+          "price": "$41.00",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTusrhZoKv3T9kv222EzXa05wPBmrgBQuDYx5uhckCLbpk02Aynol8wi1nW7eIfx7R7i4_T8TylxA",
+          "rating": 4.6
+        },
+        {
+          "title": "Levi's Women's 501 Original Shorts",
+          "source": "Urban Outfitters",
+          "link": "",
+          "price": "$69.50",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTs7wb_8Rkmkvpw2NWOqprRB6QxI_77AaABHrwYbY6qyz_FcpKtPUBXhu-EfmoOzJ0822_DauU",
+          "rating": 4.2
+        },
+        {
+          "title": "Abercrombie & Fitch Women's High Rise Loose Shorts",
+          "source": "Abercrombie & Fitch",
+          "link": "",
+          "price": "$60.00",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQpNKLN0Cr2LiXwr4ZdLj_35jnkPJH0f8h8q7T2lwgMUZukLR1iGnZMQBRnk606o5SL296PS5Mpjw"
+        },
+        {
+          "title": "Women's Tall High Waisted Mom Shorts",
+          "source": "PrettyLittleThing",
+          "link": "",
+          "price": "$14.50",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSK6NBfFc5F7zORJwJBFQs-lDTgArAlYIR0rgyzndb_dLnsYpflqGGCpbmaCT2pp0hDH3eJHoiS_A"
+        },
+        {
+          "title": "AE Next Level Women's Curvy High-Waisted Denim Shorts",
+          "source": "American Eagle Outfitters",
+          "link": "",
+          "price": "$19.98",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTx--1NV0It2TL6w5DlDYiltn3HWYVt5sEILd6jmKOJVJ0-Ixh1LOkZaPxr94M3q4_0JQlZNMKP",
+          "rating": 4.2
+        }
+      ],
+      "resultCount": 10
+    },
+    {
+      "productName": "Black Patent Leather Loafers",
+      "query": "black patent leather loafers women",
+      "results": [
+        {
+          "title": "Marc Joseph New York East Village Women Penny Loafer",
+          "source": "Nordstrom",
+          "link": "",
+          "price": "$169.95",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQgBFOaJGbANoIb4sj-MuwIzBZjcgUuHjfcrP3za9HamUW4mognamGHRkJgzLDphflnRZL9_RSAIU4901a7MbVadGzQfeucMYTKKWTUJjuHuh6q-DrZxRAY",
+          "rating": 4.2
+        },
+        {
+          "title": "Franco Sarto Women's Senna Round Toe Lug Sole Loafers",
+          "source": "Famous Footwear",
+          "link": "",
+          "price": "$89.99",
+          "thumbnail": "https://serpapi.com/searches/695bc70c73ae60a941a06441/images/2f7016b2687a5a5bd00e9cbdd211b7137c0fa412269107e64f17046742c2d786.webp",
+          "rating": 4.3
+        },
+        {
+          "title": "Schutz Women's Tyche Patent Loafers",
+          "source": "Saks Fifth Avenue",
+          "link": "",
+          "price": "$188.00",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ5icJR30tXxZYC78Bdit5OfBhWCrC3pK8q0A3evCEcOE_nQqNeQXOy_mb-tOHry4qDNAn0plyBNKsFob4aNK_avX9oabHKHPsI5y2z6PtDD_jh7zDLVtHCAjU",
+          "rating": 4.1
+        },
+        {
+          "title": "Rag & Co Noshiya Women's Patent Pleather Penny Loafers",
+          "source": "Nordstrom Rack",
+          "link": "",
+          "price": "$54.97",
+          "thumbnail": "https://serpapi.com/searches/695bc70c73ae60a941a06441/images/2f7016b2687a5a5bd00e9cbdd211b713975f8c27a52773fbb4c336c1c5e3dc03.webp",
+          "rating": 3
+        },
+        {
+          "title": "Ann Taylor Women's Weekend Collection Patent Penny Loafers",
+          "source": "Ann Taylor",
+          "link": "",
+          "price": "$84.00",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTPEGgUZO6KwsTSJfMWwwnKU5BWaNEuKaspRPCVWozMRXvKHnaZbsyF4ymL8kP_FvG4TC7sT-Ghk2EFepC1KRLsMciWsGjV-Vdx3mO7q7IJP9_tAYhEbAPINg"
+        },
+        {
+          "title": "Anne Klein Women's Emmylou Lug Sole Loafers",
+          "source": "Nordstrom",
+          "link": "",
+          "price": "$95.00",
+          "thumbnail": "https://serpapi.com/searches/695bc70c73ae60a941a06441/images/2f7016b2687a5a5bd00e9cbdd211b713530d8111e89f36c76e9679ad69375012.webp",
+          "rating": 3.7
+        },
+        {
+          "title": "LifeStride Women's London 2 Loafer",
+          "source": "Famous Footwear",
+          "link": "",
+          "price": "$54.99",
+          "thumbnail": "https://serpapi.com/searches/695bc70c73ae60a941a06441/images/2f7016b2687a5a5bd00e9cbdd211b7138b7de7741cb811a0b37ddeffb2122b90.webp",
+          "rating": 4
+        },
+        {
+          "title": "Nine West Women's Gables Lug Loafer",
+          "source": "DSW",
+          "link": "",
+          "price": "$79.99",
+          "thumbnail": "https://serpapi.com/searches/695bc70c73ae60a941a06441/images/2f7016b2687a5a5bd00e9cbdd211b7130d323d1c3d09856b926b7c178321a020.webp",
+          "rating": 4.2
+        },
+        {
+          "title": "Coach Women's Leah Chunky Patent Leather Loafers",
+          "source": "Editorialist",
+          "link": "",
+          "price": "$195.00",
+          "thumbnail": "https://serpapi.com/searches/695bc70c73ae60a941a06441/images/2f7016b2687a5a5bd00e9cbdd211b713aff17457ae6e28776c61cda777fcec69.webp",
+          "rating": 4.2
+        },
+        {
+          "title": "Marc Joseph New York Brightwater Ave Patent Penny Loafer in Black Patent at Nordstrom Rack, Size 6",
+          "source": "Nordstrom Rack",
+          "link": "",
+          "price": "$59.97",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRI3b1hZ_vq7O3uowo1wUMfa52ILEvBE3DJjVttxSDFtb5a2IlE6xoLSZZY9yutQPseiZYSHrd6TLK84NAV6Vhivlyp29_OoA",
+          "rating": 3.2
+        }
+      ],
+      "resultCount": 10
+    }
+  ],
+  "summary": {
+    "totalResults": 30,
+    "productsWithResults": 3,
+    "avgResultsPerProduct": 10
+  }
+}

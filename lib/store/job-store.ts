@@ -71,6 +71,8 @@ export interface VideoJob {
       aestheticStyle?: string;
       contentType?: string;
       targetAudience?: string;
+      setting?: string;
+      lighting?: string;
       productDetails?: Array<{
         name: string;
         category: string;
@@ -85,6 +87,17 @@ export interface VideoJob {
         setting: string;
         mood: string;
       }>;
+      productCounts?: {
+        clothing: number;
+        footwear: number;
+        accessories: number;
+        jewelry: number;
+        beauty: number;
+        tech: number;
+        home: number;
+        other: number;
+        total: number;
+      };
       summary?: string;
     };
     // SEO data (database-ready)

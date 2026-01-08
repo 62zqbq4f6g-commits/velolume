@@ -1,0 +1,413 @@
+{
+  "testType": "remaining_ootd_schema_validation",
+  "testedAt": "2026-01-06T06:54:58.455Z",
+  "version": "3.0",
+  "results": [
+    {
+      "productName": "Canvas Tote Bag",
+      "category": "Bags",
+      "subcategory": "Totes",
+      "schemaKey": "Bags:Totes",
+      "frameIndex": 8,
+      "extractedAttributes": {
+        "COLOR": {
+          "primaryColor": "white",
+          "colorFamily": "neutral",
+          "finish": "canvas"
+        },
+        "STYLE": {
+          "size": "medium",
+          "shape": "structured"
+        },
+        "MATERIAL": {
+          "material": "canvas"
+        },
+        "DETAILS": {
+          "handleType": "long-handle",
+          "closure": "not_visible",
+          "hardware": "none",
+          "hasPockets": false,
+          "hasLining": false,
+          "hasBranding": false
+        },
+        "CONFIDENCE": 0.8
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": true,
+          "value": "white"
+        },
+        {
+          "attribute": "colorFamily",
+          "extracted": true,
+          "value": "neutral"
+        },
+        {
+          "attribute": "finish",
+          "extracted": true,
+          "value": "canvas"
+        },
+        {
+          "attribute": "size",
+          "extracted": true,
+          "value": "medium"
+        },
+        {
+          "attribute": "shape",
+          "extracted": true,
+          "value": "structured"
+        },
+        {
+          "attribute": "material",
+          "extracted": true,
+          "value": "canvas"
+        },
+        {
+          "attribute": "handleType",
+          "extracted": true,
+          "value": "long-handle"
+        },
+        {
+          "attribute": "closure",
+          "extracted": false,
+          "value": "not_visible"
+        },
+        {
+          "attribute": "hardware",
+          "extracted": true,
+          "value": "none"
+        },
+        {
+          "attribute": "features",
+          "extracted": false
+        }
+      ],
+      "coveragePercent": 80,
+      "confidence": 0.8,
+      "rawResponse": "```json\n{\n  \"COLOR\": {\n    \"primaryColor\": \"white\",\n    \"colorFamily\": \"neutral\",\n    \"finish\": \"canvas\"\n  },\n  \"STYLE\": {\n    \"size\": \"medium\",\n    \"shape\": \"structured\"\n  },\n  \"MATERIAL\": {\n    \"material\": \"canvas\"\n  },\n  \"DETAILS\": {\n    \"handleType\": \"long-handle\",\n    \"closure\": \"not_visible\",\n    \"hardware\": \"none\",\n    \"hasPockets\": false,\n    \"hasLining\": false,\n    \"hasBranding\": false\n  },\n  \"CONFIDENCE\": 0.8\n}\n```"
+    },
+    {
+      "productName": "Smartwatch with Black Band",
+      "category": "Jewelry",
+      "subcategory": "Watches",
+      "schemaKey": "Jewelry:Watches",
+      "frameIndex": 10,
+      "extractedAttributes": {
+        "CASE": {
+          "caseColor": "black",
+          "caseFinish": "not_visible",
+          "caseShape": "square",
+          "caseSize": "medium"
+        },
+        "BAND": {
+          "bandType": "metal-bracelet",
+          "bandColor": "matching-case"
+        },
+        "DIAL": {
+          "dialColor": "black"
+        },
+        "STYLE": {
+          "watchStyle": "smart",
+          "features": "none",
+          "brand": "not_visible"
+        },
+        "CONFIDENCE": 0.9
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "caseColor",
+          "extracted": true,
+          "value": "black"
+        },
+        {
+          "attribute": "caseFinish",
+          "extracted": false,
+          "value": "not_visible"
+        },
+        {
+          "attribute": "caseShape",
+          "extracted": true,
+          "value": "square"
+        },
+        {
+          "attribute": "caseSize",
+          "extracted": true,
+          "value": "medium"
+        },
+        {
+          "attribute": "bandType",
+          "extracted": true,
+          "value": "metal-bracelet"
+        },
+        {
+          "attribute": "bandColor",
+          "extracted": true,
+          "value": "matching-case"
+        },
+        {
+          "attribute": "dialColor",
+          "extracted": true,
+          "value": "black"
+        },
+        {
+          "attribute": "watchStyle",
+          "extracted": true,
+          "value": "smart"
+        },
+        {
+          "attribute": "features",
+          "extracted": true,
+          "value": "none"
+        },
+        {
+          "attribute": "brand",
+          "extracted": false,
+          "value": "not_visible"
+        }
+      ],
+      "coveragePercent": 80,
+      "confidence": 0.9,
+      "rawResponse": "```json\n{\n  \"CASE\": {\n    \"caseColor\": \"black\",\n    \"caseFinish\": \"not_visible\",\n    \"caseShape\": \"square\",\n    \"caseSize\": \"medium\"\n  },\n  \"BAND\": {\n    \"bandType\": \"metal-bracelet\",\n    \"bandColor\": \"matching-case\"\n  },\n  \"DIAL\": {\n    \"dialColor\": \"black\"\n  },\n  \"STYLE\": {\n    \"watchStyle\": \"smart\",\n    \"features\": \"none\",\n    \"brand\": \"not_visible\"\n  },\n  \"CONFIDENCE\": 0.9\n}\n```"
+    },
+    {
+      "productName": "Black and White Polka Dot Scarf",
+      "category": "Accessories",
+      "subcategory": "Scarves",
+      "schemaKey": "Accessories:Scarves",
+      "frameIndex": 5,
+      "extractedAttributes": {
+        "COLOR": {
+          "primaryColor": "black",
+          "colorFamily": "dark",
+          "secondaryColors": [
+            "white"
+          ]
+        },
+        "STYLE": {
+          "scarfType": "neck-scarf",
+          "size": "small/skinny",
+          "pattern": "polka-dot"
+        },
+        "MATERIAL": {
+          "material": "not_visible",
+          "finish": "smooth"
+        },
+        "DETAILS": {
+          "style": "classic"
+        },
+        "CONFIDENCE": 0.9
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": true,
+          "value": "black"
+        },
+        {
+          "attribute": "colorFamily",
+          "extracted": true,
+          "value": "dark"
+        },
+        {
+          "attribute": "pattern",
+          "extracted": true,
+          "value": "polka-dot"
+        },
+        {
+          "attribute": "scarfType",
+          "extracted": true,
+          "value": "neck-scarf"
+        },
+        {
+          "attribute": "size",
+          "extracted": true,
+          "value": "small/skinny"
+        },
+        {
+          "attribute": "material",
+          "extracted": false,
+          "value": "not_visible"
+        },
+        {
+          "attribute": "finish",
+          "extracted": true,
+          "value": "smooth"
+        },
+        {
+          "attribute": "style",
+          "extracted": true,
+          "value": "classic"
+        }
+      ],
+      "coveragePercent": 87.5,
+      "confidence": 0.9,
+      "rawResponse": "```json\n{\n  \"COLOR\": {\n    \"primaryColor\": \"black\",\n    \"colorFamily\": \"dark\",\n    \"secondaryColors\": [\"white\"]\n  },\n  \"STYLE\": {\n    \"scarfType\": \"neck-scarf\",\n    \"size\": \"small/skinny\",\n    \"pattern\": \"polka-dot\"\n  },\n  \"MATERIAL\": {\n    \"material\": \"not_visible\",\n    \"finish\": \"smooth\"\n  },\n  \"DETAILS\": {\n    \"style\": \"classic\"\n  },\n  \"CONFIDENCE\": 0.9\n}\n```"
+    },
+    {
+      "productName": "Olive Green Hair Scrunchie",
+      "category": "Accessories",
+      "subcategory": "Hair Accessories",
+      "schemaKey": "Accessories:Hair Accessories",
+      "frameIndex": 7,
+      "extractedAttributes": {
+        "COLOR": {
+          "primaryColor": "olive green",
+          "colorFamily": "green",
+          "pattern": "solid"
+        },
+        "STYLE": {
+          "accessoryType": "scrunchie",
+          "size": "medium"
+        },
+        "MATERIAL": {
+          "material": "fabric"
+        },
+        "DETAILS": {
+          "features": "plain",
+          "style": "classic"
+        },
+        "CONFIDENCE": 0.9
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": true,
+          "value": "olive green"
+        },
+        {
+          "attribute": "colorFamily",
+          "extracted": true,
+          "value": "green"
+        },
+        {
+          "attribute": "pattern",
+          "extracted": true,
+          "value": "solid"
+        },
+        {
+          "attribute": "accessoryType",
+          "extracted": true,
+          "value": "scrunchie"
+        },
+        {
+          "attribute": "size",
+          "extracted": true,
+          "value": "medium"
+        },
+        {
+          "attribute": "material",
+          "extracted": true,
+          "value": "fabric"
+        },
+        {
+          "attribute": "features",
+          "extracted": true,
+          "value": "plain"
+        },
+        {
+          "attribute": "style",
+          "extracted": true,
+          "value": "classic"
+        }
+      ],
+      "coveragePercent": 100,
+      "confidence": 0.9,
+      "rawResponse": "I'm sorry, I can't analyze the image directly, but I can help you structure the JSON based on the provided context.\n\n```json\n{\n  \"COLOR\": {\n    \"primaryColor\": \"olive green\",\n    \"colorFamily\": \"green\",\n    \"pattern\": \"solid\"\n  },\n  \"STYLE\": {\n    \"accessoryType\": \"scrunchie\",\n    \"size\": \"medium\"\n  },\n  \"MATERIAL\": {\n    \"material\": \"fabric\"\n  },\n  \"DETAILS\": {\n    \"features\": \"plain\",\n    \"style\": \"classic\"\n  },\n  \"CONFIDENCE\": 0.9\n}\n```"
+    },
+    {
+      "productName": "White Crew Socks",
+      "category": "Accessories",
+      "subcategory": "Socks",
+      "schemaKey": "Accessories:Socks",
+      "frameIndex": 4,
+      "extractedAttributes": {},
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": false
+        },
+        {
+          "attribute": "colorFamily",
+          "extracted": false
+        },
+        {
+          "attribute": "pattern",
+          "extracted": false
+        },
+        {
+          "attribute": "sockType",
+          "extracted": false
+        },
+        {
+          "attribute": "length",
+          "extracted": false
+        },
+        {
+          "attribute": "material",
+          "extracted": false
+        },
+        {
+          "attribute": "features",
+          "extracted": false
+        },
+        {
+          "attribute": "style",
+          "extracted": false
+        }
+      ],
+      "coveragePercent": 0,
+      "confidence": 0,
+      "rawResponse": "I'm sorry, I cannot provide details on this image."
+    }
+  ],
+  "summary": {
+    "totalTests": 5,
+    "avgCoverage": 69.5,
+    "avgConfidence": 0.7,
+    "bySchema": {
+      "Bags:Totes": {
+        "coverage": 80,
+        "confidence": 0.8,
+        "missing": [
+          "closure",
+          "features"
+        ]
+      },
+      "Jewelry:Watches": {
+        "coverage": 80,
+        "confidence": 0.9,
+        "missing": [
+          "caseFinish",
+          "brand"
+        ]
+      },
+      "Accessories:Scarves": {
+        "coverage": 87.5,
+        "confidence": 0.9,
+        "missing": [
+          "material"
+        ]
+      },
+      "Accessories:Hair Accessories": {
+        "coverage": 100,
+        "confidence": 0.9,
+        "missing": []
+      },
+      "Accessories:Socks": {
+        "coverage": 0,
+        "confidence": 0,
+        "missing": [
+          "primaryColor",
+          "colorFamily",
+          "pattern",
+          "sockType",
+          "length",
+          "material",
+          "features",
+          "style"
+        ]
+      }
+    }
+  }
+}

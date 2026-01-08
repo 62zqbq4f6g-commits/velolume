@@ -1,0 +1,61 @@
+{
+  "testType": "visual_verification",
+  "productName": "Olive Green Knit Crop Sweater",
+  "frameCropPath": "/Users/airoxthebox/auto-storefront/test-output/test-crop-sweater.jpg",
+  "testedAt": "2026-01-06T05:12:26.665Z",
+  "candidatesCount": 5,
+  "rankings": [
+    {
+      "rank": 1,
+      "productIndex": 4,
+      "title": "Waffle Knit Cropped Sweater",
+      "source": "Bohemian coco",
+      "price": "$52.00",
+      "similarityScore": 85,
+      "reasoning": "The color and knit texture closely match the original sweater, with a similar crop length and sleeve style.",
+      "thumbnailUrl": "data:image/webp;base64,UklGRmANAQBXRUJQVlA4IFQNAQB..."
+    },
+    {
+      "rank": 2,
+      "productIndex": 1,
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "source": "Nordstrom Rack",
+      "price": "$59.97",
+      "similarityScore": 70,
+      "reasoning": "The sweater has a similar crop length and sleeve style, but the knit pattern is vertical rather than layered.",
+      "thumbnailUrl": "data:image/webp;base64,UklGRnJWAABXRUJQVlA4IGZWAAC..."
+    },
+    {
+      "rank": 3,
+      "productIndex": 3,
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "source": "Windsor",
+      "price": "$36.90",
+      "similarityScore": 65,
+      "reasoning": "The cropped length and overall silhouette are similar, but the collar style and knit texture slightly differ.",
+      "thumbnailUrl": "data:image/webp;base64,UklGRt6TAABXRUJQVlA4INKTAAA..."
+    },
+    {
+      "rank": 4,
+      "productIndex": 0,
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "source": "Walmart - Seller",
+      "price": "$24.59",
+      "similarityScore": 60,
+      "reasoning": "The color matches well but the style, button details, and longer length reduce its similarity.",
+      "thumbnailUrl": "data:image/webp;base64,UklGRtRfAABXRUJQVlA4IMhfAAA..."
+    },
+    {
+      "rank": 5,
+      "productIndex": 2,
+      "title": "Lettuce trim ribbed crop sweater",
+      "source": "Commense",
+      "price": "$32.00",
+      "similarityScore": 30,
+      "reasoning": "The length and design differ significantly, making it the least similar option.",
+      "thumbnailUrl": "data:image/webp;base64,UklGRrxmAABXRUJQVlA4ILBmAAD..."
+    }
+  ],
+  "rawLLMResponse": "```json\n{\n  \"rankings\": [\n    {\n      \"imageNumber\": 6,\n      \"rank\": 1,\n      \"similarityScore\": 85,\n      \"reasoning\": \"The color and knit texture closely match the original sweater, with a similar crop length and sleeve style.\"\n    },\n    {\n      \"imageNumber\": 3,\n      \"rank\": 2,\n      \"similarityScore\": 70,\n      \"reasoning\": \"The sweater has a similar crop length and sleeve style, but the knit pattern is vertical rather than layered.\"\n    },\n    {\n      \"imageNumber\": 5,\n      \"rank\": 3,\n      \"similarityScore\": 65,\n      \"reasoning\": \"The cropped length and overall silhouette are similar, but the collar style and knit texture slightly differ.\"\n    },\n    {\n      \"imageNumber\": 2,\n      \"rank\": 4,\n      \"similarityScore\": 60,\n      \"reasoning\": \"The color matches well but the style, button details, and longer length reduce its similarity.\"\n    },\n    {\n      \"imageNumber\": 4,\n      \"rank\": 5,\n      \"similarityScore\": 30,\n      \"reasoning\": \"The length and design differ significantly, making it the least similar option.\"\n    }\n  ]\n}\n```",
+  "success": true
+}

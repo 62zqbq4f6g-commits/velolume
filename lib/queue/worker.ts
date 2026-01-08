@@ -113,11 +113,10 @@ async function handleProcessVideo(
     // Update status for transcription phase
     updateJobStatus(fileId, "transcribing");
 
-    // Process with unified AI processor
-    console.log(`[Worker] Starting AI processing for ${fileId}`);
+    // Process with unified AI processor v2.0
+    console.log(`[Worker] Starting AI processing v2.0 for ${fileId}`);
     const processedData = await processVideo(key, {
-      frameInterval: 2,
-      maxFrames: 8,
+      maxFrames: 12,
       detailed: true,
     });
 
@@ -143,7 +142,10 @@ async function handleProcessVideo(
           aestheticStyle: processedData.visual.aestheticStyle,
           contentType: processedData.visual.contentType,
           targetAudience: processedData.visual.targetAudience,
+          setting: processedData.visual.setting,
+          lighting: processedData.visual.lighting,
           productDetails: processedData.products,
+          productCounts: processedData.productCounts,
           scenes: processedData.visual.scenes,
           summary: processedData.seo.description,
         },
@@ -155,7 +157,8 @@ async function handleProcessVideo(
     });
 
     console.log(`[Worker] Job ${fileId} completed successfully`);
-    console.log(`[Worker] Found ${processedData.products.length} products, ${processedData.seo.keywords.length} keywords`);
+    console.log(`[Worker] Found ${processedData.products.length} products (${processedData.productCounts.clothing} clothing, ${processedData.productCounts.accessories} accessories, ${processedData.productCounts.jewelry} jewelry, ${processedData.productCounts.beauty} beauty)`);
+    console.log(`[Worker] Generated ${processedData.seo.keywords.length} keywords`);
 
     // Auto-create store from processed data
     try {

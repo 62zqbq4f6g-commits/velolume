@@ -1,0 +1,281 @@
+{
+  "testType": "category_schema_validation",
+  "testedAt": "2026-01-06T06:41:10.136Z",
+  "version": "2.0",
+  "results": [
+    {
+      "name": "Olive Green Sweater",
+      "category": "Clothing",
+      "subcategory": "Sweater",
+      "frameIndex": 3,
+      "extractedAttributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "colorTone": "muted/earthy",
+        "neckline": "crew",
+        "sleeveLength": "long",
+        "bodyLength": "crop",
+        "fit": "relaxed",
+        "knitType": "ribbed",
+        "material": "unknown",
+        "texture": "chunky/thick",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPattern": false,
+        "patternType": "solid",
+        "confidence": 0.95
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": true,
+          "value": "olive green"
+        },
+        {
+          "attribute": "neckline",
+          "extracted": true,
+          "value": "crew"
+        },
+        {
+          "attribute": "sleeveLength",
+          "extracted": true,
+          "value": "long"
+        },
+        {
+          "attribute": "bodyLength",
+          "extracted": true,
+          "value": "crop"
+        },
+        {
+          "attribute": "fit",
+          "extracted": true,
+          "value": "relaxed"
+        },
+        {
+          "attribute": "knitType",
+          "extracted": true,
+          "value": "ribbed"
+        }
+      ],
+      "coveragePercent": 100,
+      "confidence": 0.95
+    },
+    {
+      "name": "Light Blue Denim Shorts",
+      "category": "Clothing",
+      "subcategory": "Shorts",
+      "frameIndex": 2,
+      "extractedAttributes": {
+        "primaryColor": "light blue",
+        "colorFamily": "blue",
+        "colorTone": "pastel",
+        "neckline": "not_applicable",
+        "sleeveLength": "not_applicable",
+        "bodyLength": "not_applicable",
+        "fit": "relaxed",
+        "knitType": "not_applicable",
+        "material": "denim",
+        "texture": "medium",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPattern": false,
+        "patternType": "solid",
+        "confidence": 0.95
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": true,
+          "value": "light blue"
+        },
+        {
+          "attribute": "material",
+          "extracted": true,
+          "value": "denim"
+        },
+        {
+          "attribute": "fit",
+          "extracted": true,
+          "value": "relaxed"
+        }
+      ],
+      "coveragePercent": 100,
+      "confidence": 0.95
+    },
+    {
+      "name": "Black Patent Leather Loafers",
+      "category": "Footwear",
+      "subcategory": "Loafers",
+      "frameIndex": 3,
+      "extractedAttributes": {
+        "primaryColor": "black",
+        "colorFamily": "black",
+        "material": "leather",
+        "finish": "glossy/patent",
+        "toeShape": "round",
+        "heelHeight": "flat",
+        "heelType": "none",
+        "closure": "slip-on",
+        "upperMaterial": "leather",
+        "soleMaterial": "not_visible",
+        "hasAccents": true,
+        "accentType": "tassel",
+        "confidence": 0.95
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "primaryColor",
+          "extracted": true,
+          "value": "black"
+        },
+        {
+          "attribute": "finish",
+          "extracted": true,
+          "value": "glossy/patent"
+        },
+        {
+          "attribute": "toeShape",
+          "extracted": true,
+          "value": "round"
+        },
+        {
+          "attribute": "heelHeight",
+          "extracted": true,
+          "value": "flat"
+        },
+        {
+          "attribute": "closure",
+          "extracted": true,
+          "value": "slip-on"
+        },
+        {
+          "attribute": "upperMaterial",
+          "extracted": true,
+          "value": "leather"
+        }
+      ],
+      "coveragePercent": 100,
+      "confidence": 0.95
+    },
+    {
+      "name": "Tortoiseshell Sunglasses",
+      "category": "Accessories",
+      "subcategory": "Sunglasses",
+      "frameIndex": 6,
+      "extractedAttributes": {
+        "primaryColor": "black",
+        "colorFamily": "black",
+        "material": "plastic",
+        "frameColor": "black",
+        "frameMaterial": "plastic",
+        "framePattern": "solid",
+        "frameShape": "oversized",
+        "lensColor": "not_visible",
+        "lensTint": "not_visible",
+        "style": "trendy",
+        "confidence": 0.9
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "frameColor",
+          "extracted": true,
+          "value": "black"
+        },
+        {
+          "attribute": "frameShape",
+          "extracted": true,
+          "value": "oversized"
+        },
+        {
+          "attribute": "framePattern",
+          "extracted": true,
+          "value": "solid"
+        },
+        {
+          "attribute": "lensColor",
+          "extracted": false,
+          "value": "not_visible"
+        },
+        {
+          "attribute": "style",
+          "extracted": true,
+          "value": "trendy"
+        }
+      ],
+      "coveragePercent": 80,
+      "confidence": 0.9
+    },
+    {
+      "name": "Silver Hoop Earrings",
+      "category": "Jewelry",
+      "subcategory": "Earrings",
+      "frameIndex": 9,
+      "extractedAttributes": {
+        "primaryColor": "silver",
+        "colorFamily": "silver/white",
+        "material": "silver",
+        "metalColor": "silver",
+        "metalFinish": "polished",
+        "earringType": "hoop",
+        "size": "medium",
+        "shape": "round",
+        "hasGemstones": false,
+        "gemstoneType": "none",
+        "style": "minimalist",
+        "confidence": 0.9
+      },
+      "expectedAttributesCoverage": [
+        {
+          "attribute": "metalColor",
+          "extracted": true,
+          "value": "silver"
+        },
+        {
+          "attribute": "earringType",
+          "extracted": true,
+          "value": "hoop"
+        },
+        {
+          "attribute": "size",
+          "extracted": true,
+          "value": "medium"
+        },
+        {
+          "attribute": "shape",
+          "extracted": true,
+          "value": "round"
+        },
+        {
+          "attribute": "metalFinish",
+          "extracted": true,
+          "value": "polished"
+        }
+      ],
+      "coveragePercent": 100,
+      "confidence": 0.9
+    }
+  ],
+  "summary": {
+    "totalTests": 5,
+    "avgCoverage": 96,
+    "avgConfidence": 0.9299999999999999,
+    "byCategory": {
+      "Clothing": {
+        "avgCoverage": 100,
+        "avgConfidence": 0.95
+      },
+      "Footwear": {
+        "avgCoverage": 100,
+        "avgConfidence": 0.95
+      },
+      "Accessories": {
+        "avgCoverage": 80,
+        "avgConfidence": 0.9
+      },
+      "Jewelry": {
+        "avgCoverage": 100,
+        "avgConfidence": 0.9
+      }
+    }
+  }
+}

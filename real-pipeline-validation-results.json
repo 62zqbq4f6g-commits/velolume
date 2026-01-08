@@ -1,0 +1,2858 @@
+{
+  "testType": "real_pipeline_validation",
+  "testedAt": "2026-01-06T09:28:44.241Z",
+  "version": "5.0",
+  "apiKey": "serpapi",
+  "totalProducts": 10,
+  "totalApiCalls": 60,
+  "results": [
+    {
+      "name": "Olive Green Sweater",
+      "category": "Clothing",
+      "subcategory": "Tops",
+      "schemaKey": "Clothing:Tops",
+      "referenceAttributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "colorTone": "muted",
+        "neckline": "crew",
+        "sleeveLength": "long",
+        "bodyLength": "crop",
+        "fit": "relaxed",
+        "fabric": "knit",
+        "texture": "chunky",
+        "pattern": "solid",
+        "hasButtons": false,
+        "hasZipper": false,
+        "hasPockets": false,
+        "hasCollar": false,
+        "CONFIDENCE": 0.9
+      },
+      "searchQuery": "olive green cable knit crewneck sweater women",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Abercrombie & Fitch Women's Textural Stitch Cable Crew Sweater",
+          "price": "$64",
+          "source": "Abercrombie & Fitch",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=catalogid:4007017507706973254,headlineOfferDocid:16623343065644323656,imageDocid:71030542445202765,rds:PC_7443551415086894620|PROD_PC_7443551415086894620,gpcid:7443551415086894620,mid:576462841257317511,pvt:a&hl=en&gl=us&udm=28",
+          "score": 92,
+          "attributes": {
+            "primaryColor": "olive green",
+            "colorFamily": "green",
+            "colorTone": "muted/earthy",
+            "neckline": "crew",
+            "sleeveLength": "long",
+            "bodyLength": "crop",
+            "fit": "relaxed",
+            "fabric": "knit",
+            "texture": "cable-knit",
+            "pattern": "solid",
+            "hasButtons": false,
+            "hasZipper": false,
+            "hasPockets": false,
+            "hasCollar": false,
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: olive green",
+            "colorTone: muted/earthy",
+            "neckline: crew",
+            "sleeveLength: long",
+            "bodyLength: crop",
+            "fit: relaxed",
+            "fabric: knit",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "texture"
+          ]
+        },
+        {
+          "title": "Women's Cable Pullover Sweater Sapphire Green Regular Size XL",
+          "price": "$60",
+          "source": "Banana Republic Factory",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=productid:8944416011611605410,headlineOfferDocid:8944416011611605410,imageDocid:17213007915644272550,rds:LO_8944416011611605410|PROD_LO_8944416011611605410,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "sapphire green",
+            "colorFamily": "green",
+            "colorTone": "muted/earthy",
+            "neckline": "crew",
+            "sleeveLength": "long",
+            "bodyLength": "regular",
+            "fit": "regular",
+            "fabric": "knit",
+            "texture": "cable-knit",
+            "pattern": "solid",
+            "hasButtons": false,
+            "hasZipper": false,
+            "hasPockets": false,
+            "hasCollar": false,
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ bodyLength: \"regular\" ≠ \"crop\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: sapphire green",
+            "colorTone: muted/earthy",
+            "neckline: crew",
+            "sleeveLength: long",
+            "fabric: knit",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "bodyLength",
+            "fit",
+            "texture"
+          ]
+        },
+        {
+          "title": "Women's Cable Knit Long Sleeve Ribbed Sweater",
+          "price": "$16.99",
+          "source": "Walmart - yuyhu",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=catalogid:1253124249963536490,headlineOfferDocid:10721354218896619370,imageDocid:3007303117414032819,gpcid:701212334894634703,mid:576462867045507108,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "olive green",
+            "colorFamily": "green",
+            "colorTone": "muted/earthy",
+            "neckline": "crew",
+            "sleeveLength": "long",
+            "bodyLength": "regular",
+            "fit": "relaxed",
+            "fabric": "knit",
+            "texture": "cable-knit",
+            "pattern": "solid",
+            "hasButtons": false,
+            "hasZipper": false,
+            "hasPockets": false,
+            "hasCollar": false,
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ bodyLength: \"regular\" ≠ \"crop\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: olive green",
+            "colorTone: muted/earthy",
+            "neckline: crew",
+            "sleeveLength: long",
+            "fit: relaxed",
+            "fabric: knit",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "bodyLength",
+            "texture"
+          ]
+        },
+        {
+          "title": "Nordstrom Texture Crewneck Sweater",
+          "price": "$129",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=catalogid:10983383336106633849,headlineOfferDocid:2880597431684383543,imageDocid:6703080487951767855,gpcid:11962277930246373213,mid:576462875161948144,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "olive green",
+            "colorFamily": "green",
+            "colorTone": "muted/earthy",
+            "neckline": "crew",
+            "sleeveLength": "long",
+            "bodyLength": "regular",
+            "fit": "relaxed",
+            "fabric": "knit",
+            "texture": "textured",
+            "pattern": "solid",
+            "hasButtons": false,
+            "hasZipper": false,
+            "hasPockets": false,
+            "hasCollar": false,
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ bodyLength: \"regular\" ≠ \"crop\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: olive green",
+            "colorTone: muted/earthy",
+            "neckline: crew",
+            "sleeveLength: long",
+            "fit: relaxed",
+            "fabric: knit",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "bodyLength",
+            "texture"
+          ]
+        },
+        {
+          "title": "J.Crew Women's Cable-Knit Crewneck Sweater",
+          "price": "$79.5",
+          "source": "J.Crew",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=catalogid:2286567564899973037,headlineOfferDocid:2002823147681374386,imageDocid:832021536381289722,gpcid:14151456072598645577,mid:576462846864156752,pvt:a&hl=en&gl=us&udm=28",
+          "score": 54,
+          "attributes": {
+            "primaryColor": "teal",
+            "colorFamily": "green",
+            "colorTone": "dark",
+            "neckline": "crew",
+            "sleeveLength": "long",
+            "bodyLength": "regular",
+            "fit": "regular",
+            "fabric": "knit",
+            "texture": "cable-knit",
+            "pattern": "solid",
+            "hasButtons": false,
+            "hasZipper": false,
+            "hasPockets": false,
+            "hasCollar": false,
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ bodyLength: \"regular\" ≠ \"crop\""
+          ],
+          "matchedAttrs": [
+            "neckline: crew",
+            "sleeveLength: long",
+            "fabric: knit",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "primaryColor",
+            "colorTone",
+            "bodyLength",
+            "fit",
+            "texture"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Abercrombie & Fitch Women's Textural Stitch Cable Crew Sweater",
+        "price": "$64",
+        "source": "Abercrombie & Fitch",
+        "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=catalogid:4007017507706973254,headlineOfferDocid:16623343065644323656,imageDocid:71030542445202765,rds:PC_7443551415086894620|PROD_PC_7443551415086894620,gpcid:7443551415086894620,mid:576462841257317511,pvt:a&hl=en&gl=us&udm=28",
+        "score": 92,
+        "attributes": {
+          "primaryColor": "olive green",
+          "colorFamily": "green",
+          "colorTone": "muted/earthy",
+          "neckline": "crew",
+          "sleeveLength": "long",
+          "bodyLength": "crop",
+          "fit": "relaxed",
+          "fabric": "knit",
+          "texture": "cable-knit",
+          "pattern": "solid",
+          "hasButtons": false,
+          "hasZipper": false,
+          "hasPockets": false,
+          "hasCollar": false,
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: olive green",
+          "colorTone: muted/earthy",
+          "neckline: crew",
+          "sleeveLength: long",
+          "bodyLength: crop",
+          "fit: relaxed",
+          "fabric: knit",
+          "pattern: solid"
+        ],
+        "mismatchedAttrs": [
+          "texture"
+        ]
+      },
+      "secondMatch": {
+        "title": "Women's Cable Pullover Sweater Sapphire Green Regular Size XL",
+        "price": "$60",
+        "source": "Banana Republic Factory",
+        "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=productid:8944416011611605410,headlineOfferDocid:8944416011611605410,imageDocid:17213007915644272550,rds:LO_8944416011611605410|PROD_LO_8944416011611605410,pvt:a&hl=en&gl=us&udm=28",
+        "score": 65,
+        "attributes": {
+          "primaryColor": "sapphire green",
+          "colorFamily": "green",
+          "colorTone": "muted/earthy",
+          "neckline": "crew",
+          "sleeveLength": "long",
+          "bodyLength": "regular",
+          "fit": "regular",
+          "fabric": "knit",
+          "texture": "cable-knit",
+          "pattern": "solid",
+          "hasButtons": false,
+          "hasZipper": false,
+          "hasPockets": false,
+          "hasCollar": false,
+          "CONFIDENCE": 0.95
+        },
+        "flags": [
+          "❌ bodyLength: \"regular\" ≠ \"crop\"",
+          "⚠️ Score capped at 65 (deal-breaker mismatch)"
+        ],
+        "matchedAttrs": [
+          "primaryColor: sapphire green",
+          "colorTone: muted/earthy",
+          "neckline: crew",
+          "sleeveLength: long",
+          "fabric: knit",
+          "pattern: solid"
+        ],
+        "mismatchedAttrs": [
+          "bodyLength",
+          "fit",
+          "texture"
+        ]
+      },
+      "thirdMatch": {
+        "title": "Women's Cable Knit Long Sleeve Ribbed Sweater",
+        "price": "$16.99",
+        "source": "Walmart - yuyhu",
+        "link": "https://www.google.com/search?ibp=oshop&q=olive green cable knit crewneck sweater women&prds=catalogid:1253124249963536490,headlineOfferDocid:10721354218896619370,imageDocid:3007303117414032819,gpcid:701212334894634703,mid:576462867045507108,pvt:a&hl=en&gl=us&udm=28",
+        "score": 65,
+        "attributes": {
+          "primaryColor": "olive green",
+          "colorFamily": "green",
+          "colorTone": "muted/earthy",
+          "neckline": "crew",
+          "sleeveLength": "long",
+          "bodyLength": "regular",
+          "fit": "relaxed",
+          "fabric": "knit",
+          "texture": "cable-knit",
+          "pattern": "solid",
+          "hasButtons": false,
+          "hasZipper": false,
+          "hasPockets": false,
+          "hasCollar": false,
+          "CONFIDENCE": 0.95
+        },
+        "flags": [
+          "❌ bodyLength: \"regular\" ≠ \"crop\"",
+          "⚠️ Score capped at 65 (deal-breaker mismatch)"
+        ],
+        "matchedAttrs": [
+          "primaryColor: olive green",
+          "colorTone: muted/earthy",
+          "neckline: crew",
+          "sleeveLength: long",
+          "fit: relaxed",
+          "fabric: knit",
+          "pattern: solid"
+        ],
+        "mismatchedAttrs": [
+          "bodyLength",
+          "texture"
+        ]
+      },
+      "gap": 27,
+      "confidence": 0.9,
+      "assessment": "✅ STRONG MATCH - High confidence"
+    },
+    {
+      "name": "Light Blue Denim Shorts",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "schemaKey": "Clothing:Bottoms",
+      "referenceAttributes": {
+        "primaryColor": "light blue",
+        "colorFamily": "blue",
+        "colorTone": "pastel",
+        "bottomType": "shorts",
+        "rise": "mid",
+        "legShape": "relaxed",
+        "length": "above-knee",
+        "fit": "regular",
+        "fabric": "denim",
+        "wash": "light-wash",
+        "pattern": "solid",
+        "hasPockets": true,
+        "hasZipper": true,
+        "waistDetail": "button",
+        "CONFIDENCE": 0.85
+      },
+      "searchQuery": "light blue high waisted denim shorts women",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Levi's Women's 501 Original Shorts",
+          "price": "$35.7",
+          "source": "PacSun",
+          "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:8320814615804502348,headlineOfferDocid:5242254306819266626,imageDocid:15856666303764171720,rds:PC_13706328543396538721|PROD_PC_13706328543396538721,gpcid:13706328543396538721,mid:576462848810506268,pvt:a&hl=en&gl=us&udm=28",
+          "score": 86,
+          "attributes": {
+            "primaryColor": "light blue",
+            "colorFamily": "blue",
+            "colorTone": "light",
+            "bottomType": "shorts",
+            "rise": "mid",
+            "legShape": "relaxed",
+            "length": "above-knee",
+            "fit": "relaxed",
+            "fabric": "denim",
+            "wash": "light-wash",
+            "pattern": "solid",
+            "hasPockets": true,
+            "hasZipper": true,
+            "waistDetail": "button",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: light blue",
+            "bottomType: shorts",
+            "rise: mid",
+            "legShape: relaxed",
+            "length: above-knee",
+            "fabric: denim",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "colorTone",
+            "fit"
+          ]
+        },
+        {
+          "title": "Missin' Something Denim Shorts",
+          "price": "$59.99",
+          "source": "White Fox Boutique",
+          "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:2676550669604018199,headlineOfferDocid:18440798525077939964,imageDocid:6284545961161619440,gpcid:14338398569991919099,mid:576462868331637767,pvt:a&hl=en&gl=us&udm=28",
+          "score": 86,
+          "attributes": {
+            "primaryColor": "light blue",
+            "colorFamily": "blue",
+            "colorTone": "muted",
+            "bottomType": "shorts",
+            "rise": "mid",
+            "legShape": "relaxed",
+            "length": "above-knee",
+            "fit": "relaxed",
+            "fabric": "denim",
+            "wash": "light-wash",
+            "pattern": "solid",
+            "hasPockets": true,
+            "hasZipper": true,
+            "waistDetail": "button",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: light blue",
+            "bottomType: shorts",
+            "rise: mid",
+            "legShape: relaxed",
+            "length: above-knee",
+            "fabric: denim",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "colorTone",
+            "fit"
+          ]
+        },
+        {
+          "title": "H&M Ladies Mom Ultra High Denim Shorts",
+          "price": "$24.99",
+          "source": "H&M",
+          "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:16289833617831830165,headlineOfferDocid:15018391162502657039,imageDocid:1817827497432849940,rds:PC_14672923995065788693|PROD_PC_14672923995065788693,gpcid:14672923995065788693,mid:576462859033589882,pvt:a&hl=en&gl=us&udm=28",
+          "score": 80,
+          "attributes": {
+            "primaryColor": "light blue",
+            "colorFamily": "blue",
+            "colorTone": "muted",
+            "bottomType": "shorts",
+            "rise": "super-high",
+            "legShape": "relaxed",
+            "length": "above-knee",
+            "fit": "relaxed",
+            "fabric": "denim",
+            "wash": "light-wash",
+            "pattern": "solid",
+            "hasPockets": true,
+            "hasZipper": true,
+            "waistDetail": "button",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: light blue",
+            "bottomType: shorts",
+            "legShape: relaxed",
+            "length: above-knee",
+            "fabric: denim",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "colorTone",
+            "rise",
+            "fit"
+          ]
+        },
+        {
+          "title": "Abercrombie & Fitch Women's High Rise Dad Short",
+          "price": "$24.99",
+          "source": "Abercrombie & Fitch",
+          "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:530580408765441984,headlineOfferDocid:18233391796338861517,imageDocid:10696866364919208820,rds:PC_10751689911306281537|PROD_PC_10751689911306281537,gpcid:10751689911306281537,mid:576462862357187727,pvt:a&hl=en&gl=us&udm=28",
+          "score": 80,
+          "attributes": {
+            "primaryColor": "light blue",
+            "colorFamily": "blue",
+            "colorTone": "muted",
+            "bottomType": "shorts",
+            "rise": "high",
+            "legShape": "relaxed",
+            "length": "above-knee",
+            "fit": "relaxed",
+            "fabric": "denim",
+            "wash": "light-wash",
+            "pattern": "solid",
+            "hasPockets": true,
+            "hasZipper": true,
+            "waistDetail": "button",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: light blue",
+            "bottomType: shorts",
+            "legShape: relaxed",
+            "length: above-knee",
+            "fabric: denim",
+            "pattern: solid"
+          ],
+          "mismatchedAttrs": [
+            "colorTone",
+            "rise",
+            "fit"
+          ]
+        },
+        {
+          "title": "AE Next Level High-Waisted Short Shorts",
+          "price": "$41.96",
+          "source": "American Eagle Outfitters",
+          "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:15204538575466342118,headlineOfferDocid:1750537543871124009,imageDocid:10425328811417502186,rds:PC_6391238757270909980|PROD_PC_6391238757270909980,gpcid:6391238757270909980,mid:576462531699732097,pvt:a&hl=en&gl=us&udm=28",
+          "score": 40,
+          "attributes": {},
+          "flags": [],
+          "matchedAttrs": [],
+          "mismatchedAttrs": []
+        }
+      ],
+      "topMatch": {
+        "title": "Levi's Women's 501 Original Shorts",
+        "price": "$35.7",
+        "source": "PacSun",
+        "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:8320814615804502348,headlineOfferDocid:5242254306819266626,imageDocid:15856666303764171720,rds:PC_13706328543396538721|PROD_PC_13706328543396538721,gpcid:13706328543396538721,mid:576462848810506268,pvt:a&hl=en&gl=us&udm=28",
+        "score": 86,
+        "attributes": {
+          "primaryColor": "light blue",
+          "colorFamily": "blue",
+          "colorTone": "light",
+          "bottomType": "shorts",
+          "rise": "mid",
+          "legShape": "relaxed",
+          "length": "above-knee",
+          "fit": "relaxed",
+          "fabric": "denim",
+          "wash": "light-wash",
+          "pattern": "solid",
+          "hasPockets": true,
+          "hasZipper": true,
+          "waistDetail": "button",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: light blue",
+          "bottomType: shorts",
+          "rise: mid",
+          "legShape: relaxed",
+          "length: above-knee",
+          "fabric: denim",
+          "pattern: solid"
+        ],
+        "mismatchedAttrs": [
+          "colorTone",
+          "fit"
+        ]
+      },
+      "secondMatch": {
+        "title": "Missin' Something Denim Shorts",
+        "price": "$59.99",
+        "source": "White Fox Boutique",
+        "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:2676550669604018199,headlineOfferDocid:18440798525077939964,imageDocid:6284545961161619440,gpcid:14338398569991919099,mid:576462868331637767,pvt:a&hl=en&gl=us&udm=28",
+        "score": 86,
+        "attributes": {
+          "primaryColor": "light blue",
+          "colorFamily": "blue",
+          "colorTone": "muted",
+          "bottomType": "shorts",
+          "rise": "mid",
+          "legShape": "relaxed",
+          "length": "above-knee",
+          "fit": "relaxed",
+          "fabric": "denim",
+          "wash": "light-wash",
+          "pattern": "solid",
+          "hasPockets": true,
+          "hasZipper": true,
+          "waistDetail": "button",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: light blue",
+          "bottomType: shorts",
+          "rise: mid",
+          "legShape: relaxed",
+          "length: above-knee",
+          "fabric: denim",
+          "pattern: solid"
+        ],
+        "mismatchedAttrs": [
+          "colorTone",
+          "fit"
+        ]
+      },
+      "thirdMatch": {
+        "title": "H&M Ladies Mom Ultra High Denim Shorts",
+        "price": "$24.99",
+        "source": "H&M",
+        "link": "https://www.google.com/search?ibp=oshop&q=light blue high waisted denim shorts women&prds=catalogid:16289833617831830165,headlineOfferDocid:15018391162502657039,imageDocid:1817827497432849940,rds:PC_14672923995065788693|PROD_PC_14672923995065788693,gpcid:14672923995065788693,mid:576462859033589882,pvt:a&hl=en&gl=us&udm=28",
+        "score": 80,
+        "attributes": {
+          "primaryColor": "light blue",
+          "colorFamily": "blue",
+          "colorTone": "muted",
+          "bottomType": "shorts",
+          "rise": "super-high",
+          "legShape": "relaxed",
+          "length": "above-knee",
+          "fit": "relaxed",
+          "fabric": "denim",
+          "wash": "light-wash",
+          "pattern": "solid",
+          "hasPockets": true,
+          "hasZipper": true,
+          "waistDetail": "button",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: light blue",
+          "bottomType: shorts",
+          "legShape: relaxed",
+          "length: above-knee",
+          "fabric: denim",
+          "pattern: solid"
+        ],
+        "mismatchedAttrs": [
+          "colorTone",
+          "rise",
+          "fit"
+        ]
+      },
+      "gap": 0,
+      "confidence": 0.85,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "Black Patent Leather Loafers",
+      "category": "Footwear",
+      "subcategory": "Loafers",
+      "schemaKey": "Footwear:Loafers",
+      "referenceAttributes": {
+        "primaryColor": "black",
+        "colorFamily": "black",
+        "finish": "patent",
+        "toeShape": "round",
+        "heelHeight": "flat",
+        "style": "modern",
+        "material": "patent-leather",
+        "hardware": "none",
+        "CONFIDENCE": 0.9
+      },
+      "searchQuery": "black patent leather penny loafers women tassel",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "MARC NOLAN Women's Simone Patent Leather Tassel Loafers",
+          "price": "$150",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:7100255723164255972,headlineOfferDocid:10309378277130816416,imageDocid:18227157741429241704,gpcid:115284877979107898,mid:576462841068236516,pvt:a&hl=en&gl=us&udm=28",
+          "score": 84,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "finish": "patent",
+            "loaferType": "tassel-loafer",
+            "toeShape": "round",
+            "heelHeight": "flat",
+            "style": "modern",
+            "material": "patent-leather",
+            "hardware": "tassel",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "toeShape: round",
+            "heelHeight: flat",
+            "material: patent-leather",
+            "finish: patent",
+            "style: modern"
+          ],
+          "mismatchedAttrs": [
+            "hardware"
+          ]
+        },
+        {
+          "title": "Kate Spade Leandra Loafers",
+          "price": "$168",
+          "source": "Kate Spade New York",
+          "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:487903751762492054,headlineOfferDocid:12432533036391136014,imageDocid:5421112357296109516,rds:PC_11520019141663675918|PROD_PC_11520019141663675918,gpcid:11520019141663675918,mid:576462718558004495,pvt:a&hl=en&gl=us&udm=28",
+          "score": 78,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "finish": "patent",
+            "loaferType": "not_visible",
+            "toeShape": "round",
+            "heelHeight": "flat",
+            "style": "classic",
+            "material": "patent-leather",
+            "hardware": "tassel",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "toeShape: round",
+            "heelHeight: flat",
+            "material: patent-leather",
+            "finish: patent"
+          ],
+          "mismatchedAttrs": [
+            "hardware",
+            "style"
+          ]
+        },
+        {
+          "title": "Clarks Women's Lauryl Tassel Slip-On Loafers",
+          "price": "$84.99",
+          "source": "DSW",
+          "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:8930629525931270767,headlineOfferDocid:4240346327523911455,imageDocid:6901309444639730939,rds:PC_1414778579287584059|PROD_PC_1414778579287584059,gpcid:1414778579287584059,mid:576462833734889005,pvt:a&hl=en&gl=us&udm=28",
+          "score": 71,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "finish": "patent",
+            "loaferType": "tassel-loafer",
+            "toeShape": "round",
+            "heelHeight": "chunky",
+            "style": "chunky",
+            "material": "patent-leather",
+            "hardware": "tassel",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "toeShape: round",
+            "material: patent-leather",
+            "finish: patent"
+          ],
+          "mismatchedAttrs": [
+            "heelHeight",
+            "hardware",
+            "style"
+          ]
+        },
+        {
+          "title": "Franco Sarto Women's Lucia Loafer",
+          "price": "$64.99",
+          "source": "Famous Footwear",
+          "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:2781200216440712176,headlineOfferDocid:4927621509310703095,imageDocid:4608970424649550307,rds:PC_17543138677574836823|PROD_PC_17543138677574836823,gpcid:17543138677574836823,mid:576462813217919166,pvt:a&hl=en&gl=us&udm=28",
+          "score": 71,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "finish": "glossy",
+            "loaferType": "not_visible",
+            "toeShape": "round",
+            "heelHeight": "flat",
+            "style": "classic",
+            "material": "leather",
+            "hardware": "tassel",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "toeShape: round",
+            "heelHeight: flat",
+            "material: leather"
+          ],
+          "mismatchedAttrs": [
+            "finish",
+            "hardware",
+            "style"
+          ]
+        },
+        {
+          "title": "Forever & Always Milly Leather Tassel Loafers",
+          "price": "$105.26",
+          "source": "Macy's",
+          "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:18416353473281082318,headlineOfferDocid:4738387469070595479,imageDocid:16634051412863208812,rds:PC_6477102388766219512|PROD_PC_6477102388766219512,gpcid:6477102388766219512,mid:576462821972370815,pvt:a&hl=en&gl=us&udm=28",
+          "score": 71,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "finish": "patent",
+            "loaferType": "tassel-loafer",
+            "toeShape": "round",
+            "heelHeight": "chunky",
+            "style": "chunky",
+            "material": "patent-leather",
+            "hardware": "tassel",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "toeShape: round",
+            "material: patent-leather",
+            "finish: patent"
+          ],
+          "mismatchedAttrs": [
+            "heelHeight",
+            "hardware",
+            "style"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "MARC NOLAN Women's Simone Patent Leather Tassel Loafers",
+        "price": "$150",
+        "source": "Nordstrom",
+        "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:7100255723164255972,headlineOfferDocid:10309378277130816416,imageDocid:18227157741429241704,gpcid:115284877979107898,mid:576462841068236516,pvt:a&hl=en&gl=us&udm=28",
+        "score": 84,
+        "attributes": {
+          "primaryColor": "black",
+          "colorFamily": "black",
+          "finish": "patent",
+          "loaferType": "tassel-loafer",
+          "toeShape": "round",
+          "heelHeight": "flat",
+          "style": "modern",
+          "material": "patent-leather",
+          "hardware": "tassel",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: black",
+          "toeShape: round",
+          "heelHeight: flat",
+          "material: patent-leather",
+          "finish: patent",
+          "style: modern"
+        ],
+        "mismatchedAttrs": [
+          "hardware"
+        ]
+      },
+      "secondMatch": {
+        "title": "Kate Spade Leandra Loafers",
+        "price": "$168",
+        "source": "Kate Spade New York",
+        "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:487903751762492054,headlineOfferDocid:12432533036391136014,imageDocid:5421112357296109516,rds:PC_11520019141663675918|PROD_PC_11520019141663675918,gpcid:11520019141663675918,mid:576462718558004495,pvt:a&hl=en&gl=us&udm=28",
+        "score": 78,
+        "attributes": {
+          "primaryColor": "black",
+          "colorFamily": "black",
+          "finish": "patent",
+          "loaferType": "not_visible",
+          "toeShape": "round",
+          "heelHeight": "flat",
+          "style": "classic",
+          "material": "patent-leather",
+          "hardware": "tassel",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: black",
+          "toeShape: round",
+          "heelHeight: flat",
+          "material: patent-leather",
+          "finish: patent"
+        ],
+        "mismatchedAttrs": [
+          "hardware",
+          "style"
+        ]
+      },
+      "thirdMatch": {
+        "title": "Clarks Women's Lauryl Tassel Slip-On Loafers",
+        "price": "$84.99",
+        "source": "DSW",
+        "link": "https://www.google.com/search?ibp=oshop&q=black patent leather penny loafers women tassel&prds=catalogid:8930629525931270767,headlineOfferDocid:4240346327523911455,imageDocid:6901309444639730939,rds:PC_1414778579287584059|PROD_PC_1414778579287584059,gpcid:1414778579287584059,mid:576462833734889005,pvt:a&hl=en&gl=us&udm=28",
+        "score": 71,
+        "attributes": {
+          "primaryColor": "black",
+          "colorFamily": "black",
+          "finish": "patent",
+          "loaferType": "tassel-loafer",
+          "toeShape": "round",
+          "heelHeight": "chunky",
+          "style": "chunky",
+          "material": "patent-leather",
+          "hardware": "tassel",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: black",
+          "toeShape: round",
+          "material: patent-leather",
+          "finish: patent"
+        ],
+        "mismatchedAttrs": [
+          "heelHeight",
+          "hardware",
+          "style"
+        ]
+      },
+      "gap": 6,
+      "confidence": 0.9,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "Oversized Black Sunglasses",
+      "category": "Accessories",
+      "subcategory": "Sunglasses",
+      "schemaKey": "Accessories:Sunglasses",
+      "referenceAttributes": {
+        "frameColor": "black",
+        "framePattern": "solid",
+        "frameShape": "oversized",
+        "frameMaterial": "plastic",
+        "lensColor": "brown",
+        "lensTint": "medium",
+        "lensType": "gradient",
+        "templeStyle": "thick",
+        "style": "trendy",
+        "confidence": 0.9
+      },
+      "searchQuery": "black oversized sunglasses women plastic",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Wild Fable Women's Oversized Round Plastic Sunglasses",
+          "price": "$14",
+          "source": "Target",
+          "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:12186287968820451108,headlineOfferDocid:14131062393112066863,imageDocid:6203723052706799393,rds:PC_13040830598597423485|PROD_PC_13040830598597423485,gpcid:13040830598597423485,mid:576462861411532368,pvt:a&hl=en&gl=us&udm=28",
+          "score": 81,
+          "attributes": {
+            "frameColor": "black",
+            "framePattern": "solid",
+            "frameShape": "oversized",
+            "frameMaterial": "plastic",
+            "lensColor": "gray",
+            "lensTint": "dark",
+            "lensType": "solid",
+            "templeStyle": "thick",
+            "style": "trendy",
+            "confidence": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "frameColor: black",
+            "framePattern: solid",
+            "frameShape: oversized",
+            "frameMaterial: plastic",
+            "templeStyle: thick",
+            "style: trendy"
+          ],
+          "mismatchedAttrs": [
+            "lensColor",
+            "lensTint",
+            "lensType"
+          ]
+        },
+        {
+          "title": "Foster Grant Women's Oversized Sunglasses",
+          "price": "$14.97",
+          "source": "Walmart",
+          "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:6602368747955014854,headlineOfferDocid:15294779435278487268,imageDocid:906466547817504427,rds:PC_4350322184817451556|PROD_PC_4350322184817451556,gpcid:4350322184817451556,mid:576462770288591496,pvt:a&hl=en&gl=us&udm=28",
+          "score": 81,
+          "attributes": {
+            "frameColor": "black",
+            "framePattern": "solid",
+            "frameShape": "oversized",
+            "frameMaterial": "plastic",
+            "lensColor": "gray",
+            "lensTint": "dark",
+            "lensType": "solid",
+            "templeStyle": "thick",
+            "style": "trendy",
+            "confidence": 1
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "frameColor: black",
+            "framePattern: solid",
+            "frameShape: oversized",
+            "frameMaterial: plastic",
+            "templeStyle: thick",
+            "style: trendy"
+          ],
+          "mismatchedAttrs": [
+            "lensColor",
+            "lensTint",
+            "lensType"
+          ]
+        },
+        {
+          "title": "Aeropostale Women's Oversized Square Plastic Sunglasses",
+          "price": "$9",
+          "source": "Aeropostale.com",
+          "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:1935479571795567291,headlineOfferDocid:13080022637790818093,imageDocid:13770161473747520860,rds:PC_10735410497229036143|PROD_PC_10735410497229036143,gpcid:10735410497229036143,pvt:a&hl=en&gl=us&udm=28",
+          "score": 75,
+          "attributes": {
+            "frameColor": "black",
+            "framePattern": "solid",
+            "frameShape": "oversized",
+            "frameMaterial": "plastic",
+            "lensColor": "gray",
+            "lensTint": "dark",
+            "lensType": "solid",
+            "templeStyle": "thin",
+            "style": "trendy",
+            "confidence": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "frameColor: black",
+            "framePattern: solid",
+            "frameShape: oversized",
+            "frameMaterial: plastic",
+            "style: trendy"
+          ],
+          "mismatchedAttrs": [
+            "lensColor",
+            "lensTint",
+            "lensType",
+            "templeStyle"
+          ]
+        },
+        {
+          "title": "A New Day Women's Oversized Cateye Sunglasses",
+          "price": "$15",
+          "source": "Target",
+          "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:2473029259965221334,headlineOfferDocid:17175537773142863785,imageDocid:10888650968577734732,rds:PC_15248420172510197719|PROD_PC_15248420172510197719,gpcid:15248420172510197719,mid:576462492793010331,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "frameColor": "black",
+            "framePattern": "solid",
+            "frameShape": "cat-eye",
+            "frameMaterial": "plastic",
+            "lensColor": "gradient",
+            "lensTint": "dark",
+            "lensType": "gradient",
+            "templeStyle": "thick",
+            "style": "trendy",
+            "confidence": 1
+          },
+          "flags": [
+            "❌ frameShape: \"cat-eye\" ≠ \"oversized\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "frameColor: black",
+            "framePattern: solid",
+            "frameMaterial: plastic",
+            "lensType: gradient",
+            "templeStyle: thick",
+            "style: trendy"
+          ],
+          "mismatchedAttrs": [
+            "frameShape",
+            "lensColor",
+            "lensTint"
+          ]
+        },
+        {
+          "title": "Urban Outfitters Women's Oversized Square Plastic Sunglasses",
+          "price": "$15",
+          "source": "Urban Outfitters",
+          "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:15017254428942016334,headlineOfferDocid:2470855943998851245,imageDocid:15014482209989151825,gpcid:6114829455710717291,mid:576462823145680663,pvt:a&hl=en&gl=us&udm=28",
+          "score": 57,
+          "attributes": {
+            "frameColor": "black",
+            "framePattern": "solid",
+            "frameShape": "square",
+            "frameMaterial": "plastic",
+            "lensColor": "gray",
+            "lensTint": "dark",
+            "lensType": "solid",
+            "templeStyle": "thin",
+            "style": "trendy",
+            "confidence": 0.95
+          },
+          "flags": [
+            "❌ frameShape: \"square\" ≠ \"oversized\""
+          ],
+          "matchedAttrs": [
+            "frameColor: black",
+            "framePattern: solid",
+            "frameMaterial: plastic",
+            "style: trendy"
+          ],
+          "mismatchedAttrs": [
+            "frameShape",
+            "lensColor",
+            "lensTint",
+            "lensType",
+            "templeStyle"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Wild Fable Women's Oversized Round Plastic Sunglasses",
+        "price": "$14",
+        "source": "Target",
+        "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:12186287968820451108,headlineOfferDocid:14131062393112066863,imageDocid:6203723052706799393,rds:PC_13040830598597423485|PROD_PC_13040830598597423485,gpcid:13040830598597423485,mid:576462861411532368,pvt:a&hl=en&gl=us&udm=28",
+        "score": 81,
+        "attributes": {
+          "frameColor": "black",
+          "framePattern": "solid",
+          "frameShape": "oversized",
+          "frameMaterial": "plastic",
+          "lensColor": "gray",
+          "lensTint": "dark",
+          "lensType": "solid",
+          "templeStyle": "thick",
+          "style": "trendy",
+          "confidence": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "frameColor: black",
+          "framePattern: solid",
+          "frameShape: oversized",
+          "frameMaterial: plastic",
+          "templeStyle: thick",
+          "style: trendy"
+        ],
+        "mismatchedAttrs": [
+          "lensColor",
+          "lensTint",
+          "lensType"
+        ]
+      },
+      "secondMatch": {
+        "title": "Foster Grant Women's Oversized Sunglasses",
+        "price": "$14.97",
+        "source": "Walmart",
+        "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:6602368747955014854,headlineOfferDocid:15294779435278487268,imageDocid:906466547817504427,rds:PC_4350322184817451556|PROD_PC_4350322184817451556,gpcid:4350322184817451556,mid:576462770288591496,pvt:a&hl=en&gl=us&udm=28",
+        "score": 81,
+        "attributes": {
+          "frameColor": "black",
+          "framePattern": "solid",
+          "frameShape": "oversized",
+          "frameMaterial": "plastic",
+          "lensColor": "gray",
+          "lensTint": "dark",
+          "lensType": "solid",
+          "templeStyle": "thick",
+          "style": "trendy",
+          "confidence": 1
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "frameColor: black",
+          "framePattern: solid",
+          "frameShape: oversized",
+          "frameMaterial: plastic",
+          "templeStyle: thick",
+          "style: trendy"
+        ],
+        "mismatchedAttrs": [
+          "lensColor",
+          "lensTint",
+          "lensType"
+        ]
+      },
+      "thirdMatch": {
+        "title": "Aeropostale Women's Oversized Square Plastic Sunglasses",
+        "price": "$9",
+        "source": "Aeropostale.com",
+        "link": "https://www.google.com/search?ibp=oshop&q=black oversized sunglasses women plastic&prds=catalogid:1935479571795567291,headlineOfferDocid:13080022637790818093,imageDocid:13770161473747520860,rds:PC_10735410497229036143|PROD_PC_10735410497229036143,gpcid:10735410497229036143,pvt:a&hl=en&gl=us&udm=28",
+        "score": 75,
+        "attributes": {
+          "frameColor": "black",
+          "framePattern": "solid",
+          "frameShape": "oversized",
+          "frameMaterial": "plastic",
+          "lensColor": "gray",
+          "lensTint": "dark",
+          "lensType": "solid",
+          "templeStyle": "thin",
+          "style": "trendy",
+          "confidence": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "frameColor: black",
+          "framePattern: solid",
+          "frameShape: oversized",
+          "frameMaterial: plastic",
+          "style: trendy"
+        ],
+        "mismatchedAttrs": [
+          "lensColor",
+          "lensTint",
+          "lensType",
+          "templeStyle"
+        ]
+      },
+      "gap": 0,
+      "confidence": 0.9,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "Silver Hoop Earrings",
+      "category": "Jewelry",
+      "subcategory": "Earrings",
+      "schemaKey": "Jewelry:Earrings",
+      "referenceAttributes": {
+        "metalColor": "silver",
+        "earringType": "hoop",
+        "shape": "round",
+        "hasGemstones": false,
+        "gemstoneType": "none",
+        "gemstoneColor": "none",
+        "CONFIDENCE": 0.8
+      },
+      "searchQuery": "silver medium hoop earrings women",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Jenny Bird Staple Hoop Medium Earrings",
+          "price": "$108",
+          "source": "Jenny Bird US",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:1181972810135557832,headlineOfferDocid:1598385296599287804,imageDocid:16767163446337808723,rds:PC_15456465780541931390|PROD_PC_15456465780541931390,gpcid:15456465780541931390,mid:576462876174154752,pvt:a&hl=en&gl=us&udm=28",
+          "score": 85,
+          "attributes": {
+            "metalColor": "silver",
+            "metalFinish": "polished",
+            "earringType": "hoop",
+            "size": "medium",
+            "shape": "round",
+            "hasGemstones": false,
+            "gemstoneType": "none",
+            "gemstoneColor": "none",
+            "closure": "post",
+            "style": "modern",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "metalColor: silver",
+            "earringType: hoop",
+            "shape: round",
+            "hasGemstones: false",
+            "gemstoneType: none",
+            "gemstoneColor: none"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Anabel Aram Farrier Medium Hoop Earrings",
+          "price": "$70",
+          "source": "Anabel Aram",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:4273529013460129674,headlineOfferDocid:16895722370917625918,imageDocid:12425503654843855919,rds:PC_474703855678658190|PROD_PC_474703855678658190,gpcid:474703855678658190,mid:576462511884604253,pvt:a&hl=en&gl=us&udm=28",
+          "score": 85,
+          "attributes": {
+            "metalColor": "silver",
+            "metalFinish": "hammered",
+            "earringType": "hoop",
+            "size": "medium",
+            "shape": "round",
+            "hasGemstones": false,
+            "gemstoneType": "none",
+            "gemstoneColor": "none",
+            "closure": "post",
+            "style": "modern",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "metalColor: silver",
+            "earringType: hoop",
+            "shape: round",
+            "hasGemstones: false",
+            "gemstoneType: none",
+            "gemstoneColor: none"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Womens Argento Vivo Sterling Silver Argento Vivo Endless",
+          "price": "$44",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:13755195667781947143,headlineOfferDocid:14938167909707144839,imageDocid:1045703564819356677,rds:PC_10846633543861885656|PROD_PC_10846633543861885656,gpcid:10846633543861885656,mid:576462794437754572,pvt:a&hl=en&gl=us&udm=28",
+          "score": 85,
+          "attributes": {
+            "metalColor": "silver",
+            "metalFinish": "polished",
+            "earringType": "hoop",
+            "size": "large",
+            "shape": "round",
+            "hasGemstones": false,
+            "gemstoneType": "none",
+            "gemstoneColor": "none",
+            "closure": "not_visible",
+            "style": "minimalist",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "metalColor: silver",
+            "earringType: hoop",
+            "shape: round",
+            "hasGemstones: false",
+            "gemstoneType: none",
+            "gemstoneColor: none"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Ettika Medium Metal Moderna Hoops",
+          "price": "$55",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:13415251817414147829,headlineOfferDocid:4813967575261954716,imageDocid:9387357651209046345,gpcid:17325941119271775378,pvt:a&hl=en&gl=us&udm=28",
+          "score": 78,
+          "attributes": {
+            "metalColor": "silver",
+            "metalFinish": "polished",
+            "earringType": "hoop",
+            "size": "medium",
+            "shape": "irregular",
+            "hasGemstones": false,
+            "gemstoneType": "none",
+            "gemstoneColor": "none",
+            "closure": "post",
+            "style": "modern",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "metalColor: silver",
+            "earringType: hoop",
+            "hasGemstones: false",
+            "gemstoneType: none",
+            "gemstoneColor: none"
+          ],
+          "mismatchedAttrs": [
+            "shape"
+          ]
+        },
+        {
+          "title": "Anne Klein Classics Silvertone Large Oval Hoop Earrings",
+          "price": "$20",
+          "source": "Anne Klein",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:6787073397383886301,headlineOfferDocid:12937833810042837162,imageDocid:15703195443871499189,rds:PC_2980925397560677413|PROD_PC_2980925397560677413,gpcid:2980925397560677413,mid:576462439575682798,pvt:a&hl=en&gl=us&udm=28",
+          "score": 78,
+          "attributes": {
+            "metalColor": "silver",
+            "metalFinish": "polished",
+            "earringType": "hoop",
+            "size": "large",
+            "shape": "oval",
+            "hasGemstones": false,
+            "gemstoneType": "none",
+            "gemstoneColor": "none",
+            "closure": "not_visible",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "metalColor: silver",
+            "earringType: hoop",
+            "hasGemstones: false",
+            "gemstoneType: none",
+            "gemstoneColor: none"
+          ],
+          "mismatchedAttrs": [
+            "shape"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Jenny Bird Staple Hoop Medium Earrings",
+        "price": "$108",
+        "source": "Jenny Bird US",
+        "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:1181972810135557832,headlineOfferDocid:1598385296599287804,imageDocid:16767163446337808723,rds:PC_15456465780541931390|PROD_PC_15456465780541931390,gpcid:15456465780541931390,mid:576462876174154752,pvt:a&hl=en&gl=us&udm=28",
+        "score": 85,
+        "attributes": {
+          "metalColor": "silver",
+          "metalFinish": "polished",
+          "earringType": "hoop",
+          "size": "medium",
+          "shape": "round",
+          "hasGemstones": false,
+          "gemstoneType": "none",
+          "gemstoneColor": "none",
+          "closure": "post",
+          "style": "modern",
+          "CONFIDENCE": 0.9
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "metalColor: silver",
+          "earringType: hoop",
+          "shape: round",
+          "hasGemstones: false",
+          "gemstoneType: none",
+          "gemstoneColor: none"
+        ],
+        "mismatchedAttrs": []
+      },
+      "secondMatch": {
+        "title": "Anabel Aram Farrier Medium Hoop Earrings",
+        "price": "$70",
+        "source": "Anabel Aram",
+        "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:4273529013460129674,headlineOfferDocid:16895722370917625918,imageDocid:12425503654843855919,rds:PC_474703855678658190|PROD_PC_474703855678658190,gpcid:474703855678658190,mid:576462511884604253,pvt:a&hl=en&gl=us&udm=28",
+        "score": 85,
+        "attributes": {
+          "metalColor": "silver",
+          "metalFinish": "hammered",
+          "earringType": "hoop",
+          "size": "medium",
+          "shape": "round",
+          "hasGemstones": false,
+          "gemstoneType": "none",
+          "gemstoneColor": "none",
+          "closure": "post",
+          "style": "modern",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "metalColor: silver",
+          "earringType: hoop",
+          "shape: round",
+          "hasGemstones: false",
+          "gemstoneType: none",
+          "gemstoneColor: none"
+        ],
+        "mismatchedAttrs": []
+      },
+      "thirdMatch": {
+        "title": "Womens Argento Vivo Sterling Silver Argento Vivo Endless",
+        "price": "$44",
+        "source": "Nordstrom",
+        "link": "https://www.google.com/search?ibp=oshop&q=silver medium hoop earrings women&prds=catalogid:13755195667781947143,headlineOfferDocid:14938167909707144839,imageDocid:1045703564819356677,rds:PC_10846633543861885656|PROD_PC_10846633543861885656,gpcid:10846633543861885656,mid:576462794437754572,pvt:a&hl=en&gl=us&udm=28",
+        "score": 85,
+        "attributes": {
+          "metalColor": "silver",
+          "metalFinish": "polished",
+          "earringType": "hoop",
+          "size": "large",
+          "shape": "round",
+          "hasGemstones": false,
+          "gemstoneType": "none",
+          "gemstoneColor": "none",
+          "closure": "not_visible",
+          "style": "minimalist",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "metalColor: silver",
+          "earringType: hoop",
+          "shape: round",
+          "hasGemstones: false",
+          "gemstoneType: none",
+          "gemstoneColor: none"
+        ],
+        "mismatchedAttrs": []
+      },
+      "gap": 0,
+      "confidence": 0.8,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "Canvas Tote Bag",
+      "category": "Bags",
+      "subcategory": "Totes",
+      "schemaKey": "Bags:Totes",
+      "referenceAttributes": {
+        "primaryColor": "cream",
+        "colorFamily": "neutral",
+        "finish": "canvas",
+        "size": "medium",
+        "shape": "structured",
+        "material": "canvas",
+        "handleType": "shoulder-strap",
+        "closure": "open-top",
+        "hardware": "none",
+        "hasPockets": "false",
+        "hasLining": false,
+        "hasBranding": "false",
+        "CONFIDENCE": 0.7
+      },
+      "searchQuery": "natural canvas tote bag black handles cotton",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "BYFT - Natural Cotton Canvas Tote Bag With Black Tape Handles",
+          "price": "$10.89",
+          "source": "Mumzworld.com",
+          "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=productid:12648330008808794804,headlineOfferDocid:12648330008808794804,imageDocid:14745981858297129695,pvt:a&hl=en&gl=us&udm=28",
+          "score": 89,
+          "attributes": {
+            "primaryColor": "natural",
+            "colorFamily": "neutral",
+            "finish": "canvas",
+            "size": "medium",
+            "shape": "rectangular",
+            "material": "canvas",
+            "handleType": "shoulder-strap",
+            "closure": "open-top",
+            "hardware": "none",
+            "hasPockets": false,
+            "hasLining": false,
+            "hasBranding": false,
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: natural",
+            "finish: canvas",
+            "size: medium",
+            "material: canvas",
+            "handleType: shoulder-strap",
+            "closure: open-top",
+            "hardware: none"
+          ],
+          "mismatchedAttrs": [
+            "shape"
+          ]
+        },
+        {
+          "title": "Liberty Bags 8868 Natural Tote with Contrast-Color Handles",
+          "price": "$3.9",
+          "source": "TheParkWholesale.com",
+          "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=catalogid:16688479559229401152,headlineOfferDocid:3242503069122837684,imageDocid:9483873863943270933,rds:PC_310489454738772288|PROD_PC_310489454738772288,gpcid:310489454738772288,mid:576462461857340169,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "natural",
+            "colorFamily": "neutral",
+            "finish": "canvas",
+            "size": "medium",
+            "shape": "rectangular",
+            "material": "canvas",
+            "handleType": "long-handle",
+            "closure": "open-top",
+            "hardware": "none",
+            "hasPockets": false,
+            "hasLining": false,
+            "hasBranding": false,
+            "CONFIDENCE": 0.9
+          },
+          "flags": [
+            "❌ handleType: \"long-handle\" ≠ \"shoulder-strap\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: natural",
+            "finish: canvas",
+            "size: medium",
+            "material: canvas",
+            "closure: open-top",
+            "hardware: none"
+          ],
+          "mismatchedAttrs": [
+            "shape",
+            "handleType"
+          ]
+        },
+        {
+          "title": "Lands' End Medium 5 Pocket Open Top Canvas Tote Bag",
+          "price": "$23.97",
+          "source": "Lands' End",
+          "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=catalogid:3123487412729987329,headlineOfferDocid:12824461502533465899,imageDocid:17174829419200664095,rds:PC_1090934177587441397|PROD_PC_1090934177587441397,gpcid:1090934177587441397,mid:576462517279402023,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "beige",
+            "colorFamily": "neutral",
+            "finish": "canvas",
+            "size": "medium",
+            "shape": "rectangular",
+            "material": "canvas",
+            "handleType": "double-handle",
+            "closure": "open-top",
+            "hardware": "none",
+            "hasPockets": true,
+            "hasLining": false,
+            "hasBranding": true,
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ handleType: \"double-handle\" ≠ \"shoulder-strap\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: beige",
+            "finish: canvas",
+            "size: medium",
+            "material: canvas",
+            "closure: open-top",
+            "hardware: none"
+          ],
+          "mismatchedAttrs": [
+            "shape",
+            "handleType"
+          ]
+        },
+        {
+          "title": "Natural Canvas Tote Bag",
+          "price": "$16.99",
+          "source": "ThreadArt.com",
+          "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=catalogid:3614294876072802014,headlineOfferDocid:16181942955135498617,imageDocid:3007011678116870933,gpcid:11738804089816829577,mid:576462874586857330,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "natural",
+            "colorFamily": "beige",
+            "finish": "canvas",
+            "size": "medium",
+            "shape": "rectangular",
+            "material": "canvas",
+            "handleType": "double-handle",
+            "closure": "open-top",
+            "hardware": "none",
+            "hasPockets": true,
+            "hasLining": false,
+            "hasBranding": false,
+            "CONFIDENCE": 0.9
+          },
+          "flags": [
+            "❌ handleType: \"double-handle\" ≠ \"shoulder-strap\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: natural",
+            "finish: canvas",
+            "size: medium",
+            "material: canvas",
+            "closure: open-top",
+            "hardware: none"
+          ],
+          "mismatchedAttrs": [
+            "shape",
+            "handleType"
+          ]
+        },
+        {
+          "title": "Threadart Extra Large 100% Cotton Natural Canvas Tote Bag With Black Handles - 22 inchx16 inchx6 inch - 14 oz Canvas - For Women, School, Shopping,",
+          "price": "$22.99",
+          "source": "Walmart - Threadart",
+          "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=productid:8255110860873388984,headlineOfferDocid:8255110860873388984,imageDocid:15707620554130276374,pvt:a&hl=en&gl=us&udm=28",
+          "score": 41,
+          "attributes": {
+            "primaryColor": "black",
+            "material": "canvas",
+            "size": "large"
+          },
+          "flags": [
+            "❌ size: \"large\" ≠ \"medium\""
+          ],
+          "matchedAttrs": [
+            "material: canvas"
+          ],
+          "mismatchedAttrs": [
+            "primaryColor",
+            "size"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "BYFT - Natural Cotton Canvas Tote Bag With Black Tape Handles",
+        "price": "$10.89",
+        "source": "Mumzworld.com",
+        "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=productid:12648330008808794804,headlineOfferDocid:12648330008808794804,imageDocid:14745981858297129695,pvt:a&hl=en&gl=us&udm=28",
+        "score": 89,
+        "attributes": {
+          "primaryColor": "natural",
+          "colorFamily": "neutral",
+          "finish": "canvas",
+          "size": "medium",
+          "shape": "rectangular",
+          "material": "canvas",
+          "handleType": "shoulder-strap",
+          "closure": "open-top",
+          "hardware": "none",
+          "hasPockets": false,
+          "hasLining": false,
+          "hasBranding": false,
+          "CONFIDENCE": 0.9
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: natural",
+          "finish: canvas",
+          "size: medium",
+          "material: canvas",
+          "handleType: shoulder-strap",
+          "closure: open-top",
+          "hardware: none"
+        ],
+        "mismatchedAttrs": [
+          "shape"
+        ]
+      },
+      "secondMatch": {
+        "title": "Liberty Bags 8868 Natural Tote with Contrast-Color Handles",
+        "price": "$3.9",
+        "source": "TheParkWholesale.com",
+        "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=catalogid:16688479559229401152,headlineOfferDocid:3242503069122837684,imageDocid:9483873863943270933,rds:PC_310489454738772288|PROD_PC_310489454738772288,gpcid:310489454738772288,mid:576462461857340169,pvt:a&hl=en&gl=us&udm=28",
+        "score": 65,
+        "attributes": {
+          "primaryColor": "natural",
+          "colorFamily": "neutral",
+          "finish": "canvas",
+          "size": "medium",
+          "shape": "rectangular",
+          "material": "canvas",
+          "handleType": "long-handle",
+          "closure": "open-top",
+          "hardware": "none",
+          "hasPockets": false,
+          "hasLining": false,
+          "hasBranding": false,
+          "CONFIDENCE": 0.9
+        },
+        "flags": [
+          "❌ handleType: \"long-handle\" ≠ \"shoulder-strap\"",
+          "⚠️ Score capped at 65 (deal-breaker mismatch)"
+        ],
+        "matchedAttrs": [
+          "primaryColor: natural",
+          "finish: canvas",
+          "size: medium",
+          "material: canvas",
+          "closure: open-top",
+          "hardware: none"
+        ],
+        "mismatchedAttrs": [
+          "shape",
+          "handleType"
+        ]
+      },
+      "thirdMatch": {
+        "title": "Lands' End Medium 5 Pocket Open Top Canvas Tote Bag",
+        "price": "$23.97",
+        "source": "Lands' End",
+        "link": "https://www.google.com/search?ibp=oshop&q=natural canvas tote bag black handles cotton&prds=catalogid:3123487412729987329,headlineOfferDocid:12824461502533465899,imageDocid:17174829419200664095,rds:PC_1090934177587441397|PROD_PC_1090934177587441397,gpcid:1090934177587441397,mid:576462517279402023,pvt:a&hl=en&gl=us&udm=28",
+        "score": 65,
+        "attributes": {
+          "primaryColor": "beige",
+          "colorFamily": "neutral",
+          "finish": "canvas",
+          "size": "medium",
+          "shape": "rectangular",
+          "material": "canvas",
+          "handleType": "double-handle",
+          "closure": "open-top",
+          "hardware": "none",
+          "hasPockets": true,
+          "hasLining": false,
+          "hasBranding": true,
+          "CONFIDENCE": 0.95
+        },
+        "flags": [
+          "❌ handleType: \"double-handle\" ≠ \"shoulder-strap\"",
+          "⚠️ Score capped at 65 (deal-breaker mismatch)"
+        ],
+        "matchedAttrs": [
+          "primaryColor: beige",
+          "finish: canvas",
+          "size: medium",
+          "material: canvas",
+          "closure: open-top",
+          "hardware: none"
+        ],
+        "mismatchedAttrs": [
+          "shape",
+          "handleType"
+        ]
+      },
+      "gap": 24,
+      "confidence": 0.7,
+      "assessment": "✅ STRONG MATCH - High confidence"
+    },
+    {
+      "name": "Silver Watch Metal Bracelet",
+      "category": "Jewelry",
+      "subcategory": "Watches",
+      "schemaKey": "Jewelry:Watches",
+      "referenceAttributes": {
+        "caseColor": "silver",
+        "caseShape": "round",
+        "bandType": "metal-bracelet",
+        "bandColor": "matching-case",
+        "watchStyle": "fashion",
+        "confidence": 0.8
+      },
+      "searchQuery": "silver women watch metal bracelet round",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Ettika Open Circle Bracelet Watch",
+          "price": "$195",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:12398231697784200148,headlineOfferDocid:1660663044680409882,imageDocid:8673204483728067216,gpcid:4986692438170510165,mid:576462840759614520,pvt:a&hl=en&gl=us&udm=28",
+          "score": 83,
+          "attributes": {
+            "caseColor": "silver",
+            "caseFinish": "polished",
+            "caseShape": "round",
+            "caseSize": "small",
+            "bandType": "metal-bracelet",
+            "bandColor": "matching-case",
+            "dialColor": "silver",
+            "watchStyle": "fashion",
+            "features": "none",
+            "brand": "Ettika",
+            "confidence": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "caseColor: silver",
+            "caseShape: round",
+            "bandType: metal-bracelet",
+            "bandColor: matching-case",
+            "watchStyle: fashion"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Women's Round Face Metal Double Band Bangle Cuff Watch",
+          "price": "$19.99",
+          "source": "Walmart - Nalley",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:18371759822570958499,headlineOfferDocid:8877172494569974296,imageDocid:16385481891353090197,rds:PC_17331567172945492762|PROD_PC_17331567172945492762,gpcid:17331567172945492762,mid:576462751673743729,pvt:a&hl=en&gl=us&udm=28",
+          "score": 83,
+          "attributes": {
+            "caseColor": "silver",
+            "caseFinish": "polished",
+            "caseShape": "round",
+            "caseSize": "small",
+            "bandType": "metal-bracelet",
+            "bandColor": "matching-case",
+            "dialColor": "silver",
+            "watchStyle": "fashion",
+            "features": "none",
+            "brand": "Geneva",
+            "confidence": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "caseColor: silver",
+            "caseShape: round",
+            "bandType: metal-bracelet",
+            "bandColor: matching-case",
+            "watchStyle: fashion"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Kate Spade Monroe Twist Stainless Steel Bracelet Watch",
+          "price": "$149.97",
+          "source": "Nordstrom Rack",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:13125068451492210360,headlineOfferDocid:11153318662118759884,imageDocid:2522389172102553425,gpcid:16712875890856002846,mid:576462873292595888,pvt:a&hl=en&gl=us&udm=28",
+          "score": 83,
+          "attributes": {
+            "caseColor": "silver",
+            "caseFinish": "polished",
+            "caseShape": "round",
+            "caseSize": "small",
+            "bandType": "metal-bracelet",
+            "bandColor": "matching-case",
+            "dialColor": "silver",
+            "watchStyle": "fashion",
+            "features": "none",
+            "brand": "Kate Spade",
+            "confidence": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "caseColor: silver",
+            "caseShape: round",
+            "bandType: metal-bracelet",
+            "bandColor: matching-case",
+            "watchStyle: fashion"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Swarovski Certa Watch",
+          "price": "$210",
+          "source": "Swarovski USA",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:4758063972872187698,headlineOfferDocid:697447295112773801,imageDocid:4861678894290501498,gpcid:16874624859739877453,mid:576462807437689905,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "caseColor": "silver",
+            "caseFinish": "polished",
+            "caseShape": "round",
+            "caseSize": "medium",
+            "bandType": "mesh",
+            "bandColor": "matching-case",
+            "dialColor": "silver",
+            "watchStyle": "fashion",
+            "features": "diamond-bezel",
+            "brand": "Swarovski",
+            "confidence": 0.95
+          },
+          "flags": [
+            "❌ bandType: \"mesh\" ≠ \"metal-bracelet\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "caseColor: silver",
+            "caseShape: round",
+            "bandColor: matching-case",
+            "watchStyle: fashion"
+          ],
+          "mismatchedAttrs": [
+            "bandType"
+          ]
+        },
+        {
+          "title": "Coach Women's Sammy Watch",
+          "price": "$185",
+          "source": "Macy's",
+          "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:17770376248975460143,headlineOfferDocid:7844893424756942775,imageDocid:15950586858896471428,rds:PC_6344062494930173180|PROD_PC_6344062494930173180,gpcid:6344062494930173180,mid:576462839501419511,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "caseColor": "silver",
+            "caseFinish": "polished",
+            "caseShape": "oval",
+            "caseSize": "small",
+            "bandType": "metal-bracelet",
+            "bandColor": "matching-case",
+            "dialColor": "patterned",
+            "watchStyle": "fashion",
+            "features": "none",
+            "brand": "Coach",
+            "confidence": 0.95
+          },
+          "flags": [
+            "❌ caseShape: \"oval\" ≠ \"round\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "caseColor: silver",
+            "bandType: metal-bracelet",
+            "bandColor: matching-case",
+            "watchStyle: fashion"
+          ],
+          "mismatchedAttrs": [
+            "caseShape"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Ettika Open Circle Bracelet Watch",
+        "price": "$195",
+        "source": "Nordstrom",
+        "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:12398231697784200148,headlineOfferDocid:1660663044680409882,imageDocid:8673204483728067216,gpcid:4986692438170510165,mid:576462840759614520,pvt:a&hl=en&gl=us&udm=28",
+        "score": 83,
+        "attributes": {
+          "caseColor": "silver",
+          "caseFinish": "polished",
+          "caseShape": "round",
+          "caseSize": "small",
+          "bandType": "metal-bracelet",
+          "bandColor": "matching-case",
+          "dialColor": "silver",
+          "watchStyle": "fashion",
+          "features": "none",
+          "brand": "Ettika",
+          "confidence": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "caseColor: silver",
+          "caseShape: round",
+          "bandType: metal-bracelet",
+          "bandColor: matching-case",
+          "watchStyle: fashion"
+        ],
+        "mismatchedAttrs": []
+      },
+      "secondMatch": {
+        "title": "Women's Round Face Metal Double Band Bangle Cuff Watch",
+        "price": "$19.99",
+        "source": "Walmart - Nalley",
+        "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:18371759822570958499,headlineOfferDocid:8877172494569974296,imageDocid:16385481891353090197,rds:PC_17331567172945492762|PROD_PC_17331567172945492762,gpcid:17331567172945492762,mid:576462751673743729,pvt:a&hl=en&gl=us&udm=28",
+        "score": 83,
+        "attributes": {
+          "caseColor": "silver",
+          "caseFinish": "polished",
+          "caseShape": "round",
+          "caseSize": "small",
+          "bandType": "metal-bracelet",
+          "bandColor": "matching-case",
+          "dialColor": "silver",
+          "watchStyle": "fashion",
+          "features": "none",
+          "brand": "Geneva",
+          "confidence": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "caseColor: silver",
+          "caseShape: round",
+          "bandType: metal-bracelet",
+          "bandColor: matching-case",
+          "watchStyle: fashion"
+        ],
+        "mismatchedAttrs": []
+      },
+      "thirdMatch": {
+        "title": "Kate Spade Monroe Twist Stainless Steel Bracelet Watch",
+        "price": "$149.97",
+        "source": "Nordstrom Rack",
+        "link": "https://www.google.com/search?ibp=oshop&q=silver women watch metal bracelet round&prds=catalogid:13125068451492210360,headlineOfferDocid:11153318662118759884,imageDocid:2522389172102553425,gpcid:16712875890856002846,mid:576462873292595888,pvt:a&hl=en&gl=us&udm=28",
+        "score": 83,
+        "attributes": {
+          "caseColor": "silver",
+          "caseFinish": "polished",
+          "caseShape": "round",
+          "caseSize": "small",
+          "bandType": "metal-bracelet",
+          "bandColor": "matching-case",
+          "dialColor": "silver",
+          "watchStyle": "fashion",
+          "features": "none",
+          "brand": "Kate Spade",
+          "confidence": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "caseColor: silver",
+          "caseShape: round",
+          "bandType: metal-bracelet",
+          "bandColor: matching-case",
+          "watchStyle: fashion"
+        ],
+        "mismatchedAttrs": []
+      },
+      "gap": 0,
+      "confidence": 0.8,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "Black White Polka Dot Scarf",
+      "category": "Accessories",
+      "subcategory": "Scarves",
+      "schemaKey": "Accessories:Scarves",
+      "referenceAttributes": {
+        "primaryColor": "black",
+        "colorFamily": "black",
+        "secondaryColors": [
+          "white"
+        ],
+        "scarfType": "neck-scarf",
+        "size": "small/skinny",
+        "pattern": "polka-dot",
+        "finish": "smooth",
+        "style": "classic",
+        "CONFIDENCE": 0.9
+      },
+      "searchQuery": "black white polka dot neck scarf silk",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Soho Scarves Silk Polka Dot Neckerchief",
+          "price": "$50",
+          "source": "Soho Scarves",
+          "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:11322819068791329345,headlineOfferDocid:4046722822483686633,imageDocid:17121460212358695760,gpcid:10611646999276796512,mid:576462855214626580,pvt:a&hl=en&gl=us&udm=28",
+          "score": 89,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "neutral",
+            "secondaryColors": [
+              "white"
+            ],
+            "scarfType": "neck-scarf",
+            "size": "small/skinny",
+            "pattern": "polka-dot",
+            "material": "silk",
+            "finish": "smooth",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "pattern: polka-dot",
+            "scarfType: neck-scarf",
+            "size: small/skinny",
+            "finish: smooth",
+            "style: classic"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Polka Dot Silky Scarf",
+          "price": "$15",
+          "source": "Urban Outfitters",
+          "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:12042704721457841337,headlineOfferDocid:3140479649310728865,imageDocid:10242344527550976750,gpcid:6536692943816201137,pvt:a&hl=en&gl=us&udm=28",
+          "score": 80,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "secondaryColors": [
+              "white"
+            ],
+            "scarfType": "neck-scarf",
+            "size": "square",
+            "pattern": "polka-dot",
+            "material": "silk",
+            "finish": "smooth",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "pattern: polka-dot",
+            "scarfType: neck-scarf",
+            "finish: smooth",
+            "style: classic"
+          ],
+          "mismatchedAttrs": [
+            "size"
+          ]
+        },
+        {
+          "title": "Wrapables Satin Neckerchief Square Scarf",
+          "price": "$14.99",
+          "source": "Target",
+          "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:14789434889070937884,headlineOfferDocid:565973688863907008,imageDocid:18113901867630531466,gpcid:5951138454665858685,mid:576462865336749669,pvt:a&hl=en&gl=us&udm=28",
+          "score": 80,
+          "attributes": {
+            "primaryColor": "black",
+            "colorFamily": "black",
+            "secondaryColors": [
+              "white"
+            ],
+            "scarfType": "neck-scarf",
+            "size": "square",
+            "pattern": "polka-dot",
+            "material": "not_visible",
+            "finish": "smooth",
+            "style": "classic",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: black",
+            "pattern: polka-dot",
+            "scarfType: neck-scarf",
+            "finish: smooth",
+            "style: classic"
+          ],
+          "mismatchedAttrs": [
+            "size"
+          ]
+        },
+        {
+          "title": "Black and White Polka Dot Scarf",
+          "price": "$10",
+          "source": "PrettyLittleThing",
+          "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:11022037296321301068,headlineOfferDocid:8245402441366576593,imageDocid:6182255437796814307,gpcid:2943834820819335873,mid:576462523588193502,pvt:a&hl=en&gl=us&udm=28",
+          "score": 80,
+          "attributes": {
+            "primaryColor": "Black",
+            "colorFamily": "Black",
+            "secondaryColors": [
+              "White"
+            ],
+            "scarfType": "neck-scarf",
+            "size": "medium",
+            "pattern": "polka-dot",
+            "material": "silk",
+            "finish": "smooth",
+            "style": "classic",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: Black",
+            "pattern: polka-dot",
+            "scarfType: neck-scarf",
+            "finish: smooth",
+            "style: classic"
+          ],
+          "mismatchedAttrs": [
+            "size"
+          ]
+        },
+        {
+          "title": "100% Silk Hand Rolled Polka Dot Shawl",
+          "price": "$22",
+          "source": "Etsy - AccessoriesByGosia",
+          "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:9502696045133671350,headlineOfferDocid:15077518654120334344,imageDocid:14494063466869713172,pvt:a&hl=en&gl=us&udm=28",
+          "score": 52,
+          "attributes": {
+            "primaryColor": "white",
+            "colorFamily": "neutral",
+            "secondaryColors": [
+              "black"
+            ],
+            "scarfType": "shawl",
+            "size": "large/oversized",
+            "pattern": "polka-dot",
+            "material": "silk",
+            "finish": "smooth",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ scarfType: \"shawl\" ≠ \"neck-scarf\""
+          ],
+          "matchedAttrs": [
+            "pattern: polka-dot",
+            "finish: smooth",
+            "style: classic"
+          ],
+          "mismatchedAttrs": [
+            "primaryColor",
+            "scarfType",
+            "size"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Soho Scarves Silk Polka Dot Neckerchief",
+        "price": "$50",
+        "source": "Soho Scarves",
+        "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:11322819068791329345,headlineOfferDocid:4046722822483686633,imageDocid:17121460212358695760,gpcid:10611646999276796512,mid:576462855214626580,pvt:a&hl=en&gl=us&udm=28",
+        "score": 89,
+        "attributes": {
+          "primaryColor": "black",
+          "colorFamily": "neutral",
+          "secondaryColors": [
+            "white"
+          ],
+          "scarfType": "neck-scarf",
+          "size": "small/skinny",
+          "pattern": "polka-dot",
+          "material": "silk",
+          "finish": "smooth",
+          "style": "classic",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: black",
+          "pattern: polka-dot",
+          "scarfType: neck-scarf",
+          "size: small/skinny",
+          "finish: smooth",
+          "style: classic"
+        ],
+        "mismatchedAttrs": []
+      },
+      "secondMatch": {
+        "title": "Polka Dot Silky Scarf",
+        "price": "$15",
+        "source": "Urban Outfitters",
+        "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:12042704721457841337,headlineOfferDocid:3140479649310728865,imageDocid:10242344527550976750,gpcid:6536692943816201137,pvt:a&hl=en&gl=us&udm=28",
+        "score": 80,
+        "attributes": {
+          "primaryColor": "black",
+          "colorFamily": "black",
+          "secondaryColors": [
+            "white"
+          ],
+          "scarfType": "neck-scarf",
+          "size": "square",
+          "pattern": "polka-dot",
+          "material": "silk",
+          "finish": "smooth",
+          "style": "classic",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: black",
+          "pattern: polka-dot",
+          "scarfType: neck-scarf",
+          "finish: smooth",
+          "style: classic"
+        ],
+        "mismatchedAttrs": [
+          "size"
+        ]
+      },
+      "thirdMatch": {
+        "title": "Wrapables Satin Neckerchief Square Scarf",
+        "price": "$14.99",
+        "source": "Target",
+        "link": "https://www.google.com/search?ibp=oshop&q=black white polka dot neck scarf silk&prds=catalogid:14789434889070937884,headlineOfferDocid:565973688863907008,imageDocid:18113901867630531466,gpcid:5951138454665858685,mid:576462865336749669,pvt:a&hl=en&gl=us&udm=28",
+        "score": 80,
+        "attributes": {
+          "primaryColor": "black",
+          "colorFamily": "black",
+          "secondaryColors": [
+            "white"
+          ],
+          "scarfType": "neck-scarf",
+          "size": "square",
+          "pattern": "polka-dot",
+          "material": "not_visible",
+          "finish": "smooth",
+          "style": "classic",
+          "CONFIDENCE": 0.9
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: black",
+          "pattern: polka-dot",
+          "scarfType: neck-scarf",
+          "finish: smooth",
+          "style: classic"
+        ],
+        "mismatchedAttrs": [
+          "size"
+        ]
+      },
+      "gap": 9,
+      "confidence": 0.9,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "Olive Green Scrunchie",
+      "category": "Accessories",
+      "subcategory": "Hair Accessories",
+      "schemaKey": "Accessories:Hair Accessories",
+      "referenceAttributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "pattern": "solid",
+        "accessoryType": "scrunchie",
+        "size": "medium",
+        "features": "plain",
+        "style": "classic",
+        "CONFIDENCE": 0.85
+      },
+      "searchQuery": "olive green satin silk scrunchie hair",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Jay Silk Scrunchie Martini",
+          "price": "$25",
+          "source": "Bartucci Beauty",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:1681848426294146715,headlineOfferDocid:18131710037576416065,imageDocid:16223423195661543777,pvt:a&hl=en&gl=us&udm=28",
+          "score": 93,
+          "attributes": {
+            "primaryColor": "olive",
+            "colorFamily": "green",
+            "pattern": "solid",
+            "accessoryType": "scrunchie",
+            "size": "medium",
+            "material": "silk",
+            "features": "plain",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: olive",
+            "pattern: solid",
+            "accessoryType: scrunchie",
+            "size: medium",
+            "features: plain",
+            "style: classic"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Butter Satin Hair Scrunchie",
+          "price": "$3.5",
+          "source": "yanibest",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:15154348407260275752,headlineOfferDocid:14565630881088755029,imageDocid:725431475372680739,gpcid:12792182231600422003,mid:576462835156570753,pvt:a&hl=en&gl=us&udm=28",
+          "score": 93,
+          "attributes": {
+            "primaryColor": "forest green",
+            "colorFamily": "green",
+            "pattern": "solid",
+            "accessoryType": "scrunchie",
+            "size": "medium",
+            "material": "satin",
+            "features": "plain",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: forest green",
+            "pattern: solid",
+            "accessoryType: scrunchie",
+            "size: medium",
+            "features: plain",
+            "style: classic"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Silk Scrunchie",
+          "price": "$6",
+          "source": "Threads by Gram",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:11245905575655277449,headlineOfferDocid:318912318048082465,imageDocid:14798679510519578811,gpcid:17977222672673549194,pvt:a&hl=en&gl=us&udm=28",
+          "score": 79,
+          "attributes": {
+            "primaryColor": "gold",
+            "colorFamily": "yellow",
+            "pattern": "solid",
+            "accessoryType": "scrunchie",
+            "size": "medium",
+            "material": "silk",
+            "features": "plain",
+            "style": "classic",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "pattern: solid",
+            "accessoryType: scrunchie",
+            "size: medium",
+            "features: plain",
+            "style: classic"
+          ],
+          "mismatchedAttrs": [
+            "primaryColor"
+          ]
+        },
+        {
+          "title": "Oversized Satin Silk Scrunchie",
+          "price": "$4.22",
+          "source": "Etsy - GeorgiaLouiseAccess",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:17981966808232984605,headlineOfferDocid:14439089810297003076,imageDocid:14045079102367647471,rds:PC_5957542750369766580|PROD_PC_5957542750369766580,gpcid:5957542750369766580,mid:576462870955329323,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "green",
+            "colorFamily": "green",
+            "pattern": "solid",
+            "accessoryType": "scrunchie",
+            "size": "oversized",
+            "material": "satin",
+            "features": "plain",
+            "style": "classic",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ size: \"oversized\" ≠ \"medium\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: green",
+            "pattern: solid",
+            "accessoryType: scrunchie",
+            "features: plain",
+            "style: classic"
+          ],
+          "mismatchedAttrs": [
+            "size"
+          ]
+        },
+        {
+          "title": "BLISSY 3-Pack Skinny Silk Scrunchies",
+          "price": "$39.95",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:10843007104385612087,headlineOfferDocid:17410197825080872825,imageDocid:4856429618297923691,rds:PC_375341045654179223|PROD_PC_375341045654179223,gpcid:375341045654179223,mid:576462782057475162,pvt:a&hl=en&gl=us&udm=28",
+          "score": 65,
+          "attributes": {
+            "primaryColor": "sage",
+            "colorFamily": "green",
+            "pattern": "solid",
+            "accessoryType": "scrunchie",
+            "size": "small",
+            "material": "silk",
+            "features": "plain",
+            "style": "minimalist",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [
+            "❌ size: \"small\" ≠ \"medium\"",
+            "⚠️ Score capped at 65 (deal-breaker mismatch)"
+          ],
+          "matchedAttrs": [
+            "primaryColor: sage",
+            "pattern: solid",
+            "accessoryType: scrunchie",
+            "features: plain"
+          ],
+          "mismatchedAttrs": [
+            "size",
+            "style"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Jay Silk Scrunchie Martini",
+        "price": "$25",
+        "source": "Bartucci Beauty",
+        "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:1681848426294146715,headlineOfferDocid:18131710037576416065,imageDocid:16223423195661543777,pvt:a&hl=en&gl=us&udm=28",
+        "score": 93,
+        "attributes": {
+          "primaryColor": "olive",
+          "colorFamily": "green",
+          "pattern": "solid",
+          "accessoryType": "scrunchie",
+          "size": "medium",
+          "material": "silk",
+          "features": "plain",
+          "style": "classic",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: olive",
+          "pattern: solid",
+          "accessoryType: scrunchie",
+          "size: medium",
+          "features: plain",
+          "style: classic"
+        ],
+        "mismatchedAttrs": []
+      },
+      "secondMatch": {
+        "title": "Butter Satin Hair Scrunchie",
+        "price": "$3.5",
+        "source": "yanibest",
+        "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:15154348407260275752,headlineOfferDocid:14565630881088755029,imageDocid:725431475372680739,gpcid:12792182231600422003,mid:576462835156570753,pvt:a&hl=en&gl=us&udm=28",
+        "score": 93,
+        "attributes": {
+          "primaryColor": "forest green",
+          "colorFamily": "green",
+          "pattern": "solid",
+          "accessoryType": "scrunchie",
+          "size": "medium",
+          "material": "satin",
+          "features": "plain",
+          "style": "classic",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: forest green",
+          "pattern: solid",
+          "accessoryType: scrunchie",
+          "size: medium",
+          "features: plain",
+          "style: classic"
+        ],
+        "mismatchedAttrs": []
+      },
+      "thirdMatch": {
+        "title": "Silk Scrunchie",
+        "price": "$6",
+        "source": "Threads by Gram",
+        "link": "https://www.google.com/search?ibp=oshop&q=olive green satin silk scrunchie hair&prds=catalogid:11245905575655277449,headlineOfferDocid:318912318048082465,imageDocid:14798679510519578811,gpcid:17977222672673549194,pvt:a&hl=en&gl=us&udm=28",
+        "score": 79,
+        "attributes": {
+          "primaryColor": "gold",
+          "colorFamily": "yellow",
+          "pattern": "solid",
+          "accessoryType": "scrunchie",
+          "size": "medium",
+          "material": "silk",
+          "features": "plain",
+          "style": "classic",
+          "CONFIDENCE": 0.9
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "pattern: solid",
+          "accessoryType: scrunchie",
+          "size: medium",
+          "features: plain",
+          "style: classic"
+        ],
+        "mismatchedAttrs": [
+          "primaryColor"
+        ]
+      },
+      "gap": 0,
+      "confidence": 0.85,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    },
+    {
+      "name": "White Crew Socks",
+      "category": "Accessories",
+      "subcategory": "Socks",
+      "schemaKey": "Accessories:Socks",
+      "referenceAttributes": {
+        "primaryColor": "white",
+        "colorFamily": "neutral",
+        "pattern": "solid",
+        "sockType": "casual",
+        "length": "crew",
+        "style": "casual",
+        "CONFIDENCE": 0.95
+      },
+      "searchQuery": "white cotton crew socks women classic",
+      "shoppingResultsCount": 8,
+      "candidates": [
+        {
+          "title": "Nordstrom 3-Pack Everyday Crew Socks",
+          "price": "$7.5",
+          "source": "Nordstrom",
+          "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:2948895116930726957,headlineOfferDocid:10292390036545404568,imageDocid:10286833001204854132,rds:PC_2801857935298195252|PROD_PC_2801857935298195252,gpcid:2801857935298195252,pvt:a&hl=en&gl=us&udm=28",
+          "score": 88,
+          "attributes": {
+            "primaryColor": "white",
+            "colorFamily": "white",
+            "pattern": "solid",
+            "sockType": "casual",
+            "length": "crew",
+            "material": "cotton-blend",
+            "features": "not_visible",
+            "style": "casual",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: white",
+            "pattern: solid",
+            "sockType: casual",
+            "length: crew",
+            "style: casual"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Maggie's Organics Classic Crew Socks",
+          "price": "$12",
+          "source": "Maggie's Organics",
+          "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:1723972407765179967,headlineOfferDocid:9917806889148081994,imageDocid:11970102048970586109,rds:PC_15074833352432699942|PROD_PC_15074833352432699942,gpcid:15074833352432699942,mid:576462492679397008,pvt:a&hl=en&gl=us&udm=28",
+          "score": 88,
+          "attributes": {
+            "primaryColor": "white",
+            "colorFamily": "neutral",
+            "pattern": "solid",
+            "sockType": "casual",
+            "length": "crew",
+            "material": "cotton",
+            "features": "ribbed",
+            "style": "casual",
+            "CONFIDENCE": 0.95
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: white",
+            "pattern: solid",
+            "sockType: casual",
+            "length: crew",
+            "style: casual"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "Gap Cashsoft Crew Socks",
+          "price": "$7",
+          "source": "Gap",
+          "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:18262175232792744339,headlineOfferDocid:13554751055540452676,imageDocid:3913782482697196527,rds:PC_253552530822923692|PROD_PC_253552530822923692,gpcid:253552530822923692,mid:576462842602540554,pvt:a&hl=en&gl=us&udm=28",
+          "score": 88,
+          "attributes": {
+            "primaryColor": "cream",
+            "colorFamily": "neutral",
+            "pattern": "solid",
+            "sockType": "casual",
+            "length": "crew",
+            "material": "cashmere",
+            "features": "ribbed",
+            "style": "casual",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: cream",
+            "pattern: solid",
+            "sockType: casual",
+            "length: crew",
+            "style: casual"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "SONOMA Goods For Life Women's 5 Pack Knit Crew Socks",
+          "price": "$11.99",
+          "source": "Kohl's",
+          "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:5876425806275914876,headlineOfferDocid:6913033800582352909,imageDocid:2144850038846145562,rds:PC_15028058880209846909|PROD_PC_15028058880209846909,gpcid:15028058880209846909,mid:576462477286493011,pvt:a&hl=en&gl=us&udm=28",
+          "score": 88,
+          "attributes": {
+            "primaryColor": "white",
+            "colorFamily": "neutral",
+            "pattern": "solid",
+            "sockType": "casual",
+            "length": "crew",
+            "material": "not_visible",
+            "features": "not_visible",
+            "style": "casual",
+            "CONFIDENCE": 0.9
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: white",
+            "pattern: solid",
+            "sockType: casual",
+            "length: crew",
+            "style: casual"
+          ],
+          "mismatchedAttrs": []
+        },
+        {
+          "title": "H&M Ladies 7-Pack Socks",
+          "price": "$12.99",
+          "source": "H&M",
+          "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:16140472327020572734,headlineOfferDocid:5959248529913381095,imageDocid:15716468768697960780,rds:PC_4335416896313978507|PROD_PC_4335416896313978507,gpcid:4335416896313978507,mid:576462826163878410,pvt:a&hl=en&gl=us&udm=28",
+          "score": 81,
+          "attributes": {
+            "primaryColor": "white",
+            "colorFamily": "white",
+            "pattern": "solid",
+            "sockType": "casual",
+            "length": "crew",
+            "material": "not_visible",
+            "features": "not_visible",
+            "style": "minimalist",
+            "CONFIDENCE": 0.85
+          },
+          "flags": [],
+          "matchedAttrs": [
+            "primaryColor: white",
+            "pattern: solid",
+            "sockType: casual",
+            "length: crew"
+          ],
+          "mismatchedAttrs": [
+            "style"
+          ]
+        }
+      ],
+      "topMatch": {
+        "title": "Nordstrom 3-Pack Everyday Crew Socks",
+        "price": "$7.5",
+        "source": "Nordstrom",
+        "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:2948895116930726957,headlineOfferDocid:10292390036545404568,imageDocid:10286833001204854132,rds:PC_2801857935298195252|PROD_PC_2801857935298195252,gpcid:2801857935298195252,pvt:a&hl=en&gl=us&udm=28",
+        "score": 88,
+        "attributes": {
+          "primaryColor": "white",
+          "colorFamily": "white",
+          "pattern": "solid",
+          "sockType": "casual",
+          "length": "crew",
+          "material": "cotton-blend",
+          "features": "not_visible",
+          "style": "casual",
+          "CONFIDENCE": 0.9
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: white",
+          "pattern: solid",
+          "sockType: casual",
+          "length: crew",
+          "style: casual"
+        ],
+        "mismatchedAttrs": []
+      },
+      "secondMatch": {
+        "title": "Maggie's Organics Classic Crew Socks",
+        "price": "$12",
+        "source": "Maggie's Organics",
+        "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:1723972407765179967,headlineOfferDocid:9917806889148081994,imageDocid:11970102048970586109,rds:PC_15074833352432699942|PROD_PC_15074833352432699942,gpcid:15074833352432699942,mid:576462492679397008,pvt:a&hl=en&gl=us&udm=28",
+        "score": 88,
+        "attributes": {
+          "primaryColor": "white",
+          "colorFamily": "neutral",
+          "pattern": "solid",
+          "sockType": "casual",
+          "length": "crew",
+          "material": "cotton",
+          "features": "ribbed",
+          "style": "casual",
+          "CONFIDENCE": 0.95
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: white",
+          "pattern: solid",
+          "sockType: casual",
+          "length: crew",
+          "style: casual"
+        ],
+        "mismatchedAttrs": []
+      },
+      "thirdMatch": {
+        "title": "Gap Cashsoft Crew Socks",
+        "price": "$7",
+        "source": "Gap",
+        "link": "https://www.google.com/search?ibp=oshop&q=white cotton crew socks women classic&prds=catalogid:18262175232792744339,headlineOfferDocid:13554751055540452676,imageDocid:3913782482697196527,rds:PC_253552530822923692|PROD_PC_253552530822923692,gpcid:253552530822923692,mid:576462842602540554,pvt:a&hl=en&gl=us&udm=28",
+        "score": 88,
+        "attributes": {
+          "primaryColor": "cream",
+          "colorFamily": "neutral",
+          "pattern": "solid",
+          "sockType": "casual",
+          "length": "crew",
+          "material": "cashmere",
+          "features": "ribbed",
+          "style": "casual",
+          "CONFIDENCE": 0.9
+        },
+        "flags": [],
+        "matchedAttrs": [
+          "primaryColor: cream",
+          "pattern: solid",
+          "sockType: casual",
+          "length: crew",
+          "style: casual"
+        ],
+        "mismatchedAttrs": []
+      },
+      "gap": 0,
+      "confidence": 0.95,
+      "assessment": "✅ GOOD MATCH - Multiple similar options"
+    }
+  ],
+  "metrics": {
+    "avgScore": 87,
+    "avgGap": 6.6,
+    "avgConfidence": 0.8549999999999999,
+    "strongMatches": 2,
+    "goodMatches": 8,
+    "weakMatches": 0,
+    "poorMatches": 0,
+    "successRate": 1
+  },
+  "assessment": "VALIDATED"
+}

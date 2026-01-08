@@ -53,10 +53,19 @@ export interface StoreEntry {
   products?: Array<{
     name: string;
     category: string;
+    subcategory: string;
     colors: string[];
-    description?: string;
-    estimatedPriceUSD?: string | null;
+    material: string | null;
+    style: string | null;
+    pattern: string | null;
+    brand: string | null;
+    location: string;
+    description: string;
+    searchTerms: string[];
+    estimatedPriceUSD: string | null;
     confidence: number;
+    identifiability: "high" | "medium" | "low";
+    frameIndices: number[];
   }>;
   seo?: {
     title: string;

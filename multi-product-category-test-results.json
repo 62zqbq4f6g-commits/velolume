@@ -1,0 +1,1070 @@
+{
+  "testType": "multi_product_category",
+  "testedAt": "2026-01-06T06:33:28.594Z",
+  "productsTest": 5,
+  "results": [
+    {
+      "productName": "Olive Green Knit Crop Sweater",
+      "category": "Clothing",
+      "subcategory": "Sweater",
+      "currentSchemaRelevance": "high",
+      "currentSchemaResults": {
+        "extractions": [
+          {
+            "productName": "Olive Green Knit Crop Sweater",
+            "category": "Clothing",
+            "subcategory": "Sweater",
+            "frameIndex": 1,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "olive green",
+                "colorFamily": "green",
+                "colorTone": "muted/earthy"
+              },
+              "STYLE": {
+                "neckline": "crew",
+                "sleeveLength": "long",
+                "bodyLength": "crop",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "chunky",
+                "material": "unknown",
+                "texture": "chunky/thick"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Olive Green Knit Crop Sweater",
+            "category": "Clothing",
+            "subcategory": "Sweater",
+            "frameIndex": 2,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "olive green",
+                "colorFamily": "green",
+                "colorTone": "muted/earthy"
+              },
+              "STYLE": {
+                "neckline": "crew",
+                "sleeveLength": "long",
+                "bodyLength": "regular",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "chunky",
+                "material": "unknown",
+                "texture": "chunky/thick"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Olive Green Knit Crop Sweater",
+            "category": "Clothing",
+            "subcategory": "Sweater",
+            "frameIndex": 4,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "olive green",
+                "colorFamily": "green",
+                "colorTone": "muted/earthy"
+              },
+              "STYLE": {
+                "neckline": "crew",
+                "sleeveLength": "long",
+                "bodyLength": "crop",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "chunky",
+                "material": "unknown",
+                "texture": "chunky/thick"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Olive Green Knit Crop Sweater",
+            "category": "Clothing",
+            "subcategory": "Sweater",
+            "frameIndex": 7,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "olive green",
+                "colorFamily": "green",
+                "colorTone": "muted/earthy"
+              },
+              "STYLE": {
+                "neckline": "crew",
+                "sleeveLength": "long",
+                "bodyLength": "regular",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "chunky",
+                "material": "unknown",
+                "texture": "chunky/thick"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 100,
+        "notApplicableRate": 0,
+        "issues": []
+      }
+    },
+    {
+      "productName": "Light Blue Denim Shorts",
+      "category": "Clothing",
+      "subcategory": "Shorts",
+      "currentSchemaRelevance": "medium",
+      "currentSchemaResults": {
+        "extractions": [
+          {
+            "productName": "Light Blue Denim Shorts",
+            "category": "Clothing",
+            "subcategory": "Shorts",
+            "frameIndex": 2,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "light blue",
+                "colorFamily": "blue",
+                "colorTone": "muted"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "unknown",
+                "texture": "medium"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.8
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Light Blue Denim Shorts",
+            "category": "Clothing",
+            "subcategory": "Shorts",
+            "frameIndex": 3,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "light blue",
+                "colorFamily": "blue",
+                "colorTone": "muted"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "unknown",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Light Blue Denim Shorts",
+            "category": "Clothing",
+            "subcategory": "Shorts",
+            "frameIndex": 4,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "unknown",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.2
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Light Blue Denim Shorts",
+            "category": "Clothing",
+            "subcategory": "Shorts",
+            "frameIndex": 10,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "light blue",
+                "colorFamily": "blue",
+                "colorTone": "muted"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "relaxed"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "unknown",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 100,
+        "notApplicableRate": 0,
+        "issues": []
+      }
+    },
+    {
+      "productName": "Black Patent Leather Loafers",
+      "category": "Footwear",
+      "subcategory": "Loafers",
+      "currentSchemaRelevance": "low",
+      "currentSchemaResults": {
+        "extractions": [
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 3,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "black",
+                "colorFamily": "neutral",
+                "colorTone": "dark"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "leather",
+                "texture": "glossy"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 4,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "not_visible"
+              },
+              "CONFIDENCE": 0
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 10,
+            "promptType": "current_schema",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          },
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 11,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "black",
+                "colorFamily": "neutral",
+                "colorTone": "dark"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "leather",
+                "texture": "glossy"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 75,
+        "notApplicableRate": 0,
+        "issues": []
+      },
+      "categorySpecificResults": {
+        "extractions": [
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 3,
+            "promptType": "category_specific",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "black",
+                "colorFamily": "black",
+                "finish": "glossy"
+              },
+              "STYLE": {
+                "toeShape": "round",
+                "heelHeight": "low",
+                "heelType": "block",
+                "closure": "slip-on"
+              },
+              "MATERIAL": {
+                "upperMaterial": "leather",
+                "soleMaterial": "rubber",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasBranding": "false",
+                "hasAccents": "true",
+                "accentType": "tassel"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 4,
+            "promptType": "category_specific",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "finish": "not_visible"
+              },
+              "STYLE": {
+                "toeShape": "not_visible",
+                "heelHeight": "not_visible",
+                "heelType": "not_visible",
+                "closure": "not_visible"
+              },
+              "MATERIAL": {
+                "upperMaterial": "not_visible",
+                "soleMaterial": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasBranding": false,
+                "hasAccents": false,
+                "accentType": "none"
+              },
+              "CONFIDENCE": 0
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 10,
+            "promptType": "category_specific",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          },
+          {
+            "productName": "Black Patent Leather Loafers",
+            "category": "Footwear",
+            "subcategory": "Loafers",
+            "frameIndex": 11,
+            "promptType": "category_specific",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "black",
+                "colorFamily": "black",
+                "finish": "glossy"
+              },
+              "STYLE": {
+                "toeShape": "round",
+                "heelHeight": "flat",
+                "heelType": "none",
+                "closure": "slip-on"
+              },
+              "MATERIAL": {
+                "upperMaterial": "leather",
+                "soleMaterial": "not_visible",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasBranding": "false",
+                "hasAccents": "true",
+                "accentType": "tassel"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 75,
+        "improvement": 0
+      }
+    },
+    {
+      "productName": "Oversized Tortoiseshell Sunglasses",
+      "category": "Accessories",
+      "subcategory": "Sunglasses",
+      "currentSchemaRelevance": "low",
+      "currentSchemaResults": {
+        "extractions": [
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 5,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "brown",
+                "colorFamily": "neutral",
+                "colorTone": "dark"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "plastic",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": true,
+                "patternType": "tortoiseshell"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 6,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "black",
+                "colorFamily": "neutral",
+                "colorTone": "dark"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "plastic",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 7,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "not_visible"
+              },
+              "CONFIDENCE": 0.2
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 8,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "black",
+                "colorFamily": "neutral",
+                "colorTone": "dark"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "plastic",
+                "texture": "smooth"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "solid"
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 100,
+        "notApplicableRate": 0,
+        "issues": []
+      },
+      "categorySpecificResults": {
+        "extractions": [
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 5,
+            "promptType": "category_specific",
+            "attributes": {
+              "FRAME": {
+                "frameColor": "black",
+                "frameMaterial": "plastic",
+                "framePattern": "solid",
+                "frameShape": "oversized"
+              },
+              "LENSES": {
+                "lensColor": "brown",
+                "lensTint": "medium"
+              },
+              "STYLE": {
+                "style": "trendy",
+                "bridgeType": "standard"
+              },
+              "DETAILS": {
+                "hasBranding": false,
+                "hasAccents": false
+              },
+              "CONFIDENCE": 0.9
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 6,
+            "promptType": "category_specific",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          },
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 7,
+            "promptType": "category_specific",
+            "attributes": {
+              "FRAME": {
+                "frameColor": "not_visible",
+                "frameMaterial": "not_visible",
+                "framePattern": "not_visible",
+                "frameShape": "not_visible"
+              },
+              "LENSES": {
+                "lensColor": "not_visible",
+                "lensTint": "not_visible"
+              },
+              "STYLE": {
+                "style": "not_visible",
+                "bridgeType": "not_visible"
+              },
+              "DETAILS": {
+                "hasBranding": false,
+                "hasAccents": false
+              },
+              "CONFIDENCE": 0
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Oversized Tortoiseshell Sunglasses",
+            "category": "Accessories",
+            "subcategory": "Sunglasses",
+            "frameIndex": 8,
+            "promptType": "category_specific",
+            "attributes": {
+              "FRAME": {
+                "frameColor": "black",
+                "frameMaterial": "plastic",
+                "framePattern": "solid",
+                "frameShape": "rectangular"
+              },
+              "LENSES": {
+                "lensColor": "black",
+                "lensTint": "dark"
+              },
+              "STYLE": {
+                "style": "trendy",
+                "bridgeType": "standard"
+              },
+              "DETAILS": {
+                "hasBranding": false,
+                "hasAccents": false
+              },
+              "CONFIDENCE": 0.85
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 75,
+        "improvement": -25
+      }
+    },
+    {
+      "productName": "Silver Hoop Earrings",
+      "category": "Jewelry",
+      "subcategory": "Earrings",
+      "currentSchemaRelevance": "low",
+      "currentSchemaResults": {
+        "extractions": [
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 9,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "not_visible"
+              },
+              "CONFIDENCE": 0
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 10,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "not_visible"
+              },
+              "CONFIDENCE": 0.3
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 11,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "not_visible"
+              },
+              "CONFIDENCE": 0
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          },
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 12,
+            "promptType": "current_schema",
+            "attributes": {
+              "COLOR": {
+                "primaryColor": "not_visible",
+                "colorFamily": "not_visible",
+                "colorTone": "not_visible"
+              },
+              "STYLE": {
+                "neckline": "not_applicable",
+                "sleeveLength": "not_applicable",
+                "bodyLength": "not_applicable",
+                "fit": "not_applicable"
+              },
+              "MATERIAL/TEXTURE": {
+                "knitType": "not_applicable",
+                "material": "not_visible",
+                "texture": "not_visible"
+              },
+              "DETAILS": {
+                "hasButtons": false,
+                "hasZipper": false,
+                "hasPattern": false,
+                "patternType": "not_visible"
+              },
+              "CONFIDENCE": 0
+            },
+            "applicableAttributeCount": 5,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 100
+          }
+        ],
+        "averageCompleteness": 100,
+        "notApplicableRate": 0,
+        "issues": []
+      },
+      "categorySpecificResults": {
+        "extractions": [
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 9,
+            "promptType": "category_specific",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          },
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 10,
+            "promptType": "category_specific",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          },
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 11,
+            "promptType": "category_specific",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          },
+          {
+            "productName": "Silver Hoop Earrings",
+            "category": "Jewelry",
+            "subcategory": "Earrings",
+            "frameIndex": 12,
+            "promptType": "category_specific",
+            "attributes": {},
+            "applicableAttributeCount": 0,
+            "notApplicableCount": 0,
+            "notVisibleCount": 0,
+            "completeness": 0
+          }
+        ],
+        "averageCompleteness": 0,
+        "improvement": -100
+      }
+    }
+  ],
+  "summary": {
+    "highRelevance": 1,
+    "mediumRelevance": 1,
+    "lowRelevance": 3,
+    "avgCurrentCompleteness": 95,
+    "categoriesNeedingSpecificSchema": [
+      "Footwear/Loafers",
+      "Accessories/Sunglasses",
+      "Jewelry/Earrings"
+    ]
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "testType": "attribute_extraction",
+  "testedAt": "2026-01-06T06:00:13.698Z",
+  "referenceAttributes": {
+    "primaryColor": "olive green",
+    "colorFamily": "green",
+    "colorTone": "muted",
+    "neckline": "unknown",
+    "sleeveLength": "unknown",
+    "bodyLength": "unknown",
+    "fit": "unknown",
+    "knitType": "chunky",
+    "material": "unknown",
+    "texture": "chunky/thick",
+    "hasButtons": false,
+    "hasZipper": true,
+    "hasPattern": false,
+    "patternType": "solid",
+    "confidence": 0.6
+  },
+  "candidateResults": [
+    {
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "source": "Walmart - Seller",
+      "price": "$24.59",
+      "attrScore": 44,
+      "similarity": {
+        "totalScore": 44,
+        "maxScore": 100,
+        "percentage": 44,
+        "comparisons": [
+          {
+            "attribute": "Primary Color",
+            "reference": "olive green",
+            "candidate": "forest green",
+            "match": false,
+            "partialMatch": true,
+            "points": 20,
+            "maxPoints": 25,
+            "reasoning": "Same color family and tone"
+          },
+          {
+            "attribute": "Color Tone",
+            "reference": "muted",
+            "candidate": "muted",
+            "match": true,
+            "partialMatch": false,
+            "points": 15,
+            "maxPoints": 15,
+            "reasoning": "Same tone"
+          },
+          {
+            "attribute": "Neckline",
+            "reference": "unknown",
+            "candidate": "v-neck",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 10,
+            "reasoning": "Different neckline (unknown vs v-neck)"
+          },
+          {
+            "attribute": "Sleeve Length",
+            "reference": "unknown",
+            "candidate": "long",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different sleeve (unknown vs long)"
+          },
+          {
+            "attribute": "Body Length",
+            "reference": "unknown",
+            "candidate": "regular",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different length (unknown vs regular)"
+          },
+          {
+            "attribute": "Fit",
+            "reference": "unknown",
+            "candidate": "relaxed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 4,
+            "reasoning": "Different fit"
+          },
+          {
+            "attribute": "Knit Type",
+            "reference": "chunky",
+            "candidate": "cable",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 12,
+            "reasoning": "Different knit (chunky vs cable)"
+          },
+          {
+            "attribute": "Texture",
+            "reference": "chunky/thick",
+            "candidate": "medium",
+            "match": false,
+            "partialMatch": true,
+            "points": 4,
+            "maxPoints": 8,
+            "reasoning": "Different texture (partial credit)"
+          },
+          {
+            "attribute": "Closures (buttons/zipper)",
+            "reference": "buttons:false, zipper:true",
+            "candidate": "buttons:true, zipper:false",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 5,
+            "reasoning": "Different closures"
+          },
+          {
+            "attribute": "Pattern",
+            "reference": "solid",
+            "candidate": "solid",
+            "match": true,
+            "partialMatch": false,
+            "points": 5,
+            "maxPoints": 5,
+            "reasoning": "Same pattern"
+          }
+        ],
+        "summary": "Poor match (44/100). Too many differences: Neckline, Sleeve Length, Body Length, Fit, Knit Type, Closures (buttons/zipper)"
+      }
+    },
+    {
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "source": "Nordstrom Rack",
+      "price": "$59.97",
+      "attrScore": 49,
+      "similarity": {
+        "totalScore": 49,
+        "maxScore": 100,
+        "percentage": 49,
+        "comparisons": [
+          {
+            "attribute": "Primary Color",
+            "reference": "olive green",
+            "candidate": "olive green",
+            "match": true,
+            "partialMatch": true,
+            "points": 25,
+            "maxPoints": 25,
+            "reasoning": "Exact color match"
+          },
+          {
+            "attribute": "Color Tone",
+            "reference": "muted",
+            "candidate": "muted",
+            "match": true,
+            "partialMatch": false,
+            "points": 15,
+            "maxPoints": 15,
+            "reasoning": "Same tone"
+          },
+          {
+            "attribute": "Neckline",
+            "reference": "unknown",
+            "candidate": "mock/funnel",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 10,
+            "reasoning": "Different neckline (unknown vs mock/funnel)"
+          },
+          {
+            "attribute": "Sleeve Length",
+            "reference": "unknown",
+            "candidate": "long",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different sleeve (unknown vs long)"
+          },
+          {
+            "attribute": "Body Length",
+            "reference": "unknown",
+            "candidate": "crop",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different length (unknown vs crop)"
+          },
+          {
+            "attribute": "Fit",
+            "reference": "unknown",
+            "candidate": "relaxed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 4,
+            "reasoning": "Different fit"
+          },
+          {
+            "attribute": "Knit Type",
+            "reference": "chunky",
+            "candidate": "ribbed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 12,
+            "reasoning": "Different knit (chunky vs ribbed)"
+          },
+          {
+            "attribute": "Texture",
+            "reference": "chunky/thick",
+            "candidate": "medium",
+            "match": false,
+            "partialMatch": true,
+            "points": 4,
+            "maxPoints": 8,
+            "reasoning": "Different texture (partial credit)"
+          },
+          {
+            "attribute": "Closures (buttons/zipper)",
+            "reference": "buttons:false, zipper:true",
+            "candidate": "buttons:false, zipper:false",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 5,
+            "reasoning": "Different closures"
+          },
+          {
+            "attribute": "Pattern",
+            "reference": "solid",
+            "candidate": "solid",
+            "match": true,
+            "partialMatch": false,
+            "points": 5,
+            "maxPoints": 5,
+            "reasoning": "Same pattern"
+          }
+        ],
+        "summary": "Poor match (49/100). Too many differences: Neckline, Sleeve Length, Body Length, Fit, Knit Type, Closures (buttons/zipper)"
+      }
+    },
+    {
+      "title": "Lettuce trim ribbed crop sweater",
+      "source": "Commense",
+      "price": "$32.00",
+      "attrScore": 49,
+      "similarity": {
+        "totalScore": 49,
+        "maxScore": 100,
+        "percentage": 49,
+        "comparisons": [
+          {
+            "attribute": "Primary Color",
+            "reference": "olive green",
+            "candidate": "olive green",
+            "match": true,
+            "partialMatch": true,
+            "points": 25,
+            "maxPoints": 25,
+            "reasoning": "Exact color match"
+          },
+          {
+            "attribute": "Color Tone",
+            "reference": "muted",
+            "candidate": "muted",
+            "match": true,
+            "partialMatch": false,
+            "points": 15,
+            "maxPoints": 15,
+            "reasoning": "Same tone"
+          },
+          {
+            "attribute": "Neckline",
+            "reference": "unknown",
+            "candidate": "crew",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 10,
+            "reasoning": "Different neckline (unknown vs crew)"
+          },
+          {
+            "attribute": "Sleeve Length",
+            "reference": "unknown",
+            "candidate": "long",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different sleeve (unknown vs long)"
+          },
+          {
+            "attribute": "Body Length",
+            "reference": "unknown",
+            "candidate": "long",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different length (unknown vs long)"
+          },
+          {
+            "attribute": "Fit",
+            "reference": "unknown",
+            "candidate": "fitted",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 4,
+            "reasoning": "Different fit"
+          },
+          {
+            "attribute": "Knit Type",
+            "reference": "chunky",
+            "candidate": "ribbed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 12,
+            "reasoning": "Different knit (chunky vs ribbed)"
+          },
+          {
+            "attribute": "Texture",
+            "reference": "chunky/thick",
+            "candidate": "medium",
+            "match": false,
+            "partialMatch": true,
+            "points": 4,
+            "maxPoints": 8,
+            "reasoning": "Different texture (partial credit)"
+          },
+          {
+            "attribute": "Closures (buttons/zipper)",
+            "reference": "buttons:false, zipper:true",
+            "candidate": "buttons:false, zipper:false",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 5,
+            "reasoning": "Different closures"
+          },
+          {
+            "attribute": "Pattern",
+            "reference": "solid",
+            "candidate": "solid",
+            "match": true,
+            "partialMatch": false,
+            "points": 5,
+            "maxPoints": 5,
+            "reasoning": "Same pattern"
+          }
+        ],
+        "summary": "Poor match (49/100). Too many differences: Neckline, Sleeve Length, Body Length, Fit, Knit Type, Closures (buttons/zipper)"
+      }
+    },
+    {
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "source": "Windsor",
+      "price": "$36.90",
+      "attrScore": 54,
+      "similarity": {
+        "totalScore": 54,
+        "maxScore": 100,
+        "percentage": 54,
+        "comparisons": [
+          {
+            "attribute": "Primary Color",
+            "reference": "olive green",
+            "candidate": "olive green",
+            "match": true,
+            "partialMatch": true,
+            "points": 25,
+            "maxPoints": 25,
+            "reasoning": "Exact color match"
+          },
+          {
+            "attribute": "Color Tone",
+            "reference": "muted",
+            "candidate": "muted",
+            "match": true,
+            "partialMatch": false,
+            "points": 15,
+            "maxPoints": 15,
+            "reasoning": "Same tone"
+          },
+          {
+            "attribute": "Neckline",
+            "reference": "unknown",
+            "candidate": "mock/funnel",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 10,
+            "reasoning": "Different neckline (unknown vs mock/funnel)"
+          },
+          {
+            "attribute": "Sleeve Length",
+            "reference": "unknown",
+            "candidate": "long",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different sleeve (unknown vs long)"
+          },
+          {
+            "attribute": "Body Length",
+            "reference": "unknown",
+            "candidate": "crop",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different length (unknown vs crop)"
+          },
+          {
+            "attribute": "Fit",
+            "reference": "unknown",
+            "candidate": "relaxed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 4,
+            "reasoning": "Different fit"
+          },
+          {
+            "attribute": "Knit Type",
+            "reference": "chunky",
+            "candidate": "ribbed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 12,
+            "reasoning": "Different knit (chunky vs ribbed)"
+          },
+          {
+            "attribute": "Texture",
+            "reference": "chunky/thick",
+            "candidate": "medium",
+            "match": false,
+            "partialMatch": true,
+            "points": 4,
+            "maxPoints": 8,
+            "reasoning": "Different texture (partial credit)"
+          },
+          {
+            "attribute": "Closures (buttons/zipper)",
+            "reference": "buttons:false, zipper:true",
+            "candidate": "buttons:false, zipper:true",
+            "match": true,
+            "partialMatch": false,
+            "points": 5,
+            "maxPoints": 5,
+            "reasoning": "Same closure details"
+          },
+          {
+            "attribute": "Pattern",
+            "reference": "solid",
+            "candidate": "solid",
+            "match": true,
+            "partialMatch": false,
+            "points": 5,
+            "maxPoints": 5,
+            "reasoning": "Same pattern"
+          }
+        ],
+        "summary": "Partial match (54/100). Key differences: Neckline, Sleeve Length, Body Length"
+      }
+    },
+    {
+      "title": "Waffle Knit Cropped Sweater",
+      "source": "Bohemian coco",
+      "price": "$52.00",
+      "attrScore": 49,
+      "similarity": {
+        "totalScore": 49,
+        "maxScore": 100,
+        "percentage": 49,
+        "comparisons": [
+          {
+            "attribute": "Primary Color",
+            "reference": "olive green",
+            "candidate": "olive green",
+            "match": true,
+            "partialMatch": true,
+            "points": 25,
+            "maxPoints": 25,
+            "reasoning": "Exact color match"
+          },
+          {
+            "attribute": "Color Tone",
+            "reference": "muted",
+            "candidate": "muted",
+            "match": true,
+            "partialMatch": false,
+            "points": 15,
+            "maxPoints": 15,
+            "reasoning": "Same tone"
+          },
+          {
+            "attribute": "Neckline",
+            "reference": "unknown",
+            "candidate": "crew",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 10,
+            "reasoning": "Different neckline (unknown vs crew)"
+          },
+          {
+            "attribute": "Sleeve Length",
+            "reference": "unknown",
+            "candidate": "long",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different sleeve (unknown vs long)"
+          },
+          {
+            "attribute": "Body Length",
+            "reference": "unknown",
+            "candidate": "crop",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 8,
+            "reasoning": "Different length (unknown vs crop)"
+          },
+          {
+            "attribute": "Fit",
+            "reference": "unknown",
+            "candidate": "relaxed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 4,
+            "reasoning": "Different fit"
+          },
+          {
+            "attribute": "Knit Type",
+            "reference": "chunky",
+            "candidate": "ribbed",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 12,
+            "reasoning": "Different knit (chunky vs ribbed)"
+          },
+          {
+            "attribute": "Texture",
+            "reference": "chunky/thick",
+            "candidate": "medium",
+            "match": false,
+            "partialMatch": true,
+            "points": 4,
+            "maxPoints": 8,
+            "reasoning": "Different texture (partial credit)"
+          },
+          {
+            "attribute": "Closures (buttons/zipper)",
+            "reference": "buttons:false, zipper:true",
+            "candidate": "buttons:false, zipper:false",
+            "match": false,
+            "partialMatch": false,
+            "points": 0,
+            "maxPoints": 5,
+            "reasoning": "Different closures"
+          },
+          {
+            "attribute": "Pattern",
+            "reference": "solid",
+            "candidate": "solid",
+            "match": true,
+            "partialMatch": false,
+            "points": 5,
+            "maxPoints": 5,
+            "reasoning": "Same pattern"
+          }
+        ],
+        "summary": "Poor match (49/100). Too many differences: Neckline, Sleeve Length, Body Length, Fit, Knit Type, Closures (buttons/zipper)"
+      }
+    }
+  ],
+  "v3HolisticResults": [
+    {
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "score": 35,
+      "reasoning": "Wrong color shade, wrong neckline, wrong length, wrong material look."
+    },
+    {
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "score": 70,
+      "reasoning": "Correct color and crop length, but wrong neckline style."
+    },
+    {
+      "title": "Lettuce trim ribbed crop sweater",
+      "score": 30,
+      "reasoning": "Wrong length, wrong neckline, wrong material look."
+    },
+    {
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "score": 50,
+      "reasoning": "Correct crop length, but wrong color shade, wrong neckline, wrong material look."
+    },
+    {
+      "title": "Waffle Knit Cropped Sweater",
+      "score": 85,
+      "reasoning": "Correct color, crop length, and material look, but slightly different neckline style."
+    }
+  ],
+  "comparison": [
+    {
+      "title": "Herrnalise Women's Cable Cropped Long Sleeve Crewneck Sweater",
+      "attrScore": 44,
+      "v3Score": 35,
+      "diff": 9,
+      "agreement": "✅ Close"
+    },
+    {
+      "title": "Madewell Women's Mock Neck Crop Sweater",
+      "attrScore": 49,
+      "v3Score": 70,
+      "diff": -21,
+      "agreement": "⚠️ Moderate"
+    },
+    {
+      "title": "Lettuce trim ribbed crop sweater",
+      "attrScore": 49,
+      "v3Score": 30,
+      "diff": 19,
+      "agreement": "⚠️ Moderate"
+    },
+    {
+      "title": "Windsor Season Shift Mock Neck Sweater",
+      "attrScore": 54,
+      "v3Score": 50,
+      "diff": 4,
+      "agreement": "✅ Close"
+    },
+    {
+      "title": "Waffle Knit Cropped Sweater",
+      "attrScore": 49,
+      "v3Score": 85,
+      "diff": -36,
+      "agreement": "❌ Far"
+    }
+  ],
+  "assessment": {
+    "avgDifference": 17.8,
+    "agreementRate": "2/5",
+    "topMatchAgrees": false,
+    "attrSpread": 10,
+    "v3Spread": 55,
+    "recommendation": "🔄 NEEDS REFINEMENT: Top match differs. Consider adjusting attribute weights or using ensemble.",
+    "pros": [
+      "Explainable: Each score has clear attribute breakdown",
+      "Consistent: Same attributes always score the same way",
+      "Debuggable: Can see exactly which attributes matched/missed"
+    ],
+    "cons": [
+      "Top match differs from V3 holistic",
+      "Requires category-specific attribute schemas",
+      "2x API calls (extract reference + candidates separately)"
+    ]
+  }
+}

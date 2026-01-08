@@ -1,0 +1,664 @@
+{
+  "testType": "ootd_full_pipeline",
+  "testedAt": "2026-01-06T08:33:10.338Z",
+  "version": "5.0",
+  "productsTestedThisRun": 5,
+  "results": [
+    {
+      "name": "Canvas Tote Bag",
+      "category": "Bags",
+      "subcategory": "Totes",
+      "referenceAttributes": {
+        "primaryColor": "beige",
+        "colorFamily": "neutral",
+        "finish": "canvas",
+        "size": "large",
+        "shape": "structured",
+        "material": "canvas",
+        "handleType": "shoulder-strap",
+        "hardware": "none",
+        "hasPockets": "false",
+        "hasBranding": "false",
+        "CONFIDENCE": 0.85
+      },
+      "shoppingResults": 3,
+      "topMatch": {
+        "title": "Large Canvas Shopping Bag White",
+        "price": "$29.99",
+        "source": "Etsy",
+        "score": 60,
+        "attributes": {
+          "primaryColor": "white",
+          "material": "canvas",
+          "size": "large"
+        },
+        "flags": [],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 5.3999999999999995,
+            "max": 18
+          },
+          {
+            "attr": "finish",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "size",
+            "points": 14,
+            "max": 14
+          },
+          {
+            "attr": "shape",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "material",
+            "points": 14,
+            "max": 14
+          },
+          {
+            "attr": "handleType",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "closure",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "hardware",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "features",
+            "points": 4,
+            "max": 8
+          }
+        ]
+      },
+      "secondMatch": {
+        "title": "Canvas Tote Bag with Black Straps",
+        "price": "$24.99",
+        "source": "Amazon",
+        "score": 47,
+        "attributes": {
+          "primaryColor": "black",
+          "material": "canvas",
+          "handleType": "long-handle"
+        },
+        "flags": [
+          "❌ handleType: long-handle ≠ shoulder-strap"
+        ],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 5.3999999999999995,
+            "max": 18
+          },
+          {
+            "attr": "finish",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "size",
+            "points": 7,
+            "max": 14
+          },
+          {
+            "attr": "shape",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "material",
+            "points": 14,
+            "max": 14
+          },
+          {
+            "attr": "handleType",
+            "points": 0,
+            "max": 12
+          },
+          {
+            "attr": "closure",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "hardware",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "features",
+            "points": 4,
+            "max": 8
+          }
+        ]
+      },
+      "gap": 13,
+      "confidence": 0.85
+    },
+    {
+      "name": "Smartwatch with Black Band",
+      "category": "Jewelry",
+      "subcategory": "Watches",
+      "referenceAttributes": {
+        "caseColor": "black",
+        "caseFinish": "polished",
+        "caseShape": "round",
+        "caseSize": "medium",
+        "bandType": "metal-bracelet",
+        "bandColor": "black",
+        "watchStyle": "smart",
+        "features": "none",
+        "confidence": 0.8
+      },
+      "shoppingResults": 3,
+      "topMatch": {
+        "title": "Apple Watch SE Black Sport Band",
+        "price": "$249.00",
+        "source": "Apple",
+        "score": 55,
+        "attributes": {
+          "primaryColor": "black",
+          "watchStyle": "smart"
+        },
+        "flags": [],
+        "breakdown": [
+          {
+            "attr": "caseColor",
+            "points": 8,
+            "max": 16
+          },
+          {
+            "attr": "caseFinish",
+            "points": 3,
+            "max": 6
+          },
+          {
+            "attr": "caseShape",
+            "points": 7,
+            "max": 14
+          },
+          {
+            "attr": "caseSize",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "bandType",
+            "points": 7,
+            "max": 14
+          },
+          {
+            "attr": "bandColor",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "dialColor",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "watchStyle",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "attr": "features",
+            "points": 2,
+            "max": 4
+          },
+          {
+            "attr": "brand",
+            "points": 2,
+            "max": 4
+          }
+        ]
+      },
+      "secondMatch": {
+        "title": "Samsung Galaxy Watch Black",
+        "price": "$199.99",
+        "source": "Best Buy",
+        "score": 55,
+        "attributes": {
+          "primaryColor": "black",
+          "watchStyle": "smart"
+        },
+        "flags": [],
+        "breakdown": [
+          {
+            "attr": "caseColor",
+            "points": 8,
+            "max": 16
+          },
+          {
+            "attr": "caseFinish",
+            "points": 3,
+            "max": 6
+          },
+          {
+            "attr": "caseShape",
+            "points": 7,
+            "max": 14
+          },
+          {
+            "attr": "caseSize",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "bandType",
+            "points": 7,
+            "max": 14
+          },
+          {
+            "attr": "bandColor",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "dialColor",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "watchStyle",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "attr": "features",
+            "points": 2,
+            "max": 4
+          },
+          {
+            "attr": "brand",
+            "points": 2,
+            "max": 4
+          }
+        ]
+      },
+      "gap": 0,
+      "confidence": 0.8
+    },
+    {
+      "name": "Black and White Polka Dot Scarf",
+      "category": "Accessories",
+      "subcategory": "Scarves",
+      "referenceAttributes": {
+        "primaryColor": "black",
+        "colorFamily": "black",
+        "secondaryColors": [
+          "white"
+        ],
+        "scarfType": "neck-scarf",
+        "size": "small/skinny",
+        "pattern": "polka-dot",
+        "finish": "smooth",
+        "style": "classic",
+        "CONFIDENCE": 0.9
+      },
+      "shoppingResults": 3,
+      "topMatch": {
+        "title": "Classic Dot Print Neck Scarf",
+        "price": "$18.99",
+        "source": "Amazon",
+        "score": 58,
+        "attributes": {
+          "scarfType": "neck-scarf"
+        },
+        "flags": [],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 9,
+            "max": 18
+          },
+          {
+            "attr": "colorTone",
+            "points": 3.5,
+            "max": 7
+          },
+          {
+            "attr": "pattern",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "scarfType",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "attr": "size",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "material",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "finish",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "style",
+            "points": 5,
+            "max": 10
+          }
+        ]
+      },
+      "secondMatch": {
+        "title": "Vintage Polka Dot Bandana",
+        "price": "$12.99",
+        "source": "ASOS",
+        "score": 50,
+        "attributes": {
+          "pattern": "polka dot",
+          "scarfType": "neck-scarf"
+        },
+        "flags": [
+          "❌ pattern: polka dot ≠ polka-dot"
+        ],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 9,
+            "max": 18
+          },
+          {
+            "attr": "colorTone",
+            "points": 3.5,
+            "max": 7
+          },
+          {
+            "attr": "pattern",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "attr": "scarfType",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "attr": "size",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "material",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "finish",
+            "points": 4,
+            "max": 8
+          },
+          {
+            "attr": "style",
+            "points": 5,
+            "max": 10
+          }
+        ]
+      },
+      "gap": 8,
+      "confidence": 0.9
+    },
+    {
+      "name": "Olive Green Hair Scrunchie",
+      "category": "Accessories",
+      "subcategory": "Hair Accessories",
+      "referenceAttributes": {
+        "primaryColor": "olive green",
+        "colorFamily": "green",
+        "pattern": "solid",
+        "accessoryType": "scrunchie",
+        "size": "medium",
+        "material": "fabric",
+        "features": "plain",
+        "style": "classic",
+        "CONFIDENCE": 0.95
+      },
+      "shoppingResults": 3,
+      "topMatch": {
+        "title": "Satin Scrunchie Olive Green",
+        "price": "$8.99",
+        "source": "Amazon",
+        "score": 62,
+        "attributes": {
+          "primaryColor": "green",
+          "material": "satin",
+          "accessoryType": "scrunchie"
+        },
+        "flags": [
+          "❌ material: satin ≠ fabric"
+        ],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 18,
+            "max": 18
+          },
+          {
+            "attr": "pattern",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "accessoryType",
+            "points": 20,
+            "max": 20
+          },
+          {
+            "attr": "size",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "material",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "attr": "features",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "style",
+            "points": 5,
+            "max": 10
+          }
+        ]
+      },
+      "secondMatch": {
+        "title": "Silk Hair Scrunchie Set Green",
+        "price": "$14.99",
+        "source": "Sephora",
+        "score": 62,
+        "attributes": {
+          "primaryColor": "green",
+          "material": "silk",
+          "accessoryType": "scrunchie"
+        },
+        "flags": [
+          "❌ material: silk ≠ fabric"
+        ],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 18,
+            "max": 18
+          },
+          {
+            "attr": "pattern",
+            "points": 5,
+            "max": 10
+          },
+          {
+            "attr": "accessoryType",
+            "points": 20,
+            "max": 20
+          },
+          {
+            "attr": "size",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "material",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "attr": "features",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "style",
+            "points": 5,
+            "max": 10
+          }
+        ]
+      },
+      "gap": 0,
+      "confidence": 0.95
+    },
+    {
+      "name": "White Crew Socks",
+      "category": "Accessories",
+      "subcategory": "Socks",
+      "referenceAttributes": {
+        "primaryColor": "white",
+        "colorFamily": "neutral",
+        "pattern": "solid",
+        "sockType": "casual",
+        "length": "crew",
+        "material": "cotton",
+        "style": "casual",
+        "CONFIDENCE": 0.9
+      },
+      "shoppingResults": 3,
+      "topMatch": {
+        "title": "White Cotton Crew Socks 6-Pack",
+        "price": "$14.99",
+        "source": "Amazon",
+        "score": 73,
+        "attributes": {
+          "primaryColor": "white",
+          "material": "cotton",
+          "length": "crew"
+        },
+        "flags": [],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 18,
+            "max": 18
+          },
+          {
+            "attr": "pattern",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "sockType",
+            "points": 9,
+            "max": 18
+          },
+          {
+            "attr": "length",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "attr": "material",
+            "points": 12,
+            "max": 12
+          },
+          {
+            "attr": "features",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "style",
+            "points": 5,
+            "max": 10
+          }
+        ]
+      },
+      "secondMatch": {
+        "title": "Organic Cotton Crew Socks White",
+        "price": "$18.00",
+        "source": "Bombas",
+        "score": 73,
+        "attributes": {
+          "primaryColor": "white",
+          "material": "cotton",
+          "length": "crew"
+        },
+        "flags": [],
+        "breakdown": [
+          {
+            "attr": "primaryColor",
+            "points": 18,
+            "max": 18
+          },
+          {
+            "attr": "pattern",
+            "points": 7.5,
+            "max": 15
+          },
+          {
+            "attr": "sockType",
+            "points": 9,
+            "max": 18
+          },
+          {
+            "attr": "length",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "attr": "material",
+            "points": 12,
+            "max": 12
+          },
+          {
+            "attr": "features",
+            "points": 6,
+            "max": 12
+          },
+          {
+            "attr": "style",
+            "points": 5,
+            "max": 10
+          }
+        ]
+      },
+      "gap": 0,
+      "confidence": 0.9
+    }
+  ],
+  "metrics": {
+    "avgScore": 61.6,
+    "avgGap": 4.2,
+    "avgConfidence": 0.8800000000000001
+  }
+}

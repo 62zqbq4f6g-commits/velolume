@@ -1,0 +1,156 @@
+{
+  "testDate": "2026-01-07T07:54:59.387Z",
+  "videoDuration": 15,
+  "frameCount": 12,
+  "products": [
+    {
+      "niche": "fashion",
+      "name": "Olive Green Cable Knit Sweater",
+      "category": "Clothing",
+      "confidence": 0.92,
+      "frameIndices": [
+        0,
+        3,
+        5,
+        8
+      ],
+      "timestamps": [
+        0,
+        4.09,
+        6.82,
+        10.91
+      ],
+      "transcriptMentions": [
+        "ite everyday essentials. This olive green sweater is so cozy, and",
+        "eryday essentials. This olive green sweater is so cozy, and I'm o",
+        "essentials. This olive green sweater is so cozy, and I'm obsessed"
+      ],
+      "verificationTier": "auto_high",
+      "validationResults": {
+        "hasEvidence": true,
+        "hasTimestamps": true,
+        "hasVerification": true,
+        "claimCount": 9,
+        "allClaimsHaveEvidence": true
+      }
+    },
+    {
+      "niche": "beauty",
+      "name": "Charlotte Tilbury Pillow Talk Lipstick",
+      "category": "Beauty",
+      "confidence": 0.88,
+      "frameIndices": [
+        2,
+        4,
+        6
+      ],
+      "timestamps": [
+        2.73,
+        5.45,
+        8.18
+      ],
+      "transcriptMentions": [
+        "y, and I'm obsessed with this Charlotte Tilbury lipstick - it's the p",
+        "obsessed with this Charlotte Tilbury lipstick - it's the perfect n",
+        "d with this Charlotte Tilbury lipstick - it's the perfect nude pink.",
+        "obsessed with this Charlotte Tilbury lipstick - it's the"
+      ],
+      "verificationTier": "auto_high",
+      "validationResults": {
+        "hasEvidence": true,
+        "hasTimestamps": true,
+        "hasVerification": true,
+        "claimCount": 9,
+        "allClaimsHaveEvidence": true
+      }
+    },
+    {
+      "niche": "tech",
+      "name": "Apple AirPods Pro",
+      "category": "Tech",
+      "confidence": 0.95,
+      "frameIndices": [
+        1,
+        5,
+        9
+      ],
+      "timestamps": [
+        1.36,
+        6.82,
+        12.27
+      ],
+      "transcriptMentions": [
+        "ct nude pink. Also wearing my AirPods Pro because I can't live with"
+      ],
+      "verificationTier": "auto_high",
+      "validationResults": {
+        "hasEvidence": true,
+        "hasTimestamps": true,
+        "hasVerification": true,
+        "claimCount": 9,
+        "allClaimsHaveEvidence": true
+      }
+    },
+    {
+      "niche": "home",
+      "name": "West Elm Mid-Century Table Lamp",
+      "category": "Home Decor",
+      "confidence": 0.72,
+      "frameIndices": [
+        0,
+        2
+      ],
+      "timestamps": [
+        0,
+        2.73
+      ],
+      "transcriptMentions": [
+        "live without them. Love this lamp in the background too!"
+      ],
+      "verificationTier": "auto",
+      "validationResults": {
+        "hasEvidence": true,
+        "hasTimestamps": true,
+        "hasVerification": true,
+        "claimCount": 9,
+        "allClaimsHaveEvidence": true
+      }
+    },
+    {
+      "niche": "fitness",
+      "name": "Lululemon Align Leggings",
+      "category": "Clothing",
+      "confidence": 0.85,
+      "frameIndices": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "timestamps": [
+        1.36,
+        5.45,
+        9.55,
+        13.64
+      ],
+      "transcriptMentions": [],
+      "verificationTier": "auto_high",
+      "validationResults": {
+        "hasEvidence": true,
+        "hasTimestamps": true,
+        "hasVerification": true,
+        "claimCount": 9,
+        "allClaimsHaveEvidence": true
+      }
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "withEvidence": 5,
+    "withTranscriptMentions": 4,
+    "verificationTiers": {
+      "auto": 1,
+      "auto_high": 4
+    }
+  }
+}

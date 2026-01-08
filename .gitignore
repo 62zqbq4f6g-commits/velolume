@@ -1,3 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never commit real values)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+
 # Terraform
 *.tfstate
 *.tfstate.*
@@ -21,26 +36,27 @@ override.tf.json
 .DS_Store
 Thumbs.db
 
-# Node (for future tasks)
-node_modules/
-.env
-.env.local
-.env.*.local
-
 # Logs
 *.log
 npm-debug.log*
 
-# Build
-dist/
-build/
-.next/
-out/
-
-# Data (job store - will use Supabase in production)
-data/*.json
-
 # Temp files (video processing)
 tmp/
+*.mp4
+*.mp3
+*.webm
+*.mkv
+
+# Job store (will use database in production)
+data/jobs.json
+data/stores.json
+
+# Downloaded videos
+downloads/
+
+# Vercel
 .vercel
-.env*.local
+
+# Test output directories (keep JSON results, exclude binary outputs)
+test-output/
+infra/.claude/settings.local.json

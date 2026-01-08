@@ -1,0 +1,381 @@
+[
+  {
+    "id": "ig-1",
+    "url": "https://www.instagram.com/reel/DTLPmlajSQ5/",
+    "platform": "instagram",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 7348,
+    "scrapeError": "Failed to scrape Instagram: fetch failed",
+    "totalTimeMs": 7348
+  },
+  {
+    "id": "ig-2",
+    "url": "https://www.instagram.com/reel/DSH_WXWEcu7/",
+    "platform": "instagram",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 4,
+    "scrapeError": "Failed to scrape Instagram: fetch failed",
+    "totalTimeMs": 4
+  },
+  {
+    "id": "ig-3",
+    "url": "https://www.instagram.com/reel/DTGGtYhCCD1/",
+    "platform": "instagram",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 3,
+    "scrapeError": "Failed to scrape Instagram: fetch failed",
+    "totalTimeMs": 3
+  },
+  {
+    "id": "ig-4",
+    "url": "https://www.instagram.com/reel/DRTUc6akezF/",
+    "platform": "instagram",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 3,
+    "scrapeError": "Failed to scrape Instagram: fetch failed",
+    "totalTimeMs": 3
+  },
+  {
+    "id": "tt-1",
+    "url": "https://vt.tiktok.com/ZS5HWJKMq/",
+    "platform": "tiktok",
+    "scrapeSuccess": true,
+    "frameSuccess": true,
+    "transcriptSuccess": true,
+    "productSuccess": true,
+    "hookSuccess": true,
+    "scrapeTimeMs": 2571,
+    "s3Key": "raw/79dff292-4e2f-4212-8f60-7ff3b44b83a9.mp4",
+    "videoSize": 1654659,
+    "frameCount": 16,
+    "videoDuration": 7.941275,
+    "extractTimeMs": 1174,
+    "transcriptText": "Oh",
+    "transcriptLanguage": "english",
+    "productTimeMs": 54179,
+    "productCount": 7,
+    "products": [
+      {
+        "name": "Bubble Tea Drink",
+        "category": "Food & Beverage",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Gray Zip-Up Hoodie",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Cross Pendant Necklace",
+        "category": "Jewelry",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black and White Striped Sweater",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "White Lace Top",
+        "category": "Clothing",
+        "confidence": 0.85,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black Choker Necklace",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "high"
+      },
+      {
+        "name": "Outdoor Cafe Table",
+        "category": "Furniture",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      }
+    ],
+    "hookTimeMs": 8899,
+    "hookType": "visual_hook",
+    "hookConfidence": 90,
+    "hookEffectiveness": 60,
+    "hookBreakdown": {
+      "clarity": 5,
+      "patternInterrupt": 20,
+      "speedToValue": 15,
+      "alignment": 20
+    },
+    "totalTimeMs": 69250
+  },
+  {
+    "id": "tt-2",
+    "url": "https://vt.tiktok.com/ZS5HnvAsf/",
+    "platform": "tiktok",
+    "scrapeSuccess": true,
+    "frameSuccess": true,
+    "transcriptSuccess": true,
+    "productSuccess": true,
+    "hookSuccess": true,
+    "scrapeTimeMs": 2711,
+    "s3Key": "raw/2ef9dd1c-d5f2-4446-ac08-99f703a88773.mp4",
+    "videoSize": 2612558,
+    "frameCount": 30,
+    "videoDuration": 18.550998,
+    "extractTimeMs": 1436,
+    "transcriptText": "Outro",
+    "transcriptLanguage": "english",
+    "productTimeMs": 59505,
+    "productCount": 6,
+    "products": [
+      {
+        "name": "White Lace Trim Tank Top",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Gold Hoop Earrings",
+        "category": "Jewelry",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Gold Heart Pendant Necklace",
+        "category": "Jewelry",
+        "confidence": 0.88,
+        "identifiability": "high"
+      },
+      {
+        "name": "Light Blue High-Waisted Jeans",
+        "category": "Clothing",
+        "confidence": 0.85,
+        "identifiability": "high"
+      },
+      {
+        "name": "Green Beaded Bracelet",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Modern Pendant Light Fixture",
+        "category": "Home Decor",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      }
+    ],
+    "hookTimeMs": 7332,
+    "hookType": "statement",
+    "hookConfidence": 90,
+    "hookEffectiveness": 75,
+    "hookBreakdown": {
+      "clarity": 20,
+      "patternInterrupt": 15,
+      "speedToValue": 20,
+      "alignment": 20
+    },
+    "totalTimeMs": 73855
+  },
+  {
+    "id": "tt-3",
+    "url": "https://vt.tiktok.com/ZS5HWd8fa/",
+    "platform": "tiktok",
+    "scrapeSuccess": true,
+    "frameSuccess": true,
+    "transcriptSuccess": true,
+    "productSuccess": true,
+    "hookSuccess": true,
+    "scrapeTimeMs": 5325,
+    "s3Key": "raw/0b010a54-76ca-47ad-bb82-823ced437658.mp4",
+    "videoSize": 1599833,
+    "frameCount": 30,
+    "videoDuration": 22.143991,
+    "extractTimeMs": 1417,
+    "transcriptText": "A British yoga teacher has been arrested in Thailand for allegedly hosting sex yoga classes. Maria Chateen, who used the name Maria Sly Love, charged tourists £9 for weekly tantric sessions behind a restaurant in Koh Phangan. Police detained her during a class after locals reported her risque social media posts. The documents claimed she worked as a customer relations manager.",
+    "transcriptLanguage": "english",
+    "productTimeMs": 56899,
+    "productCount": 8,
+    "products": [
+      {
+        "name": "Black Tank Top",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Decorative Wall Art",
+        "category": "Home Decor",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Blue Nail Polish",
+        "category": "Beauty",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "White Earrings",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      },
+      {
+        "name": "White Dress",
+        "category": "Clothing",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Black Cap",
+        "category": "Accessories",
+        "confidence": 0.75,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Potted Plant",
+        "category": "Home Decor",
+        "confidence": 0.7,
+        "identifiability": "medium"
+      }
+    ],
+    "hookTimeMs": 7034,
+    "hookType": "controversy",
+    "hookConfidence": 90,
+    "hookEffectiveness": 90,
+    "hookBreakdown": {
+      "clarity": 20,
+      "patternInterrupt": 25,
+      "speedToValue": 25,
+      "alignment": 20
+    },
+    "totalTimeMs": 73446
+  },
+  {
+    "id": "tt-4",
+    "url": "https://vt.tiktok.com/ZS5HW2Lyv/",
+    "platform": "tiktok",
+    "scrapeSuccess": true,
+    "frameSuccess": true,
+    "transcriptSuccess": true,
+    "productSuccess": true,
+    "hookSuccess": true,
+    "scrapeTimeMs": 7452,
+    "s3Key": "raw/8d36f8bd-499e-4567-965c-7d7654591f7b.mp4",
+    "videoSize": 21974868,
+    "frameCount": 30,
+    "videoDuration": 169.3,
+    "extractTimeMs": 4231,
+    "transcriptText": "The best things I bought in 2025 ditch the airpods This is such a game-changer I've lost my airpods twice and then I retreated back to wired earphones The mic quality is amazing Even if you lose these it's like what like $25, I think It's it's less painful than losing losing your airpods Hands down this was one of the best things I bought this. Can you guess what this is? I bought the second hand the Laser hair removal device, but I bought this really cheap the person didn't use it if I do the math it was $70 on your arms your legs This while you you know, you're just watching netflix It was so worth the money, um, I might be a clean freak but Alcohol swaps like you can get them at the dollar shop I take these everywhere with me. You just you just have one Like I got a full box like a hundred of these just for like a dollar I wipe my phone because you know, you know, your phone is actually really nasty Take these wherever with me These are so good There are these eye drops like this thing that looks like eye drops and for the girlies who wear contact lens often I wear contact lens once every two three days, but I feel my eyes getting so dry whenever I wear them for over four hours And if you use these droplets Before you put them in They stay moist. I think six to seven hours so I always keep that with me, but I don't know where it went and Around five dollars Also these the whitening strips They don't sell in korea because maybe they contain things that are too strong So I had to buy them overseas. They say one hour And I'm no dentist, but I cut them into smaller pieces because they're pretty big for my teeth And I put them on for like I don't know two or three hours This is my last strip. But after using these I smile way more often. It was a bit pricey I think the whole box was like 12 strips $60 It wasn't that cheap, but it was so effective and this is not an ad. I don't really believe in overconsumption I do buy a lot of things, but I try to keep it low key but yeah, um everything In this video. I definitely would recommend because I think those products have really Made my life a bit easier this year",
+    "transcriptLanguage": "english",
+    "productTimeMs": 69981,
+    "productCount": 5,
+    "products": [
+      {
+        "name": "Wired Earphones",
+        "category": "Tech",
+        "confidence": 0.95,
+        "identifiability": "high"
+      },
+      {
+        "name": "Black Sleeveless Button-Up Top",
+        "category": "Clothing",
+        "confidence": 0.9,
+        "identifiability": "high"
+      },
+      {
+        "name": "Silver Pendant Necklace",
+        "category": "Jewelry",
+        "confidence": 0.85,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Pearl Stud Earrings",
+        "category": "Jewelry",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      },
+      {
+        "name": "Silver Ring",
+        "category": "Jewelry",
+        "confidence": 0.8,
+        "identifiability": "medium"
+      }
+    ],
+    "hookTimeMs": 7683,
+    "hookType": "listicle",
+    "hookConfidence": 90,
+    "hookEffectiveness": 83,
+    "hookBreakdown": {
+      "clarity": 20,
+      "patternInterrupt": 18,
+      "speedToValue": 22,
+      "alignment": 23
+    },
+    "totalTimeMs": 99973
+  },
+  {
+    "id": "yt-1",
+    "url": "https://youtu.be/mzR4804FxFU",
+    "platform": "youtube",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 1181,
+    "scrapeError": "Failed to scrape YouTube Shorts: YouTube API request failed: 400",
+    "totalTimeMs": 1182
+  },
+  {
+    "id": "yt-2",
+    "url": "https://youtu.be/ThchMj9hMvE",
+    "platform": "youtube",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 383,
+    "scrapeError": "Failed to scrape YouTube Shorts: YouTube API request failed: 400",
+    "totalTimeMs": 383
+  },
+  {
+    "id": "yt-3",
+    "url": "https://youtu.be/PC3tUZ1qGws",
+    "platform": "youtube",
+    "scrapeSuccess": false,
+    "frameSuccess": false,
+    "transcriptSuccess": false,
+    "productSuccess": false,
+    "hookSuccess": false,
+    "scrapeTimeMs": 383,
+    "scrapeError": "Failed to scrape YouTube Shorts: YouTube API request failed: 400",
+    "totalTimeMs": 383
+  }
+]
