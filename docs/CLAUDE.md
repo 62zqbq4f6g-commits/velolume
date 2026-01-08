@@ -1,23 +1,54 @@
-# CLAUDE.md - Velolume Project Instructions
+# CLAUDE.md — Velolume Project Instructions
 
-## Project Overview
+**Read this file first when starting any session.**
 
-Velolume is a **Shared Data Engine** that converts video content into machine-readable data. The engine processes three data sources:
+---
 
-1. **Creator uploads** — Their content, personalized analysis
-2. **Brand uploads** — Product catalogs, brand guidelines
-3. **Public scraping** — Top-performing content for category benchmarks
+## What Is Velolume?
 
-The engine powers:
-- **Content Intelligence** — "What's working?", "Why did this work?"
-- **AI-Assisted Creation** — Generate hooks, scripts, product content for creators AND brands
-- **AI Discoverability** — Make content/products discoverable by ChatGPT, Perplexity, AI shopping agents
-- **Revenue Generation** — Auto-detect products, generate affiliate links, brand matching
+Velolume is a **Content Context Graph** — a system that extracts intelligence from creator/brand video content to help them understand what works, why it works, and what to create next.
+
+### The Core Concept: Context Graph
+
+We don't just extract data. We build a graph that captures:
+- **Entities:** Creators, Brands, Content, Products
+- **Relationships:** Who creates what, what features which products
+- **Context:** Why content performs (performance correlation, patterns, benchmarks)
+- **Decision Traces:** When recommendations lead to outcomes, we capture that for learning
+
+This is based on the Context Graph research from Glean and Foundation Capital:
+> "You can't reliably capture the why; you can capture the how. By capturing enough 'how', you can infer the 'why' over time."
+
+---
+
+## What Has Been Built
+
+### ✅ Working Components
+
+| Component | File | What It Does |
+|-----------|------|--------------|
+| Product Detection v2.1 | `/lib/ai/processor.ts` | Detects 5-15 products per video with evidence |
+| Product Matching v2.1 | `/lib/matching/product-matcher.ts` | Matches to real products via Google Shopping |
+| Hook Extraction v1.0 | `/lib/extraction/hook-extractor.ts` | Classifies hooks, scores effectiveness |
+| Type System | `/lib/types/product-claims.ts` | Claim<T>, Evidence, VerificationTier |
+| Affiliate Integration | `/lib/affiliate/` | Amazon, Skimlinks, Involve Asia |
+| Video Scraping | Uses yt-dlp | TikTok, Instagram, YouTube |
+
+### ✅ Validated Results
+
+- 11 real videos tested
+- 100% download success
+- 68 products detected (avg 6.2/video)
+- Hook extraction working on short-form
+
+---
 
 ## Core Principles
 
 ### 1. Everything is a Claim with Evidence
-Never store raw values. Every extracted data point is a `Claim<T>`:
+
+Never store raw values. Every extracted data point uses:
+
 ```typescript
 interface Claim<T> {
   value: T;
@@ -29,115 +60,156 @@ interface Claim<T> {
 }
 ```
 
-### 2. Progressive Extraction
-Don't treat all content equally:
-- **Quick scan** first (cheap models)
-- **Deep extraction** only when products detected or high-value content
-- Track cost per video
+### 2. Capture the "How" to Infer the "Why"
 
-### 3. Verification Tiers
-Trust pyramid for product matches:
+We capture:
+- What's in the content (products, hooks, format)
+- How it performed (views, engagement)
+- Patterns across content (what works for this creator/category)
+
+This lets us infer WHY things work.
+
+### 3. Decision Traces for Learning
+
+When we recommend something → creator implements → outcome occurs:
+```
+Trace: {
+  recommendation: "Use controversy hook",
+  action: "Creator used controversy hook",
+  outcome: "2.3x engagement vs baseline",
+  learning: "Increase weight for controversy hooks for this creator"
+}
+```
+
+### 4. Verification Tiers
+
+Trust pyramid for data:
 - `auto` — AI detected, not verified
+- `auto_high` — AI detected with 85%+ confidence
 - `creator_confirmed` — Creator approved
 - `brand_verified` — Brand confirmed
 - `disputed` — Under review
 
-### 4. One Engine, Two Interfaces
-Creators and brands share the same data engine. Different UI, same underlying data.
+---
 
-## Project Structure
+## Current Priority: Build UI
+
+The extraction backend is built. Now we need to SEE it working.
+
+### Immediate Task
+
+Build a simple UI where a user can:
+1. Paste a video URL (TikTok, Instagram, YouTube)
+2. Click "Analyze"
+3. See results:
+   - Products detected (with thumbnails, confidence)
+   - Hook analysis (type, effectiveness, transcript)
+   - Engagement metrics (views, likes, comments)
+
+### Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- PostgreSQL (Neon)
+- DigitalOcean Spaces (S3)
+
+---
+
+## File Structure
 
 ```
 /velolume
 ├── /docs
-│   ├── PROJECT_STATE.md    # Current status (read this first!)
-│   └── CLAUDE.md           # This file
+│   ├── PROJECT_STATE.md      # Current status
+│   ├── CLAUDE.md             # This file
+│   ├── PRODUCT_VISION.md     # Strategic vision
+│   ├── PRD_v1.md             # MVP requirements
+│   └── MIGRATION_CONTEXT.md  # Full context
 ├── /lib
-│   ├── /ai                 # LLM integrations
-│   ├── /matching           # Product matching pipeline
-│   ├── /affiliate          # Affiliate link generation
-│   ├── /google-shopping    # Google Shopping API
-│   └── /extraction         # Content extraction (TO BUILD)
-├── /src
-│   └── /types              # TypeScript type definitions (TO INTEGRATE)
-└── /scripts                # Test scripts
+│   ├── /ai
+│   │   └── processor.ts      # Product detection
+│   ├── /extraction
+│   │   └── hook-extractor.ts # Hook extraction
+│   ├── /matching
+│   │   └── product-matcher.ts
+│   ├── /affiliate
+│   │   └── index.ts
+│   ├── /google-shopping
+│   │   └── index.ts
+│   ├── /scraper
+│   │   └── video-scraper.ts
+│   └── /types
+│       └── product-claims.ts
+├── /scripts
+│   └── [test scripts]
+├── /app                      # Next.js pages (to build)
+└── /components               # React components (to build)
 ```
 
-## Type Definitions
+---
 
-New type definitions are in `/velolume-engine/src/types/`. These define the target data model:
+## Environment Variables
 
-- `core.ts` — Claim<T>, Evidence, foundational types
-- `entity.ts` — Creator/Brand profiles, ContentPatterns
-- `content.ts` — Content extraction schema, ProductMention
-- `product.ts` — CanonicalProduct, CategorySchema, matching
-- `machine-readable.ts` — llms.txt, discovery.json, Schema.org
+Required in Replit Secrets:
 
-**Import from these when building new features.**
+```
+OPENAI_API_KEY=
+SERPAPI_KEY=
+DATABASE_URL=
+DO_SPACES_KEY=
+DO_SPACES_SECRET=
+DO_SPACES_BUCKET=
+DO_SPACES_REGION=
+DO_SPACES_ENDPOINT=
+REDIS_URL=
+```
 
-## Current Build Priority
+---
 
-### Phase 1: Extraction Engine (THIS WEEK)
-1. Integrate new type definitions into existing code
-2. Add evidence capture to product detection
-3. Hook extraction + effectiveness scoring
-4. Format classification
-5. Test on 20+ videos across 5 niches (user uploads + public scrapes)
-
-### Phase 2: Intelligence Layer (NEXT WEEK)
-1. ContentPatterns aggregation
-2. Category benchmarks from public data
-3. "What's working" analysis
-4. Gap detection (user vs category)
-
-### Phase 3: Creator & Brand Studios
-1. Creator: Upload → Analysis → Storefront → AI Generation
-2. Brand: Upload catalog → Category intel → AI Content Studio
-
-## Key Technical Decisions
-
-| Decision | Implementation |
-|----------|----------------|
-| Product detection | GPT-4o for complex vision |
-| Attribute extraction | Gemini Flash (cheaper, sufficient) |
-| Product matching | Google Shopping API + visual verification |
-| Affiliate links | Amazon (direct) → Involve Asia (SEA) → Skimlinks (fallback) |
-| Transcription | Whisper |
-| Database | PostgreSQL (Neon) |
-| Storage | DigitalOcean Spaces (S3) |
-| Queue | BullMQ + Redis |
-
-## Testing Requirements
-
-Before marking any extraction feature complete:
-1. Test on minimum 5 videos
-2. Test across at least 3 niches
-3. Log accuracy metrics
-4. Document failure cases
-
-## Code Style
-
-- TypeScript strict mode
-- Use Claim<T> wrapper for all extracted values
-- Include evidence with every claim
-- Track model version and extraction cost
-- Handle errors gracefully, never crash on bad input
-
-## How to Start
+## How to Start a Session
 
 1. Read `/docs/PROJECT_STATE.md` for current status
 2. Check what's in progress vs completed
-3. Look at existing code in `/lib/` before writing new code
-4. Use types from `/velolume-engine/src/types/`
-5. Test thoroughly before marking complete
+3. Read `/docs/PRD_v1.md` for MVP requirements
+4. Ask for the specific task if not clear
 
-## Updating Project State
+## How to End a Session
 
-At the end of each session:
-```
-Update /docs/PROJECT_STATE.md with:
+Update `/docs/PROJECT_STATE.md` with:
 - What was completed
 - Decisions made
 - What's next
 - Any blockers
-```
+
+---
+
+## Key Documents
+
+| Document | Purpose | When to Read |
+|----------|---------|--------------|
+| PROJECT_STATE.md | Current build status | Every session start |
+| CLAUDE.md | This file | Every session start |
+| PRD_v1.md | MVP requirements | When building features |
+| PRODUCT_VISION.md | Strategic context | When making architecture decisions |
+| MIGRATION_CONTEXT.md | Full technical context | When you need deep background |
+
+---
+
+## What NOT to Do
+
+- ❌ Don't rebuild extraction from scratch — it's working
+- ❌ Don't change the Claim<T> structure — it's validated
+- ❌ Don't skip evidence capture — it's core to the architecture
+- ❌ Don't use mock data — we need real validation
+- ❌ Don't build features not in the PRD without discussion
+
+---
+
+## What TO Do
+
+- ✅ Build UI to visualize extraction results
+- ✅ Add engagement scraping to video pipeline
+- ✅ Maintain evidence-backed claims
+- ✅ Test on real videos
+- ✅ Update PROJECT_STATE.md after each session
