@@ -23,7 +23,7 @@
 
 ### Before Building ANY Feature
 
-1. Is it in `/docs/PRD_v1.md`? → Build it
+1. Is it in `/docs/PRD.md`? → Build it
 2. Not in PRD? → ASK before building
 3. Feature removed from PRD? → DELETE the code
 
