@@ -1,215 +1,269 @@
 # CLAUDE.md — Velolume Project Instructions
 
-**Read this file first when starting any session.**
+**⚠️ READ THIS ENTIRE FILE BEFORE DOING ANYTHING**
+
+---
+
+## CRITICAL: MVP SCOPE
+
+### Pages That Should Exist (ONLY THESE)
+
+| Page | Route | Purpose |
+|------|-------|---------|
+| Homepage | `/` | URL input → Analyze button |
+| Results | `/analyze/[id]` | Show extraction results |
+
+### Pages That Should NOT Exist
+
+- ❌ `/dashboard` — DELETE if exists
+- ❌ `/store` — DELETE if exists
+- ❌ `/settings` — DELETE if exists
+- ❌ `/profile` — DELETE if exists
+- ❌ Any other pages not listed above
+
+### Before Building ANY Feature
+
+1. Is it in `/docs/PRD_v1.md`? → Build it
+2. Not in PRD? → ASK before building
+3. Feature removed from PRD? → DELETE the code
 
 ---
 
 ## What Is Velolume?
 
-Velolume is a **Content Context Graph** — a system that extracts intelligence from creator/brand video content to help them understand what works, why it works, and what to create next.
+**One-liner:** Velolume is the machine-readable data hub for creators and brands — extracting intelligence from all content formats.
 
-### The Core Concept: Context Graph
+**We are NOT:**
+- Just a video analyzer
+- Just hooks analysis
+- A dashboard/analytics tool
+- A content factory
 
-We don't just extract data. We build a graph that captures:
-- **Entities:** Creators, Brands, Content, Products
-- **Relationships:** Who creates what, what features which products
-- **Context:** Why content performs (performance correlation, patterns, benchmarks)
-- **Decision Traces:** When recommendations lead to outcomes, we capture that for learning
-
-This is based on the Context Graph research from Glean and Foundation Capital:
-> "You can't reliably capture the why; you can capture the how. By capturing enough 'how', you can infer the 'why' over time."
-
----
-
-## What Has Been Built
-
-### ✅ Working Components
-
-| Component | File | What It Does |
-|-----------|------|--------------|
-| Product Detection v2.1 | `/lib/ai/processor.ts` | Detects 5-15 products per video with evidence |
-| Product Matching v2.1 | `/lib/matching/product-matcher.ts` | Matches to real products via Google Shopping |
-| Hook Extraction v1.0 | `/lib/extraction/hook-extractor.ts` | Classifies hooks, scores effectiveness |
-| Type System | `/lib/types/product-claims.ts` | Claim<T>, Evidence, VerificationTier |
-| Affiliate Integration | `/lib/affiliate/` | Amazon, Skimlinks, Involve Asia |
-| Video Scraping | Uses yt-dlp | TikTok, Instagram, YouTube |
-
-### ✅ Validated Results
-
-- 11 real videos tested
-- 100% download success
-- 68 products detected (avg 6.2/video)
-- Hook extraction working on short-form
+**We ARE:**
+- A Content Context Graph
+- Machine-readable data layer for the creator economy
+- Intelligence that powers content creation
 
 ---
 
-## Core Principles
+## The MVP Flow
 
-### 1. Everything is a Claim with Evidence
+```
+User visits homepage
+    ↓
+Pastes video URL (TikTok/Instagram/YouTube)
+    ↓
+Clicks "Analyze"
+    ↓
+Processing happens (download, extract, analyze)
+    ↓
+Results page shows:
+    - Video thumbnail
+    - Engagement metrics (views, likes, comments)
+    - Hook analysis (type, score 0-100, transcript)
+    - Products detected (with confidence %)
+    - Basic recommendations
+```
 
-Never store raw values. Every extracted data point uses:
+**That's the MVP. Nothing more.**
+
+---
+
+## What Has Been Built (DO NOT REBUILD)
+
+| Component | File | Status |
+|-----------|------|--------|
+| Product Detection v2.1 | `/lib/ai/processor.ts` | ✅ Working |
+| Product Matching v2.1 | `/lib/matching/product-matcher.ts` | ✅ Working |
+| Hook Extraction v1.0 | `/lib/extraction/hook-extractor.ts` | ✅ Working |
+| Type System | `/lib/types/product-claims.ts` | ✅ Working |
+| Affiliate Integration | `/lib/affiliate/` | ✅ Working |
+| Video Scraping | `/lib/scraper/` | ✅ Working |
+
+**The extraction backend is COMPLETE. Focus on UI.**
+
+---
+
+## Core Type System (DO NOT CHANGE)
 
 ```typescript
 interface Claim<T> {
   value: T;
   confidence: number;        // 0-100
   evidence: Evidence[];      // What supports this claim
-  source: ClaimSource;       // 'auto' | 'creator_confirmed' | 'brand_verified'
+  source: ClaimSource;       // Verification tier
   modelVersion: string;
   extractedAt: Date;
 }
-```
 
-### 2. Capture the "How" to Infer the "Why"
-
-We capture:
-- What's in the content (products, hooks, format)
-- How it performed (views, engagement)
-- Patterns across content (what works for this creator/category)
-
-This lets us infer WHY things work.
-
-### 3. Decision Traces for Learning
-
-When we recommend something → creator implements → outcome occurs:
-```
-Trace: {
-  recommendation: "Use controversy hook",
-  action: "Creator used controversy hook",
-  outcome: "2.3x engagement vs baseline",
-  learning: "Increase weight for controversy hooks for this creator"
-}
-```
-
-### 4. Verification Tiers
-
-Trust pyramid for data:
-- `auto` — AI detected, not verified
-- `auto_high` — AI detected with 85%+ confidence
-- `creator_confirmed` — Creator approved
-- `brand_verified` — Brand confirmed
-- `disputed` — Under review
-
----
-
-## Current Priority: Build UI
-
-The extraction backend is built. Now we need to SEE it working.
-
-### Immediate Task
-
-Build a simple UI where a user can:
-1. Paste a video URL (TikTok, Instagram, YouTube)
-2. Click "Analyze"
-3. See results:
-   - Products detected (with thumbnails, confidence)
-   - Hook analysis (type, effectiveness, transcript)
-   - Engagement metrics (views, likes, comments)
-
-### Tech Stack
-
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- PostgreSQL (Neon)
-- DigitalOcean Spaces (S3)
-
----
-
-## File Structure
-
-```
-/velolume
-├── /docs
-│   ├── PROJECT_STATE.md      # Current status
-│   ├── CLAUDE.md             # This file
-│   ├── PRODUCT_VISION.md     # Strategic vision
-│   ├── PRD_v1.md             # MVP requirements
-│   └── MIGRATION_CONTEXT.md  # Full context
-├── /lib
-│   ├── /ai
-│   │   └── processor.ts      # Product detection
-│   ├── /extraction
-│   │   └── hook-extractor.ts # Hook extraction
-│   ├── /matching
-│   │   └── product-matcher.ts
-│   ├── /affiliate
-│   │   └── index.ts
-│   ├── /google-shopping
-│   │   └── index.ts
-│   ├── /scraper
-│   │   └── video-scraper.ts
-│   └── /types
-│       └── product-claims.ts
-├── /scripts
-│   └── [test scripts]
-├── /app                      # Next.js pages (to build)
-└── /components               # React components (to build)
+type ClaimSource = 
+  | 'auto'              // AI detected, <85% confidence
+  | 'auto_high'         // AI detected, ≥85% confidence
+  | 'creator_confirmed' // Creator approved
+  | 'brand_verified'    // Brand confirmed
+  | 'disputed';         // Under review
 ```
 
 ---
 
-## Environment Variables
+## UI Requirements
 
-Required in Replit Secrets:
+### Homepage (`/`)
+
+```
+┌─────────────────────────────────────────────────────┐
+│                     [Logo]                          │
+│                                                     │
+│     Understand why your content works               │
+│                                                     │
+│  Extract intelligence from your videos to create    │
+│  better content, faster                             │
+│                                                     │
+│  ┌─────────────────────────────────┐ ┌──────────┐  │
+│  │ Paste your video URL...         │ │ Analyze  │  │
+│  └─────────────────────────────────┘ └──────────┘  │
+│                                                     │
+│       🎵 TikTok    📷 Instagram    ▶️ YouTube       │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+**Requirements:**
+- Dark mode (#0a0a0f or similar dark background)
+- Large, centered URL input
+- Blue "Analyze" button (#3B82F6)
+- Platform icons below input
+- Clean, modern typography
+- Minimal — no clutter
+
+### Results Page (`/analyze/[id]`)
+
+```
+┌─────────────────────────────────────────────────────┐
+│  ← Back                          [Platform] Video   │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  [Video Thumbnail]    │  ENGAGEMENT                 │
+│                       │  Views: 319.8K              │
+│                       │  Likes: 24.1K               │
+│                       │  Comments: 1.2K             │
+│                       │  Shares: 892                │
+├───────────────────────┴─────────────────────────────┤
+│  HOOK ANALYSIS                        Score: 81/100 │
+│  Type: [Listicle]                                   │
+│  ┌─────────────────────────────────────────────┐   │
+│  │ "best purchases in 2025"                     │   │
+│  └─────────────────────────────────────────────┘   │
+│  Clarity: 20/25  |  Pattern Interrupt: 16/25       │
+│  Speed to Value: 22/25  |  Alignment: 23/25        │
+├─────────────────────────────────────────────────────┤
+│  PRODUCTS DETECTED (6)        [Add All to Store]   │
+│  ┌────────┐ ┌────────┐ ┌────────┐                  │
+│  │  img   │ │  img   │ │  img   │ ...              │
+│  │  92%   │ │  88%   │ │  76%   │                  │
+│  │ Name   │ │ Name   │ │ Name   │                  │
+│  └────────┘ └────────┘ └────────┘                  │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Database | PostgreSQL (Neon) |
+| Video Download | yt-dlp |
+| AI | OpenAI GPT-4o |
+| Product Search | Google Shopping via SerpAPI |
+
+---
+
+## Environment Variables Required
 
 ```
 OPENAI_API_KEY=
 SERPAPI_KEY=
-DATABASE_URL=
-DO_SPACES_KEY=
-DO_SPACES_SECRET=
-DO_SPACES_BUCKET=
-DO_SPACES_REGION=
-DO_SPACES_ENDPOINT=
-REDIS_URL=
+DATABASE_URL= (optional for MVP)
 ```
 
 ---
 
-## How to Start a Session
+## Test Videos
 
-1. Read `/docs/PROJECT_STATE.md` for current status
-2. Check what's in progress vs completed
-3. Read `/docs/PRD_v1.md` for MVP requirements
-4. Ask for the specific task if not clear
+Use these for testing:
 
-## How to End a Session
-
-Update `/docs/PROJECT_STATE.md` with:
-- What was completed
-- Decisions made
-- What's next
-- Any blockers
+```
+TikTok: https://www.tiktok.com/@ryukkongee/video/7589728644025699591
+Instagram: https://www.instagram.com/reel/DTLPmlajSQ5/
+YouTube: https://www.youtube.com/watch?v=mzR4804FxFU
+```
 
 ---
 
-## Key Documents
+## What NOT To Do
 
-| Document | Purpose | When to Read |
-|----------|---------|--------------|
-| PROJECT_STATE.md | Current build status | Every session start |
-| CLAUDE.md | This file | Every session start |
-| PRD_v1.md | MVP requirements | When building features |
-| PRODUCT_VISION.md | Strategic context | When making architecture decisions |
-| MIGRATION_CONTEXT.md | Full technical context | When you need deep background |
-
----
-
-## What NOT to Do
-
-- ❌ Don't rebuild extraction from scratch — it's working
-- ❌ Don't change the Claim<T> structure — it's validated
-- ❌ Don't skip evidence capture — it's core to the architecture
-- ❌ Don't use mock data — we need real validation
-- ❌ Don't build features not in the PRD without discussion
+- ❌ Don't rebuild extraction — it works
+- ❌ Don't change Claim<T> structure — it's validated
+- ❌ Don't build dashboard — not in MVP
+- ❌ Don't build store pages — not in MVP
+- ❌ Don't build user accounts — not in MVP
+- ❌ Don't use mock data — use real extraction
+- ❌ Don't add features not in PRD
 
 ---
 
 ## What TO Do
 
-- ✅ Build UI to visualize extraction results
-- ✅ Add engagement scraping to video pipeline
-- ✅ Maintain evidence-backed claims
-- ✅ Test on real videos
-- ✅ Update PROJECT_STATE.md after each session
+- ✅ Build clean homepage with URL input
+- ✅ Build results page showing real extraction
+- ✅ Connect UI to existing `/lib` extraction code
+- ✅ Use dark mode, modern design
+- ✅ Test with real video URLs
+- ✅ Delete non-MVP pages if they exist
+
+---
+
+## Session Workflow
+
+### Starting a Session
+
+1. Read this file (CLAUDE.md)
+2. Read `/docs/VELOLUME_COMPLETE_ONBOARDING.md` for full context
+3. Check what exists vs what should exist
+4. Delete anything not in MVP scope
+5. Build what's missing
+
+### Ending a Session
+
+1. Test with a real video URL
+2. Commit working code
+3. Note any issues or next steps
+
+---
+
+## Key Documents
+
+| Document | Purpose |
+|----------|---------|
+| CLAUDE.md | This file — read first |
+| VELOLUME_COMPLETE_ONBOARDING.md | Full project context |
+| PRD_v1.md | MVP requirements |
+| PRODUCT_VISION.md | Strategic vision |
+
+---
+
+## Success Criteria
+
+MVP is complete when:
+
+- [ ] Homepage has URL input + Analyze button
+- [ ] Analyze button triggers real extraction
+- [ ] Results page shows real engagement metrics
+- [ ] Results page shows real hook analysis
+- [ ] Results page shows real products detected
+- [ ] UI is dark mode and looks professional
+- [ ] No dashboard or other non-MVP pages exist
